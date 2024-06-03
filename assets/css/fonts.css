@@ -5,7 +5,7 @@
 	font-style: normal;
 	font-weight: 100 700;
 	font-display: block;
-	src: url('../../source/fonts/material-symbols-rounded.woff2') format('woff2');
+	src: url('../../source/fonts/MaterialSymbolsRounded-VariableFont_FILL\,GRAD\,opsz\,wght.ttf') format('ttf');
 }
 .material-symbols-rounded {
 	font-family: 'Material Symbols Rounded';
