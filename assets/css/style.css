@@ -51,7 +51,7 @@
 }
 strong {
 	font-weight: 700;
-	font-family: 'Roboto Condensed Bold', sans-serif;
+	font-family: inherit;
 }
 
 u {
