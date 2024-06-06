@@ -2,7 +2,7 @@
 
 body {
 	color: var(--fio-sys-typography-paragraph-color);
-	font-family: var(--fio-sys-typography-paragraph-family);
+	font-family: var(--fio-sys-typography-family-primary-medium);
 	/* font-size: var(--fio-sys-typography-paragraph-size); */
 }
 /* @media (min-width: 992px) {
@@ -57,61 +57,74 @@ h5,
 h6,
 .h6 {
 	color: var(--fio-sys-typography-head-color);
-	font-family: var(--fio-sys-typography-head-family);
-	font-weight: var(--fio-sys-typography-head-weight);
-	line-height: var(--fio-sys-typography-head-md-line-height);
-	margin-bottom: var(--fio-sys-typography-head-margin-bottom);
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+	line-height: var(--fio-sys-typography-height-150);
+	margin-bottom: var(--fio-sys-size-margin-md);
 }
 h1,
 .h1 {
-	font-size: calc(var(--fio-sys-typography-head-xxl-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-xxl-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-6);
 }
 h2,
 .h2 {
-	font-size: calc(var(--fio-sys-typography-head-xl-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-xl-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-5);
 }
 h3,
 .h3 {
-	font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-4);
 }
 h4,
 .h4 {
-	font-size: calc(var(--fio-sys-typography-head-md-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-md-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-3);
 }
 h5,
 .h5 {
-	font-size: calc(var(--fio-sys-typography-head-sm-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-sm-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-2);
 }
 h6,
 .h6 {
-	font-size: calc(var(--fio-sys-typography-head-xs-size) * 0.8);
+	/* font-size: calc(var(--fio-sys-typography-head-xs-size) * 0.8); */
+	font-size: var(--fio-sys-typography-size-1);
 }
 
 p {
 	color: var(--fio-sys-typography-paragraph-color);
-	font-family: var(--fio-sys-typography-paragraph-family);
-	font-size: var(--fio-sys-typography-paragraph-size);
-	font-weight: var(--fio-sys-typography-paragraph-weight);
-	letter-spacing: var(--fio-sys-typography-paragraph-tracking);
-	line-height: var(--fio-sys-typography-paragraph-height);
-	margin-bottom: var(--fio-sys-typography-paragraph-margin-bottom);
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	font-size: var(--fio-sys-typography-size-0);
+	font-weight: var(--fio-sys-typography-weight-normal);
+	letter-spacing: var(--fio-sys-typography-spacing-normal);
+	line-height: var(--fio-sys-typography-height-150);
+	margin-bottom: var(--fio-sys-size-margin-lg);
 }
 
 p:last-child {
 	margin-bottom: 0;
 }
 
-p > small {
+p > small,
+span > small {
 	display: block;
-	font-size: var(--fio-sys-typography-paragraph-sm-size);
-	line-height: var(--fio-sys-typography-paragraph-sm-height);
+	font-size: var(--fio-sys-typography-size--1);
+	line-height: var(--fio-sys-typography-spacing-normal);
+}
+
+p.extra-small,
+span.extra-small {
+	display: block;
+	font-size: var(--fio-sys-typography-size--2);
+	line-height: var(--fio-sys-typography-spacing-normal);
 }
 
 quotation {
 	font-family: var(--fio-sys-typography-quotation-family);
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	h1,
 	.h1 {
 		font-size: var(--fio-sys-typography-head-xxl-size);
@@ -136,4 +149,4 @@ quotation {
 	.h6 {
 		font-size: var(--fio-sys-typography-head-xs-size);
 	}
-}
+} */

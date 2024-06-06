@@ -1,17 +1,39 @@
-/* BUTTON */
+/* BUTTON VARIABLES */
+:root{
+	/* Button white color */
+	--_button-color-white: var(--fio-sys-color-neutral-white);
+	--_button-color-white--hover: var(--fio-sys-color-neutral-white--hover);
+
+	/* Button black color */
+	--_button-color-black: var(--fio-sys-color-neutral-black);
+
+	/* Button focus color */
+	--_button-color--focus: var(--fio-sys-color-neutral-black);
+}
 
 /* Base button */
-
 button,
 .fio-button {
+	--_button-family: var(--fio-sys-typography-family-secondary-regular);
+	--_button-size: var(--fio-sys-typography-size-0);
+	--_button-decoration: none;
+	--_button-transform: none;
+
+	--_button-border-radius: var(--fio-sys-size-radius-lg);
+	--_button-border-width: var(--fio-sys-size-stroke-md);
+
+	--_button-padding-x: var(--fio-sys-size-padding-lg);
+	--_button-padding-y: var(--fio-sys-size-margin-sm);
+	--_button-gap: var(--fio-sys-spacing-padding-sm);
+
 	cursor: pointer;
-	border-radius: var(--fio-component-button-border-radius);
+	border-radius: var(--_button-border-radius);
 	border-style: solid;
-	border-width: var(--fio-component-button-border-width);
+	border-width: var(--_button-border-width);
 	display: inline-block;
-	font-family: var(--fio-component-button-family);
-	font-size: var(--fio-component-button-size);
-	padding: var(--fio-component-button-padding-y) var(--fio-component-button-padding-x);
+	font-family: var(--_button-family);
+	font-size: var(--_button-size);
+	padding: var(--_button-padding-y) var(--_button-padding-x);
 	text-align: center;
 	text-decoration: none;
 	text-transform: none;
@@ -22,133 +44,141 @@ button,
 }
 /* Primary button */
 
+/* Button primary color */
 .fio-button-primary {
-	background-color: var(--fio-component-button-color-primary);
-	color: var(--fio-component-button-color-white) !important;
-	border-color: var(--fio-component-button-color-primary);
+	--_button-color-primary: var(--fio-sys-color-secondary-medium);
+	--_button-color-primary--hover: var(--fio-sys-color-secondary-light);
+	--_button-outline-color-primary--hover: var(--fio-sys-color-secondary-light);
+	--_button-text-color-primary: var(--fio-sys-color-text-dark);
+	--_button-text-color-primary--hover: var(--fio-sys-color-text-dark);
+	--_button-color-primary--active: var(--fio-sys-color-secondary-dark);
+	--_button-text-color-primary--active: var(--_button-text-color-primary);
+
+	background-color: var(--_button-color-primary);
+	color: var(--_button-text-color-primary);
+	border-color: var(--_button-color-primary);
 }
 .fio-button-primary:hover,
 .fio-button-primary:focus {
-	background-color: var(--fio-component-button-color-primary--hover);
-	color: var(--fio-component-button-color-white);
-	border-color: var(--fio-component-button-color-primary--hover);
+	background-color: var(--_button-color-primary--hover);
+	color: var(--_button-text-color-primary);
+	border-color: var(--_button-color-primary);
 }
 /* .fio-button-primary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	outline-color: var(--_button-color-border--focus);
 	outline-width: 2px;
 	outline-style: solid;
 } */
 .fio-button-primary:active {
-	background-color: var(--fio-component-button-color-primary--active);
-	border-color: var(--fio-component-button-color-primary--active);
-	color: var(--fio-sys-color-neutral-white);
+	background-color: var(--_button-color-primary--active);
+	border-color: var(--_button-color-primary--active);
+	color: var(--_button-text-color-primary--active);
 }
 
 /* Primary outline button */
-
 .fio-button-outline-primary {
 	background-color: transparent;
-	color: var(--fio-component-button-color-primary);
-	border-color: var(--fio-component-button-color-primary);
+	color: var(--_button-color-primary);
+	border-color: var(--_button-color-primary);
 }
 .fio-button-outline-primary:hover,
 .fio-button-outline-primary:focus {
-	background-color: var(--fio-component-button-outline-color-primary--hover);
-	color: var(--fio-component-button-color-primary--hover);
-	border-color: var(--fio-component-button-color-primary--hover);
+	background-color: var(--_button-outline-color-primary--hover);
+	color: var(--_button-color-primary--hover);
+	border-color: var(--_button-color-primary--hover);
 }
 /* .fio-button-outline-primary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	outline-color: var(--_button-color-border--focus);
 } */
 .fio-button-outline-primary:active {
-	background-color: var(--fio-component-button-color-primary--active);
-	border-color: var(--fio-component-button-color-primary--active);
+	background-color: var(--_button-color-primary--active);
+	border-color: var(--_button-color-primary--active);
 }
 
 /* Primary text button */
-
 .fio-button-text-primary {
 	background-color: transparent;
-	color: var(--fio-component-button-color-primary);
+	color: var(--_button-color-primary);
 	border-color: transparent;
 }
 .fio-button-text-primary:hover {
-	background-color: var(--fio-component-button-text-color-primary--hover);
-	color: var(--fio-component-button-color-primary--hover);
+	background-color: var(--_button-text-color-primary--hover);
+	color: var(--_button-color-primary--hover);
 	border-color: transparent;
 }
 /* .fio-button-text-primary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	outline-color: var(--_button-color-border--focus);
 } */
 .fio-button-text-primary:active {
-	color: var(--fio-component-button-color-primary--active);
-	background-color: var(--fio-component-button-text-color-primary--hover);
+	color: var(--_button-text-color-primary--active);
+	background-color: var(--_button-text-color-primary--active);
 }
 
 /* Secondary button */
-
 .fio-button-secondary {
-	background-color: var(--fio-component-button-color-white);
-	color: var(--fio-component-button-color-primary);
-	border-color: var(--fio-component-button-color-white);
+	--_button-color-secondary: transparent;
+	--_button-color-secondary--hover: var(--fio-sys-color-secondary-light);
+	--_button-text-color-secondary:var(--_button-color-primary);
+	--_button-text-color-secondary--hover: var(--fio-sys-color-secondary-dark-contrast);
+	--_button-outline-color-secondary: var(--fio-sys-color-primary-medium);
+	--_button-outline-color-secondary--hover: var(--fio-sys-color-primary-medium);
+	--_button-color-secondary--active: var(--fio-sys-color-secondary-medium);
+
+	background-color: var(--_button-color-secondary);
+	color: var(--_button-text-color-secondary);
+	border-color: var(--_button-outline-color-secondary);
 }
 .fio-button-secondary:hover {
-	background-color: var(--fio-component-button-color-primary--hover);
-	color: var(--fio-component-button-color-white);
-	border-color: var(--fio-component-button-color-white);
+	background-color: var(--_button-color-secondary--hover);
 }
 .fio-button-secondary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	outline-color: var(--_button-color-border--focus);
 }
 .fio-button-secondary:active {
-	background-color: var(--fio-component-button-color-white--active);
-	border-color: var(--fio-component-button-color-white--active);
+	background-color: var(--_button-color-secondary--active);
 }
 
 /* Secondary outline button */
-
-.fio-button-outline-secondary {
+/* .fio-button-outline-secondary {
 	background-color: transparent;
-	color: var(--fio-component-button-color-white) !important;
-	border-color: var(--fio-component-button-color-white);
+	color: var(--_button-color-white) !important;
+	border-color: var(--_button-color-white);
 }
 .fio-button-outline-secondary:hover,
 .fio-button-outline-secondary:focus {
-	background-color: var(--fio-component-button-color-primary--hover);
-	color: var(--fio-component-button-color-white);
-	border-color: var(--fio-component-button-color-white);
-}
-/* .fio-button-outline-secondary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	background-color: var(--_button-color-primary--hover);
+	color: var(--_button-color-white);
+	border-color: var(--_button-color-white);
 } */
-.fio-button-outline-secondary:active {
-	background-color: var(--fio-component-button-color-primary--active);
-	border-color: var(--fio-component-button-color-white--active);
-}
+/* .fio-button-outline-secondary:focus {
+	outline-color: var(--_button-color-border--focus);
+} */
+/* .fio-button-outline-secondary:active {
+	background-color: var(--_button-color-primary--active);
+	border-color: var(--_button-color-white--active);
+} */
 
 /* Secondary text button */
-
-.fio-button-text-secondary {
+/* .fio-button-text-secondary {
 	background-color: transparent;
-	color: var(--fio-component-button-color-white);
+	color: var(--_button-color-white);
 	border-color: transparent;
 	text-decoration: none;
 }
 .fio-button-text-secondary:hover {
 	background-color: transparent;
-	color: var(--fio-component-button-color-white);
-	border-color: var(--fio-component-button-text-color-white);
+	color: var(--_button-color-white);
+	border-color: var(--_button-text-color-white);
 }
 .fio-button-text-secondary:focus {
-	outline-color: var(--fio-component-button-color-border--focus);
+	outline-color: var(--_button-color-border--focus);
 }
 .fio-button-text-secondary:active {
-	background-color: var(--fio-component-button-color-primary--active);
-	color: var(--fio-component-button-color-white);
-}
+	background-color: var(--_button-color-primary--active);
+	color: var(--_button-color-white);
+} */
 
 /* Dropdown button */
-
 .dropdown .dropdown-menu {
 	background-color: var(--fio-sys-color-neutral-white);
 	border-color: var(--fio-sys-color-primary-medium);
@@ -175,27 +205,65 @@ button,
 
 /* Disable button */
 
-.fio-button:disabled,
-.fio-button.disabled {
-	background-color: var(--fio-component-button-color-disable);
-	border-color: var(--fio-component-button-color-disable);
+/* Primary Disabled Button */
+.fio-button.fio-button-primary:disabled,
+.fio-button.fio-button-primary.disabled {
+	--_button-color-primary-disable: var(--fio-sys-color-neutral-light);
+	--_button-color-primary-disable-contrast: var(--fio-sys-color-neutral-light-contrast);
+
+	background-color: var(--_button-color-primary-disable);
+	color:var(--_button-color-primary-disable-contrast);
+	border-color: var(--_button-color-primary-disable);
 	cursor: not-allowed;
 }
 
 .fio-button:has('outline'):disabled,
-.fio-button.disabled {
-	background-color: var(--fio-component-button-color-disable);
-	border-color: var(--fio-component-button-color-disable);
+.fio-button.fio-button-primary.disabled {
+	background-color: var(--_button-color-primary-disable);
+	border-color: var(--_button-color-primary-disable);
+}
+
+/* Secondary Disabled Button */
+.fio-button.fio-button-secondary:disabled,
+.fio-button.fio-button-secondary.disabled {
+	--_button-color-secondary-disable: transparent;
+	--_button-color-secondary-disable-contrast: var(--fio-sys-color-neutral-medium);
+	--_button-outline-color-secondary-disabled: var(--fio-sys-color-neutral-medium);
+
+	background-color: var(--_button-color-secondary-disable);
+	color:var(--_button-color-secondary-disable-contrast);
+	border-color: var(--_button-outline-color-secondary-disabled);
+	cursor: not-allowed;
+}
+
+.fio-button:has('outline'):disabled,
+.fio-button.fio-button-secondary.disabled {
+	background-color: var(--_button-color-secondary-disable);
+	color:var(--_button-color-secondary-disable-contrast);
+	border-color: var(--_button-outline-color-secondary-disabled);
 }
 
 /* Button size */
-
 .fio-button.button-sm {
-	padding: var(--fio-component-button-sm-padding-y) var(--fio-component-button-sm-padding-x);
-	font-size: var(--fio-component-button-sm-size);
+	--_button-sm-size: var(--fio-sys-typography-size--1);
+	--_button-sm-padding-x: var(--fio-sys-size-margin-md);
+	--_button-sm-padding-y: var(--fio-sys-size-padding-xs);
+	--_button-sm-gap: var(--fio-sys-spacing-padding-sm);
+	--_button-sm-border-radius:var(--fio-sys-size-radius-md);
+
+	padding: var(--_button-sm-padding-y) var(--_button-sm-padding-x);
+	font-size: var(--_button-sm-size);
+	border-radius:var(--_button-sm-border-radius);
 }
 
 .fio-button.button-lg {
-	padding: var(--fio-component-button-lg-padding-y) var(--fio-component-button-lg-padding-x);
-	font-size: var(--fio-component-button-lg-size);
+	--_button-lg-size: var(--fio-sys-typography-size-1);
+	--_button-lg-padding-x: var(--fio-sys-size-margin-lg);
+	--_button-lg-padding-y: var(--fio-sys-size-padding-md);
+	--_button-lg-gap: var(--fio-sys-spacing-padding-sm);
+	--_button-lg-border-radius: var(--fio-sys-size-radius-xl);
+
+	padding: var(--_button-lg-padding-y) var(--_button-lg-padding-x);
+	font-size: var(--_button-lg-size);
+	border-radius:var(--_button-lg-border-radius);
 }
