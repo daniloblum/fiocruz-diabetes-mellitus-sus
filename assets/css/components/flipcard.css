@@ -1,5 +1,24 @@
 /* --- FLIPCARD --- */
 
+.flipcard {
+	--_flipcard-border-radius:var(--fio-sys-size-radius-lg);
+	--_flipcard-color: var(--fio-sys-color-secondary-light);
+	--_flipcard-text-color: var(--fio-sys-color-primary-medium);
+	--_flipcard-line-height: var(--fio-sys-typography-height-150);
+	--_flipcard-padding: var(--fio-sys-size-padding-lg);
+	
+
+	--_flipcard-button-color: var(--fio-sys-color-secondary-medium);
+	--_flipcard-button-color--hover: var(--fio-sys-color-secondary-extra-light);
+	--_flipcard-button-outline-color--hover: var(--fio-sys-color-secondary-medium);
+	--_flipcard-button-text-color: var(--fio-sys-color-text-dark);
+	--_flipcard-button-text-color--hover: var(---fio-sys-color-text-dark);
+	--_flipcard-button-color--active: var(--fio-sys-color-secondary-dark);
+	--_flipcard-button-text-color--active: var(--_button-text-color-primary);
+	--_flipcard-button-border-radius: var(--fio-sys-size-radius-lg);
+	--_flipcard-button-border-width: var(--fio-sys-size-stroke-md);
+}
+
 .flipcard .flip-card {
 	position: relative;
 	background-color: transparent;
@@ -71,12 +90,12 @@
 	height: 100%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	padding: var(--fio-sys-spacing-padding-xl) 0;
+	padding: var(--_flipcard-padding) 0;
 }
 
 /*Configuração da frente*/
 .flipcard .flip-card-front {
-	border-radius: 10px;
+	border-radius: var(--_flipcard-border-radius);
 	/* -webkit-box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3); */
 	-webkit-backface-visibility: hidden;
@@ -98,20 +117,19 @@
 }
 
 .flipcard .flip-card-front .card-body {
-	padding: 1rem;
-	color:var(--fio-sys-color-neutral-white);
+	padding: var(--_flipcard-padding);
+	color:var(--_flipcard-text-color);
 }
 
-
 .flipcard .flip-card-front .card-body p {
-	color:var(--fio-sys-color-neutral-white);
+	color:var(--_flipcard-text-color);
 }
 
 .flipcard .flip-card-front .card-title {
 	/* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65) !important; */
 	text-align: center;
-	color:var(--fio-sys-color-neutral-white);
-	line-height: var(--fio-sys-typography-head-md-line-height);
+	color:var(--_flipcard-text-color);
+	line-height: var(--_flipcard-line-height);
 }
 
 .flip-card-front .card-footer,
@@ -128,11 +146,15 @@
 	width: 50%;
 	margin: 0 auto;
 	border: transparent;
-	background: var(--fio-sys-color-accent-medium);
+	background: var(--_flipcard-button-color);
+	border-radius: var(--_flipcard-button-border-radius);
+	border-style: solid;
+	border-width: var(--_flipcard-button-border-width);
+	border-color:var(--_flipcard-button-color);
 }
 
 .flipcard .flip-card-front .card-footer .fio-button:hover {
-	background-color: var(--fio-sys-color-accent-dark);
+	background-color: var(--_flipcard-button-color--hover);	
 }
 
 .flipcard .flip-card-front .card-footer label {
@@ -151,9 +173,9 @@
 
 /*Fundos para flipcard*/
 .flipcard .flip-card .fundo1 {
-	background-image: url(../../../sources/recursos-visuais/images/fundo-flipcard.jpg);
+	background-image: url(../../../media/templates/fundo-flipcard.svg);
 	background-size: cover;
-	background-color: var(--fio-sys-color-primary-light);
+	background-color: var(--_flipcard-color);
 	border-color: var(--fio-sys-color-primary-light);
 }
 
@@ -169,7 +191,7 @@
 
 .flipcard .flip-card-back .card-body {
 	padding-top: 0;
-	height: calc(100% - var(--fio-sys-spacing-padding-xl) *2 );
+	height: calc(100% - var(--_flipcard-padding) *2 ); 
 }
 
 .flipcard .flip-card-back .card-footer {

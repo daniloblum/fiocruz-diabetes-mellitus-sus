@@ -1,24 +1,64 @@
 /* --- CARD --- */
 
 .card {
-	background-color: var(--fio-component-card-background);
-	border-color: var(--fio-component-card-border-color);
-	border-width: var(--fio-component-card-border-width);
-	border-radius: var(--fio-component-card-border-radius);
+	/* Card - base */
+	--_card-background: var(--fio-sys-color-neutral-white);
+	--_card-border-color: var(--fio-sys-color-primary-medium);
+	--_card-border-width: var(---fio-sys-size-stroke-md);
+	--_card-border-radius: var(--fio-sys-size-radius-lg);
+
+	/* Card - elevation */
+	--_card-elevation-low: var(--fio-sys-elevation-sm);
+	--_card-elevation-medium: var(--fio-sys-elevation-md);
+	--_card-elevation-high: var(--fio-sys-elevation-lg);
+	--_card-elevation-higher: var(--fio-sys-elevation-xl);
+
+	/* Card - primary color */
+	--_card-background-primary: var(--fio-sys-color-primary-medium-contrast);
+	--_card-border-color-primary: var(--fio-sys-color-primary-dark-contrast);
+
+	/* Card - thumb */
+	--_card-thumb-padding: var(--fio-sys-spacing-padding-0);
+	--_card-thumb-border-radius: var(--fio-sys-spacing-border-radius-0);
+
+	/* Card - header */
+	--_card-header-padding-y: var(--fio-sys-size-padding-md);
+	--_card-header-padding-x: var(--fio-sys-size-padding-md);
+
+	--_card-header-background: var(--fio-sys-color-primary-medium-contrast);
+	--_card-header-family: var(--fio-sys-typography-title-small-family);
+	--_card-header-line-height: var(--fio-sys-typography-title-small-line-height);
+	--_card-header-size: var(--fio-sys-typography-title-small-size);
+	--_card-header-tracking: var(--fio-sys-typography-title-small-tracking);
+	--_card-header-weight: var(--fio-sys-typography-title-small-weight);
+
+	/* Card - body */
+	--_card-body-padding-y: var(--fio-sys-size-padding-lg);
+	--_card-body-padding-x: var(--fio-sys-size-padding-lg);
+
+	/* Card - footer */
+	--_card-footer-padding-y: var(--fio-sys-size-padding-md);
+	--_card-footer-padding-x: var(--fio-sys-size-padding-md);
+
+
+	background-color: var(--_card-background);
+	border-color: var(--_card-border-color);
+	border-width: var(--_card-border-width);
+	border-radius: var(--_card-border-radius);
 	box-shadow: var(--fio-sys-elevation-lg);
 	transition: ease-out;
 	transition-duration: 0.5s;
 }
 
 .card.card-primary {
-	background-color: var(--fio-component-card-background-primary);
-	border-color: var(--fio-component-card-border-color-primary);
+	background-color: var(--_card-background-primary);
+	border-color: var(--_card-border-color-primary);
 }
 
 .card .card-thumb {
-	padding: var(--fio-component-card-thumb-padding);
+	padding: var(--_card-thumb-padding);
 	margin: 0;
-	border-radius: var(--fio-component-card-thumb-border-radius);
+	border-radius: var(--_card-thumb-border-radius);
 }
 .card .card-thumb img {
 	height: auto;
@@ -26,16 +66,16 @@
 }
 .card > div:first-of-type,
 .card > .card-thumb:first-of-type img {
-	border-top-left-radius: var(--fio-component-card-border-radius);
-	border-top-right-radius: var(--fio-component-card-border-radius);
+	border-top-left-radius: var(--_card-border-radius);
+	border-top-right-radius: var(--_card-border-radius);
 }
 .card > div:last-of-type,
 .card > .card-thumb:last-of-type img {
-	border-bottom-left-radius: var(--fio-component-card-border-radius);
-	border-bottom-right-radius: var(--fio-component-card-border-radius);
+	border-bottom-left-radius: var(--_card-border-radius);
+	border-bottom-right-radius: var(--_card-border-radius);
 }
 .card .card-header {
-	background-color: var(--fio-component-card-header-background);
+	background-color: var(--_card-header-background);
 	color: var(--fio-sys-typography-head-color);
 	font-family: var(--fio-sys-typography-head-family);
 	font-size: var(--fio-sys-typography-head-xs-size);
@@ -43,23 +83,23 @@
 	letter-spacing: var(--fio-sys-typography-head-tracking);
 	line-height: var(--fio-sys-typography-head-xs-line-height);
 	margin: 0;
-	padding: var(--fio-component-card-header-padding-y) var(--fio-component-card-header-padding-x);
+	padding: var(--_card-header-padding-y) var(--_card-header-padding-x);
 }
 /* .card .card-body,
 .card .card-footer {
-	background-color: var(--fio-component-card-background);
+	background-color: var(--_card-background);
 } */
 .card .card-body {
-	padding: var(--fio-component-card-body-padding-y) var(--fio-component-card-body-padding-x);
+	padding: var(--_card-body-padding-y) var(--_card-body-padding-x);
 }
 .card .card-body :last-child {
 	margin-bottom: 0;
 }
 .card .card-footer {
 	text-align: right;
-	border-bottom-left-radius: var(--fio-component-card-border-radius);
-	border-bottom-right-radius: var(--fio-component-card-border-radius);
-	padding: var(--fio-component-card-footer-padding-y) var(--fio-component-card-footer-padding-x);
+	border-bottom-left-radius: var(--_card-border-radius);
+	border-bottom-right-radius: var(--_card-border-radius);
+	padding: var(--_card-footer-padding-y) var(--_card-footer-padding-x);
 	background-color: var(--fio-sys-color-neutral-white);
 }
 

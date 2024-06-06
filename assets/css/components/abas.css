@@ -1,47 +1,62 @@
 /* --- ABAS --- */
 
-.abas .nav-tabs {
+.aba {
+	--_abas-border-radius: var(--fio-sys-size-radius-md);
+	--_abas-border: transparent;
+	--_abas-color: transparent;
+	--_abas-color-nav: var(--fio-sys-color-secondary-extra-light);
+	--_abas-color-nav-border-radius: var(--fio-sys-size-radius-lg);
+	--_abas-color-active: var(--fio-sys-color-secondary-medium);
+	--_abas-text-color:var(--fio-sys-color-accent-medium);
+	--_abas-text-color-active:var(--fio-sys-color-primary-medium);
+	--_aba-content-border: var(--fio-sys-color-primary-medium);
+	--_aba-content-border-width: var(--fio-sys-size-stroke-md);
+
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+}
+
+.aba .nav-tabs {
 	/* border-bottom: 1px solid var(--color-light); */
 	border-bottom: 1px solid var(--primary-color);
 	margin-bottom: 0 !important;
 }
 
-.abas .nav-link {
+.aba .nav-link {
 	text-decoration: none !important;
 	padding: 0.5rem;
 	transition: 0.2s;
 	/* font-size: 1rem; */
 }
 
-.abas .nav-tabs .nav-link.active,
+.aba .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link,
-.abas .nav-tabs .nav-link.active:hover,
+.aba .nav-tabs .nav-link.active:hover,
 .nav-tabs .nav-item.show .nav-link:hover {
 	color: #fff;
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 }
 
-.abas .nav-tabs .nav-link:hover,
+.aba .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
 	border-color: var(--primary-color-light);
 	background-color: var(--color-light-hover);
 	color: var(--primary-color);
 }
-.abas .dropdown-item {
+.aba .dropdown-item {
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	font-weight: 400;
 }
 
-.abas .dropdown-item.active,
+.aba .dropdown-item.active,
 .dropdown-item:active {
 	color: #fff;
 	text-decoration: none;
 	background-color: var(--primary-color);
 }
 
-.abas .tab-content {
+.aba .tab-content {
 	/* border-bottom: 1px solid #e9ecef; */
 	background-color: var(--secondary-color-extra-light);
 	padding: 1.5rem;
@@ -66,8 +81,11 @@
 /* --- ABA ---  */
 
 .aba .nav {
-	background-color: var(--fio-sys-color-accent-medium-contrast);
-	border-radius: var(--fio-sys-spacing-border-radius-xl);
+	background-color: var(--_abas-color-nav);
+	border-radius: var(--_abas-color-nav-border-radius);
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-bottom: var(--fio-sys-size-margin-xs);
 }
 
 .aba .nav.nav-fill .nav-item {
@@ -82,32 +100,48 @@
 }
 .aba .nav.nav-pills .nav-link.active,
 .aba .nav.nav-pills .show > .nav-link {
-	color: var(--fio-sys-color-accent-medium);
-	background-color: transparent;
-	border-color: var(--fio-sys-color-accent-medium);
-	border-width: var(--fio-sys-spacing-border-width-md);
-	border-style: solid;
-	border-radius: var(--fio-sys-spacing-border-radius-full);
+	color: var(--_abas-text-color-active);
+	background-color: var(--_abas-color-active);
+	border-radius: var(--_abas-border-radius);
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
-.aba .nav .nav-link:focus,
-.aba .nav .nav-link:hover {
-	color: var(--fio-sys-color-accent-dark);
-	border-color: var(--fio-sys-color-accent-dark);
-	border-radius: var(--fio-sys-spacing-border-radius-full);
+	
+.aba .nav.nav-fill .nav-item .nav-link:focus {
+	color: var(--_abas-text-color);
+}
+
+.aba .nav.nav-fill .nav-item .nav-link:hover {
+	color: var(--_abas-text-color-active);
 }
 
 .aba .tab-content {
-	background-color: var(--fio-sys-color-primary-medium-contrast);
-	border-color: var(--fio-sys-color-primary-light);
-	border-width: var(--fio-sys-spacing-border-width-sm);
+	background-color: transparent;
+	border-color: var(--_aba-content-border);
+	border-width: var(--_aba-content-border-width);
 	border-style: solid;
-	border-radius: var(--fio-sys-spacing-border-radius-md);
-	padding: var(--fio-sys-spacing-padding-lg);
+	border-radius: var(--_abas-color-nav-border-radius);
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.aba .tab-content .tab-pane .tab-pane-content {
+	padding: var(--fio-sys-size-padding-lg);
+}
+
+
+.aba .tab-content .tab-pane .tab-pane-footer {
+	display:flex;
+	justify-content: space-between;
+	align-items: end;
+	padding: 0 var(--fio-sys-size-padding-lg);
 }
 
 @media (min-width: 768px) {
 	.aba .nav {
-		border-radius: var(--fio-sys-spacing-border-radius-xl);
+		border-radius: var(--fio-sys-size-radius-lg);
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
 	}
 	.aba .nav.nav-fill .nav-item {
 		width: auto;
