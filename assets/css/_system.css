@@ -6,16 +6,16 @@
 	/* ---------- COLORS ---------- */
 
 	/* Primary - 60% layout*/
-	--fio-sys-color-primary-extra-light: var(--fio-ref-color-primary-95);
+	--fio-sys-color-primary-extra-light: var(--fio-ref-color-primary-90);
 	--fio-sys-color-primary-extra-light-contrast: var(--fio-ref-color-primary-40);
 	--fio-sys-color-primary-light: var(--fio-ref-color-primary-70);
 	--fio-sys-color-primary-light-contrast: var(--fio-ref-color-primary-20);
-	--fio-sys-color-primary-medium: var(--fio-ref-color-primary-30);
+	--fio-sys-color-primary-medium: var(--fio-ref-color-primary-50);
 	--fio-sys-color-primary-medium-contrast: var(--fio-ref-color-primary-90);
-	--fio-sys-color-primary-dark: var(--fio-ref-color-primary-20);
+	--fio-sys-color-primary-dark: var(--fio-ref-color-primary-30);
 	--fio-sys-color-primary-dark-contrast: var(--fio-ref-color-primary-95);
-	--fio-sys-color-primary-extra-dark: var(--fio-ref-color-primary-10);
-	--fio-sys-color-primary-extra-dark-contrast: var(--fio-ref-color-primary-90);
+	--fio-sys-color-primary-extra-dark: var(--fio-ref-color-primary-20);
+	--fio-sys-color-primary-extra-dark-contrast: var(--fio-ref-color-primary-99);
 
 	/* Secondary - 30% layout*/
 	--fio-sys-color-secondary-extra-light: var(--fio-ref-color-secondary-95);

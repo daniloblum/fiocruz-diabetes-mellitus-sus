@@ -1,10 +1,9 @@
 // DESKTOP
 
-// Ajustar a altura da página quando for menor que a sidebar
-
-// $(document).ready( function () {
-
 (function () {
+	// Ajustar a altura da página quando for menor que a sidebar
+
+	// $(document).ready( function () {
 	let sidebarHeight = document.getElementsByClassName('sidebar');
 	let contentHeight = document.getElementsByClassName('content');
 	let pageTitle = document.getElementById('page-title');
@@ -18,6 +17,18 @@
 	}
 })();
 
+// Manter o dropdown lateral sempre na tela
+let sidebarButton = document.querySelectorAll('.sidebar button');
+console.log(sidebarButton);
+
+sidebarButton.forEach(button => {
+	button.addEventListener('over', openSubmenu(button));
+});
+
+function openSubmenu(btn) {
+	btn.getElementsByClassName('submenu').classList.add('open');
+	console.log('open');
+}
 // // MOBILE
 
 const sidebarToggleOpen = document.querySelector('.mobile-toggle-open .mobile-toggle__button');
