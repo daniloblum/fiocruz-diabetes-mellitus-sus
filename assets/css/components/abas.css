@@ -8,8 +8,8 @@
 	--_abas-color-nav-border-radius: var(--fio-sys-size-radius-lg);
 	--_abas-color-active: var(--fio-sys-color-secondary-medium);
 	--_abas-text-color:var(--fio-sys-color-accent-medium);
-	--_abas-text-color-active:var(--fio-sys-color-primary-medium);
-	--_aba-content-border: var(--fio-sys-color-primary-medium);
+	--_abas-text-color-active:var(--fio-sys-color-primary-dark);
+	--_aba-content-border: var(--fio-sys-color-primary-dark);
 	--_aba-content-border-width: var(--fio-sys-size-stroke-md);
 
 	font-family: var(--fio-sys-typography-family-secondary-regular);

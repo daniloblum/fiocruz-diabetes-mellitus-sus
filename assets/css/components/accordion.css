@@ -4,12 +4,12 @@
 	--_accordion-border-radius: var(--fio-sys-size-radius-lg);
 	--_accordion-border: transparent;
 	--_accordion-border-width: var(--fio-sys-size-stroke-md);
-	--_accordion-border-hover: var(--fio-sys-color-primary-medium);
+	--_accordion-border-hover: var(--fio-sys-color-primary-dark);
 
 	--_accordion-color:transparent;
 	--_accordion-color-hover: var(--fio-sys-color-secondary-light);
 	--_accordion-text-color: var(--fio-sys-color-tertiary-dark);
-	--_accordion-text-color-hover: var(--fio-sys-color-primary-medium);
+	--_accordion-text-color-hover: var(--fio-sys-color-primary-dark);
 
 }
 

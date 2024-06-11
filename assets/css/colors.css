@@ -84,44 +84,37 @@
 	background-color: var(--fio-sys-color-accent-dark-contrast);
 }
 
-/* Secondary Accent - Color */
-.color-secondary-accent-light {
-	color: var(--fio-sys-color-secondary-accent-light);
-}
-.color-secondary-accent-light-contrast {
-	color: var(--fio-sys-color-secondary-accent-light-contrast);
-}
-.color-secondary-accent-medium {
-	color: var(--fio-sys-color-secondary-accent-medium);
-}
-.color-secondary-accent-medium-contrast {
-	color: var(--fio-sys-color-secondary-accent-medium-contrast);
-}
-.color-secondary-accent-dark {
-	color: var(--fio-sys-color-secondary-accent-dark);
-}
-.color-secondary-accent-dark-contrast {
-	color: var(--fio-sys-color-secondary-accent-dark-contrast);
+/* Secondary - Accent - Color */
+.color-secondary-light {
+	color: var(--fio-sys-color-secondary-light);
 }
 
-/* Secondary Accent - Background */
-.background-secondary-accent-light {
-	background-color: var(--fio-sys-color-secondary-accent-light);
+.color-secondary-medium {
+	color: var(--fio-sys-color-secondary-medium);
 }
-.background-secondary-accent-light-contrast {
-	background-color: var(--fio-sys-color-secondary-accent-light-contrast);
+
+.color-secondary-dark {
+	color: var(--fio-sys-color-secondary-dark);
 }
-.background-secondary-accent-medium {
-	background-color: var(--fio-sys-color-secondary-accent-medium);
+
+.color-secondary-dark-extra-dark {
+	color: var(--fio-sys-color-secondary-extra-dark);
 }
-.background-secondary-accent-medium-contrast {
-	background-color: var(--fio-sys-color-secondary-accent-medium-contrast);
+
+/* Secondary Background */
+.background-secondary-light {
+	background-color: var(--fio-sys-color-secondary-light);
 }
-.background-secondary-accent-dark {
-	background-color: var(--fio-sys-color-secondary-accent-dark);
+
+.background-secondary-medium {
+	background-color: var(--fio-sys-color-secondary-medium);
 }
-.background-secondary-accent-dark-contrast {
-	background-color: var(--fio-sys-color-secondary-accent-dark-contrast);
+
+.background-secondary-dark {
+	background-color: var(--fio-sys-color-secondary-dark);
+}
+.background-secondary-extra-dark {
+	background-color: var(--fio-sys-color-secondary-extra-dark);
 }
 
 /* Neutral - Color */

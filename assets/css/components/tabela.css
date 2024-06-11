@@ -1,25 +1,66 @@
 /* --- TABELA --- */
 
 .table {
-	background-color: var(--fio-sys-color-neutral-white);
+	background-color: var(--fio-sys-color-secondary-light);
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	color:var(--fio-sys-color-primary-dark);
+	/* border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+	border-radius: var(--fio-sys-size-radius-lg); */
 }
 
-.table > :not(:first-child) {
+/* .table > :not(:first-child) {
 	border-top: none;
 }
 
 .table-responsive.table-bordered {
 	border: none;
+} */
+
+.table-responsive .table-bordered {
+	border-spacing: 0;
+	border-collapse: separate;
+    border-radius: var(--fio-sys-size-radius-lg);
+	border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+	overflow: hidden;
 }
 
 .table-responsive table thead th {
-	border: none;
 	vertical-align: middle;
-	border: 1px solid var(--fio-sys-color-primary-medium);
+	border: none;
+}
+
+/* .table-responsive thead tr:last-child::after{
+	content: '';
+    top: 0;
+    left: 0;
+    background: red;
+    position: relative;
+    height: 30px;
+    display: block;
+} */
+
+.table-responsive table thead tr th.table-border {
+	background-image: url(../../../media/templates/border.png);
+    height: 35px;
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+.table-responsive table thead th:not(:last-child),
+.table-responsive table thead td:not(:last-child) {
+ border-right: 1px solid var(--fio-sys-color-secondary-light);
+ border-bottom: 1px solid var(--fio-sys-color-secondary-light);
+}
+
+.table-responsive table thead th:last-child,
+.table-responsive table thead td:last-child {
+ border-bottom: 1px solid var(--fio-sys-color-secondary-light);
 }
 
 .table-responsive th {
-	background-color: var(--fio-sys-color-primary-medium);
+	background-color: var(--fio-sys-color-primary-dark);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	font-size:var(--fio-sys-typography-size-0);
 	color: var(--fio-sys-color-neutral-white);
 	border: 1px solid var(--fio-sys-color-primary-light);
 }
@@ -30,8 +71,11 @@
 
 .table-responsive td,
 .table-responsive tr {
-	border: 1px solid var(--fio-sys-color-primary-light);
+	/* border: 1px solid var(--fio-sys-color-primary-light); */
+	border:none;
 	vertical-align: middle;
+	text-align: left;
+	padding:var(--fio-sys-size-padding-sm);
 }
 
 .table-responsive tr:nth-of-type(odd) {

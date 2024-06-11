@@ -18,8 +18,8 @@
 	font-weight: bold;
 	padding: 15px 20px;
 	border-radius: 50%;
-	background-color: var(--fio-sys-color-primary-medium);
-	color: #fff;
+	background-color: var(--fio-sys-color-secondary-medium);
+	color: var(--fio-sys-color-primary-dark);
 	/* max-height: 50px; */
 	z-index: 2;
 }
@@ -38,26 +38,30 @@
 
 .timeline-z-estrutura.row .col-2::after {
 	content: '';
-	position: absolute;
-	border-left: 3px solid var(--fio-sys-color-secondary-accent-medium);
-	z-index: 1;
-	opacity: 0.5;
+    position: absolute;
+    border-image-source: url(../../../media/templates/border-image.svg);
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-image-outset: 0 0 0 3;
+    border-left: 3px solid var(--fio-sys-color-primary-dark);
+    z-index: 1;
+    opacity: 1;
 }
 
 .timeline-z-estrutura.row .col-2.bottom::after {
 	height: 50%;
-	left: calc(50% - 2px);
+	left: calc(50% - -2px);
 	top: 50%;
 }
 
 .timeline-z-estrutura.row .col-2.full::after {
 	height: 100%;
-	left: calc(50% - 1px);
+	left: calc(50% - -2px);
 }
 
 .timeline-z-estrutura.row .col-2.top::after {
 	height: 50%;
-	left: calc(50% - 2px);
+	left: calc(50% - -2px);
 	bottom: 50%;
 }
 
@@ -67,11 +71,15 @@
 }
 
 .timeline-z hr {
-	border-top: 3px solid var(--fio-sys-color-secondary-accent-medium);
-	margin: 0;
-	top: 17px;
-	position: relative;
-	opacity: 0.5;
+	border-top: 5px solid var(--fio-sys-color-primary-dark);
+    border-image-source: url(../../../media/templates/border-image.svg);
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-image-outset: 0 0 0 3;
+    margin: 0;
+    top: 15px;
+    position: relative;
+    opacity: 1;
 }
 
 .timeline-z .col-2 {
@@ -80,30 +88,30 @@
 }
 
 .timeline-z .corner {
-	border: 3px solid var(--fio-sys-color-secondary-accent-medium);
+	border: 5px solid var(--fio-sys-color-primary-dark);
 	width: 100%;
 	position: relative;
 	border-radius: 15px;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z .top-right {
-	left: calc(50% - 2px);
+	left: calc(50% - 4px);
 	top: -50%;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z .left-bottom {
 	left: calc(-50% + 2px);
-	top: calc(50% - 3px);
+	top: calc(50% - 5px);
 }
 
 .timeline-z .top-left {
-	left: calc(-50% + 2px);
+	left: calc(-50% + 1px);
 	top: -50%;
 }
 
 .timeline-z .right-bottom {
-	left: calc(50% - 2px);
-	top: calc(50% - 3px);
+	left: calc(50% - 3px);
+	top: calc(50% - 5px);
 }

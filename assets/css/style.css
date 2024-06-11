@@ -4,6 +4,8 @@
 @import 'typography.css';
 @import 'colors.css';
 @import 'animations.css';
+@import '../../source/animate/animate.min.css';
+@import '../../sources/animate/aos/dist/aos.css';
 @import 'components/header.css';
 @import 'components/footer.css';
 @import 'components/sidebar.css';
@@ -29,6 +31,7 @@
 @import 'components/timeline-zigzag.css';
 @import 'components/timeline-horizontal.css';
 @import 'components/video.css';
+@import 'components/media.css';
 
 * {
 	margin: 0;
@@ -50,8 +53,11 @@
 	color: #ffffff !important;
 }
 strong {
-	font-weight: 700;
-	font-family: inherit;
+	font-family: var(--fio-sys-typography-family-primary-bold);
+}
+
+i{
+	font-family: var(--fio-sys-typography-family-primary-medium-italic);
 }
 
 u {
@@ -68,9 +74,9 @@ figure img {
 }
 figcaption.figure-caption {
 	font-size: 75%;
-	color: var(--fio-sys-color-text-light);
-	text-align: right;
-	margin-top: var(--fio-sys-spacing-margin-sm);
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	color: var(--fio-sys-color-neutral-medium);
+	text-align: center;
 }
 
 .figure-caption .fonte,
@@ -79,6 +85,10 @@ figcaption.figure-caption {
 	font-size: 75%;
 	color: #6c757d;
 	text-align: center;
+}
+
+.text-muted {
+	color:var(--fio-sys-color-neutral-medium) !important;
 }
 /* 
 .figure-caption a,
@@ -142,7 +152,7 @@ section {
 
 /* TÍTULOS */
 .heading__block {
-	margin-bottom: var(--fio-sys-spacing-vertical-lg);
+	margin-bottom: var(--fio-sys-size-margin-lg);
 }
 .heading__block .heading__before {
 	color: var(--fio-sys-color-primary-dark);
