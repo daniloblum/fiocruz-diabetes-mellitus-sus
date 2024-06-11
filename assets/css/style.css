@@ -125,12 +125,12 @@ body {
 }
 @media (min-width: 992px) {
 	.main .content {
-		margin-left: 30%;
+		margin-left: 120px;
 	}
 }
 @media (min-width: 1200px) {
 	.main .content {
-		margin-left: 20%;
+		margin-left: 120px;
 	}
 }
 

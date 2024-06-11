@@ -112,7 +112,7 @@ boxes.forEach(box => {
 	boxLabel.innerHTML = boxAttribute;
 });
 
-// Modal (teste)
+// Modal - Criação dos modais principais
 
 const modalInfos = {
 	creditos: {
