@@ -17,18 +17,19 @@
 	}
 })();
 
-// Manter o dropdown lateral sempre na tela
-let sidebarButton = document.querySelectorAll('.sidebar button');
-console.log(sidebarButton);
+// Define as configurações do dropdown (submenu) e animações.
+// Para não precisar escrever em todos os butões os atributos
 
-sidebarButton.forEach(button => {
-	button.addEventListener('over', openSubmenu(button));
+var sidebarDropdown = document.querySelectorAll('.dropend');
+
+sidebarDropdown.forEach(dropdown => {
+	dropdown.addEventListener('shown.bs.dropdown', function () {
+		const dropdownBox = dropdown.querySelector('.dropdown-menu');
+		dropdownBox.classList.add('open-dropdown');
+	});
+	// do something...
 });
 
-function openSubmenu(btn) {
-	btn.getElementsByClassName('submenu').classList.add('open');
-	console.log('open');
-}
 // // MOBILE
 
 const sidebarToggleOpen = document.querySelector('.mobile-toggle-open .mobile-toggle__button');
