@@ -38,107 +38,115 @@
 	float: right;
 } */
 
-.quotation .card {
+.quotation {
 	--_quotation-border-width: var(--fio-ref-size-12);
+	--_quotation-color: var(--fio-sys-color-secondary-light);
 
-	background-color: transparent;
-	border:none;
-	border-radius: var(--fio-sys-size-radius-lg);
-	color: var(--fio-sys-color-primary-dark);
-	overflow: visible;
-	/* position: absolute; */
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%);
-	min-height: 300px;
+}
+
+.quotation blockquote {
+	background-color: var(--_quotation-color);
+    border-radius: var(--fio-sys-size-radius-lg);
+    color: var(--fio-sys-color-primary-dark);
+    padding: var(--fio-sys-size-padding-xl);
+    position: relative;
+    margin-top: 30px;
 	transform-style: preserve-3d;
 	perspective: 2000px;
 	transition: 0.4s;
-	text-align: center;
-  }
+}
 
- .quotation .card:before {
+.quotation blockquote .quotation-body {
+	padding:10px 60px;
+}
+
+.quotation blockquote .quotation-body p {
+	font-size:var(--fio-sys-typography-size-0);
+}
+
+.quotation blockquote .quotation-autor {
+	display: block;
+	font-size:var(--fio-sys-typography-size-0);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	text-align:right;
+}
+.quotation blockquote:before {
 	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	border-top: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-	border-left: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-	border-radius: var(--fio-sys-size-radius-md);
-	box-sizing: border-box;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: calc(100% - 60px);
+    height: calc(100% + 60px);
+    background: transparent;
+    border-top: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
+    border-left: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
+    border-radius: var(--fio-sys-size-radius-md);
+    box-sizing: border-box;
+	z-index:-1;
   }
 
-.quotation .card:after {
+.quotation blockquote:after {
 	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-bottom: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-	border-right: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
-	border-radius: var(--fio-sys-size-radius-md);
-	box-sizing: border-box;
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    width: calc(100% - 60px);
+    height: calc(100% + 60px);
+    border-bottom: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
+    border-right: var(--_quotation-border-width) solid var(--fio-sys-color-primary-dark);
+    border-radius: var(--fio-sys-size-radius-md);
+    box-sizing: border-box;
   }
 
-.quotation .card .quotation-mark {
-	content: url('../../../media/templates/quotation-marks.svg');
+.quotation blockquote .quotation-mark {
 	padding:var(--fio-sys-size-vertical-sm);
 	height: 64px;
 	width: 64px;
 	line-height: 50px !important;
 	background-color: var(--fio-sys-color-primary-dark);
 	color: var(--fio-sys-color-tertiary-light);
+	border-radius:var(--fio-sys-size-radius-xs);
+	position: absolute;
  }
 
-.quotation .card .fa2 {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1;
+ .quotation blockquote .quotation-mark.fa1 {
+	content: url('../../../media/templates/quotation-marks.svg');
+	top:0;
+	left:0;
  }
 
-.quotation .card .text {
-	position: absolute;
-	top: 30px;
-	left: -30px;
-	width: calc(100% + 60px);
-	height: calc(100% - 60px);
-	background-color: var(--fio-sys-color-secondary-light);
-	border-radius: 3px;
-	transition: 0.4s;
-}
-
-.quotation .card .text .fa1 {
+ .quotation blockquote .quotation-mark.fa1 {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-.quotation .card .text div {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-	text-align: center;
-	width: 100%;
-	padding: 30px 60px;
-	line-height: 1.5;
-	box-sizing: border-box;
+.quotation blockquote .quotation-mark.fa2 {
+	content: url(../../../media/templates/quotation-marks.svg);
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    z-index: 1;
+ }
+
+ /* Animation */
+ /* .quotation blockquote:hover {
+	transform: rotateY(-20deg) skewY(3deg);
 }
 
-.quotation .card .text div p {
-	font-size: 15px;
-}
-
-.quotation .card:hover {
-	transform: translate(-50%) rotateY(-20deg) skewY(3deg);
-}
-
-.quotation .card:hover .text {
+.quotation blockquote:hover .quotation-body {
 	transform: rotateY(20deg) skewY(-3deg);
 }
+ 
+ .quotation blockquote:hover::before,
+ .quotation blockquote:hover::after,
+ .quotation blockquote:hover.quotation-mark.fa1{
+	transform: rotateY(-20deg) skewY(-3deg);
+ }
+
+ .quotation blockquote:hover .quotation-mark.fa2 {
+    right: 80px;
+	transform: rotateY(-20deg) skewY(-3deg);
+}
+  */
