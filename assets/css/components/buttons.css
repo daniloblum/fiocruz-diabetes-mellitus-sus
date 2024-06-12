@@ -43,6 +43,22 @@ button,
 	text-decoration: none;
 	text-transform: none;
 }
+
+.fio-button[rel="prev"] .material-symbols-rounded,
+.fio-button[rel="next"] .material-symbols-rounded  {
+	font-weight: 900;
+	transition: transform 0.2s ease-in-out;
+	transform: translateX(0)
+}
+
+.fio-button[rel="prev"]:hover .material-symbols-rounded {
+	transform: translateX(-25%)
+}
+
+.fio-button[rel="next"]:hover .material-symbols-rounded {
+	transform: translateX(25%)
+}
+
 /* Primary button */
 
 /* Button primary color */
@@ -53,7 +69,7 @@ button,
 	--_button-text-color-primary: var(--_button-color);
 	--_button-text-color-primary--hover: var(--_button-color);
 	--_button-color-primary--active: var(--fio-sys-color-secondary-dark);
-	--_button-text-color-primary--active: var(--_button-text-color-primary);
+	--_button-text-color-primary--active: var(--fio-sys-color-primary-dark);
 
 	background-color: var(--_button-color-primary);
 	color: var(--_button-text-color-primary);

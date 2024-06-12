@@ -32,7 +32,7 @@
 .js .cd-h-timeline__dates {
 	position: relative;
 	height: 100%;
-	margin: 0 40px;
+	margin: 0 60px;
 	overflow: hidden;
 }
 
@@ -48,12 +48,12 @@
 
 .js .cd-h-timeline__dates::before {
 	left: 0;
-	background: linear-gradient(to right, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
+	background: linear-gradient(to right, hsl(var(--fio-ref-color-secondary), 90%), hsl(var(--fio-ref-color-secondary), 90%, 0));
 }
 
 .js .cd-h-timeline__dates::after {
 	right: 0;
-	background: linear-gradient(to left, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
+	background: linear-gradient(to left, hsl(var(--fio-ref-color-secondary), 90%), hsl(var(--fio-ref-color-secondary), 90%, 0));
 }
 
 .js .cd-h-timeline__line {
@@ -93,7 +93,7 @@
 	z-index: 2;
 	text-align: center;
 	padding-bottom: var(--fio-sys-spacing-padding-sm);
-	color: var(--fio-sys-color-text-dark);
+	color: var(--fio-sys-color-primary-dark);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -141,7 +141,7 @@
 .js .cd-h-timeline__navigation {
 	position: absolute;
 	z-index: 1;
-	top: 50%;
+	top: 25%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -184,6 +184,7 @@
 
 .js .cd-h-timeline__navigation--next {
 	right: 0;
+	transform: rotate(-90deg);
 }
 
 .js .cd-h-timeline__navigation--inactive {

@@ -2,6 +2,23 @@
 
 /* Iframe e Vídeos */
 
+.componente-video {
+	margin:var(--fio-sys-size-margin-xl) 0;
+}
+.componente-video::before {
+	margin-bottom:var(--fio-sys-size-margin-xl)
+}
+.componente-video::before, 
+.componente-video::after {
+	content: url(../../../media/templates/destaque-graphism.svg);
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .video {
 	position: relative;
 }

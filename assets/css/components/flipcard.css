@@ -181,8 +181,9 @@
 	background-position: top center;
 	border-image-source: url('../../../media/templates/border-image.svg');
 	border-image-slice: 10;
-    border-image-width: 36px 36px;
+    border-image-width: 32px;
     border-image-outset: 2 3;
+	border-image-repeat: round;
 }
 
 /*Configuração do verso*/

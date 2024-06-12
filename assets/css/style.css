@@ -110,6 +110,8 @@ body {
 .main {
 	position: relative;
 }
+
+
 /* .main:not(.main-home)::before {
 	content: '';
 	background-image: linear-gradient(180deg, rgba(0, 24, 51, 1), rgba(0, 48, 102, 0));
@@ -126,6 +128,7 @@ body {
 @media (min-width: 992px) {
 	.main .content {
 		margin-left: 120px;
+		padding-top: 86px;
 	}
 }
 @media (min-width: 1200px) {
@@ -150,10 +153,27 @@ section {
 	margin-bottom: 0;
 }
 
+/* BORDAS PARA CONTAINER NO DESKTOP*/
+@media (min-width: 768px) {
+	.content {
+		border-image-source: url(../../media/templates/border-image.svg);
+		border-image-slice: 12;
+		border-image-width: 0 32px 32px;
+		border-image-outset: 0 8px;
+		border-image-repeat: round;
+	}
+
+	.container-fluid {
+		position: relative;
+		z-index: -1;
+	}
+}
+
 /* TÍTULOS */
 .heading__block {
 	margin-bottom: var(--fio-sys-size-margin-lg);
 }
+
 .heading__block .heading__before {
 	color: var(--fio-sys-color-primary-dark);
 	display: block;
