@@ -405,7 +405,7 @@ body {
 	align-items: center;
 	gap: 8px;
 	border: none;
-	padding: 12px 8px;
+	padding: 8px 8px;
 	border-radius: 12px;
 	width: 100%;
 	background-color: transparent;
@@ -465,11 +465,37 @@ body {
 	border-radius: var(--fio-sys-size-radius-md);
 	padding: 8px 0;
 	width: max-content;
-	max-width: 360px;
+	max-width: 480px;
+	background-clip: border-box;
+	max-height: calc(90vh - 80px);
+	translate: 0px 0px;
+	overflow-y: auto;
+	/* scrollbar-width: thin; */
+	scrollbar-gutter: stable;
+}
+
+/* Styling the scrollbar in Chrome and Safari */
+.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu::-webkit-scrollbar {
+	width: 12px;
+}
+
+.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu::-webkit-scrollbar-thumb {
+	background-color: var(--_color-accent); /* Set thumb color for Chrome and Safari */
+	border: 4px solid var(--_color-background);
+	background-clip: padding-box;
+	border-radius: 30px;
+}
+
+.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu::-webkit-scrollbar-track {
+	margin: 10px;
+	background-color: transparent; /* Set track color for Chrome and Safari */
+	padding: 20px;
+	border-radius: 30px;
 }
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu li {
 	text-align: left;
 }
+
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu li.title {
 	font-family: var(--fio-ref-typography-family-primary);
 	font-size: var(--fio-sys-typography-size-1);
@@ -488,7 +514,7 @@ body {
 	display: block;
 	color: var(--_color-font);
 	font-family: var(--fio-ref-typography-family-primary);
-	font-size: var(--fio-sys-typography-size-0);
+	font-size: var(--fio-sys-typography-size--1);
 	line-height: var(--fio-sys-typography-height-125);
 	padding: 16px;
 }
