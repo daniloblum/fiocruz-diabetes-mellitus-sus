@@ -32,7 +32,7 @@
 .js .cd-h-timeline__dates {
 	position: relative;
 	height: 100%;
-	margin: 0 40px;
+	margin: 0 60px;
 	overflow: hidden;
 }
 
@@ -48,12 +48,12 @@
 
 .js .cd-h-timeline__dates::before {
 	left: 0;
-	background: linear-gradient(to right, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
+	background: linear-gradient(to right, hsl(var(--fio-ref-color-secondary), 90%), hsl(var(--fio-ref-color-secondary), 90%, 0));
 }
 
 .js .cd-h-timeline__dates::after {
 	right: 0;
-	background: linear-gradient(to left, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
+	background: linear-gradient(to left, hsl(var(--fio-ref-color-secondary), 90%), hsl(var(--fio-ref-color-secondary), 90%, 0));
 }
 
 .js .cd-h-timeline__line {
@@ -93,7 +93,7 @@
 	z-index: 2;
 	text-align: center;
 	padding-bottom: var(--fio-sys-spacing-padding-sm);
-	color: var(--fio-sys-color-text-dark);
+	color: var(--fio-sys-color-primary-dark);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -141,48 +141,50 @@
 .js .cd-h-timeline__navigation {
 	position: absolute;
 	z-index: 1;
-	top: 50%;
+	top: 25%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	height: 34px;
-	width: 34px;
+	height: 48px;
+	width: 48px;
 	border-radius: 50%;
-	border-width: 2px;
+	border-width: var(--fio-sys-size-stroke-md);
 	border-style: solid;
-	border-color: var(--fio-sys-color-accent-medium);
-	background-color: var(--fio-sys-color-accent-medium);
+	border-color: var(--fio-sys-color-secondary-medium);
+	background-color: var(--fio-sys-color-secondary-medium);
 	transition: border-color 0.3s;
 }
 
 .js .cd-h-timeline__navigation::after {
 	content: '';
-	position: absolute;
-	height: 24px;
-	width: 24px;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFF' d='M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z'/%3E%3C/svg%3E") !important;
-	background-repeat: no-repeat;
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    top: -15%;
+    left: -15%;
+    /* background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFF' d='M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z'/%3E%3C/svg%3E) !important; */
+    background-image: url(../../../media/templates/accordion-icon.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: var(--fio-sys-typography-size-2);
 }
 
 .js .cd-h-timeline__navigation:hover {
-	border-color: var(--fio-sys-color-accent-dark);
-	background-color: var(--fio-sys-color-accent-dark);
+	border-color: var(--fio-sys-color-secondary-medium);
+	background-color: var(--fio-sys-color-secondary-extra-light);
 }
 
 .js .cd-h-timeline__navigation--prev {
-	left: 0;
+	/* left: 0;
 	-webkit-transform: translateY(-50%) rotate(180deg);
 	-ms-transform: translateY(-50%) rotate(180deg);
-	transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg); */
+	transform:rotate(90deg);
 }
 
 .js .cd-h-timeline__navigation--next {
 	right: 0;
+	transform: rotate(-90deg);
 }
 
 .js .cd-h-timeline__navigation--inactive {

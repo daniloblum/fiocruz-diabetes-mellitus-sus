@@ -5,8 +5,8 @@
 }
 
 .timeline-vertical .card {
-    border-color: var(--fio-sys-color-primary-light);
-    background-color:var(--fio-sys-color-primary-background-light);
+    border-color: var(--fio-sys-color-primary-dark);
+    background-color:var(--fio-sys-color-primary-background-dark);
 }
 
 @media (max-width: 767px){
@@ -17,18 +17,16 @@
 }
 
 .timeline-vertical .card .card-header {
-    background-color:transparent;
+    background-color:var(--_card-header-background);
     border-bottom: none;
     padding: var(--fio-sys-spacing-padding-lg);
-    padding-bottom: 0;
+	padding: var(--_card-header-padding-y) var(--_card-header-padding-y); 
 }
 
 .timeline-vertical .card .card-footer {
     background-color:transparent;
     border-top:none;
     text-align: left;
-    padding: var(--fio-sys-spacing-padding-lg);
-    padding-top: 0;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -52,9 +50,10 @@
 	top: 0;
 	left: 18px;
 	height: 100%;
-	width: 2px;
-	background: var(--fio-sys-color-secondary-accent-medium);
-	opacity: 0.3;
+	width: var(--fio-sys-size-stroke-xl);
+	/* background: var(--fio-sys-color-accent-medium); */
+	background-image: url('../../../media/templates/border-image.svg');
+	opacity: 1;
 }
 
 
@@ -66,7 +65,7 @@
 
 	.cd-timeline__container::before {
 		left: 50%;
-		margin-left: -2px;
+		margin-left: -4px;
 	}
 }
 
@@ -118,7 +117,7 @@
 
 .cd-timeline__img h4.ano {
 	color: var(--fio-sys-color-neutral-white);
-	font-size: 12px;
+	font-size: var(--fio-sys-typography-size--1);
 	line-height: 0.9;
 }
 
@@ -161,23 +160,37 @@
 }
 
 .cd-timeline__img.cd-timeline__option1 {
-	background: var(--fio-sys-color-primary-medium);
+	background: var(--fio-sys-color-secondary-medium);
+	box-shadow:none;
+	border:var(--fio-sys-size-stroke-lg) solid var(--fio-sys-color-primary-dark);
+}
+
+.cd-timeline__img.cd-timeline__option1 h4.ano {
+	color:var(--fio-sys-color-primary-dark);
 }
 
 @media only screen and (min-width: 1170px) {
 	.cd-timeline__img {
 		width: 50px;
 		height: 50px;
-		left: calc(50% - 25px);
-		/* Force Hardware Acceleration */
-		-webkit-transform: translateZ(0);
-		transform: translateZ(0);
+		/* left: calc(50% - 25px); */
+		left: 50%;
+        transform: translate(-50%, -45%);
 	}
 
 	.cd-timeline__img.cd-timeline__img--bounce-in {
 		visibility: visible;
 		-webkit-animation: cd-bounce-1 0.6s;
 		animation: cd-bounce-1 0.6s;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.cd-timeline__img {
+		width: 64px;
+		height: 64px;
+		left: 50%;
+        transform: translate(-50%, -45%);
 	}
 }
 
@@ -261,7 +274,7 @@
 		top: 24px;
 		left: 100%;
 		border-color: transparent;
-		border-left-color: var(--fio-sys-color-primary-light);
+		border-left-color: var(--fio-sys-color-primary-dark);
 	}
 
 	.cd-timeline__read-more {
@@ -284,7 +297,7 @@
 		left: auto;
 		right: 100%;
 		border-color: transparent;
-		border-right-color: var(--fio-sys-color-primary-light);
+		border-right-color: var(--fio-sys-color-primary-dark);
 	}
 
 	.cd-timeline__block:nth-child(even) .cd-timeline__read-more {

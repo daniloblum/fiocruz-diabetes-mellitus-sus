@@ -3,9 +3,10 @@
 .flipcard {
 	--_flipcard-border-radius:var(--fio-sys-size-radius-lg);
 	--_flipcard-color: var(--fio-sys-color-secondary-light);
-	--_flipcard-text-color: var(--fio-sys-color-primary-medium);
+	--_flipcard-text-color: var(--fio-sys-color-primary-dark);
 	--_flipcard-line-height: var(--fio-sys-typography-height-150);
 	--_flipcard-padding: var(--fio-sys-size-padding-lg);
+	--_flipcard-border-color: var(--fio-sys-color-primary-dark);
 	
 
 	--_flipcard-button-color: var(--fio-sys-color-secondary-medium);
@@ -143,7 +144,6 @@
 
 .flipcard .flip-card-front .card-footer .fio-button,
 .flipcard .flip-card-back .card-footer .fio-button {
-	width: 50%;
 	margin: 0 auto;
 	border: transparent;
 	background: var(--_flipcard-button-color);
@@ -176,7 +176,14 @@
 	background-image: url(../../../media/templates/fundo-flipcard.svg);
 	background-size: cover;
 	background-color: var(--_flipcard-color);
-	border-color: var(--fio-sys-color-primary-light);
+	border-color: var(--_flipcard-border-color);
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-image-source: url('../../../media/templates/border-image.svg');
+	border-image-slice: 10;
+    border-image-width: 32px;
+    border-image-outset: 2 3;
+	border-image-repeat: round;
 }
 
 /*Configuração do verso*/

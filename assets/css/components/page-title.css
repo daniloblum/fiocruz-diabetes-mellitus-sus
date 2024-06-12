@@ -10,6 +10,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+    border-image-source: url(../../../media/templates/border-image.svg);
+    border-image-slice: 12;
+    border-image-width: 32px;
+    border-image-outset: 8px;
+    border-image-repeat: round;
 }
 
 #page-title.mod1 {
@@ -32,7 +38,7 @@
 }
 
 #page-title .title {
-	color: var(--fio-sys-color-primary-medium);
+	color: var(--fio-sys-color-primary-dark);
 	font-family: var(--fio-sys-typography-family-secondary-regular);
 	line-height: var(--fio-sys-typography-height-125);
 	/* font-size: var(--fio-sys-typography-size-4); */

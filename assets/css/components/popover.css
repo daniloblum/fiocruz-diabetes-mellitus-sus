@@ -2,51 +2,54 @@
 
 a[data-bs-toggle="popover"]:not([href]):not([class]), 
 a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
-    color: var(--fio-sys-typography-link-color--hover);
+    color: var(--fio-sys-color-accent-light);
     text-decoration: none;
 }
 
 .popover {
-    background-color: var(--fio-component-card-background);
-    border: var(--fio-component-card-border-width) solid var(--fio-sys-color-primary-light);
-    border-radius: var(--fio-component-card-border-radius);
+    background-color: var(--fio-sys-color-neutral-white);
+    border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
+    border-radius: var(--fio-sys-size-radius-lg);
     box-shadow: var(--fio-sys-elevation-lg);
+    color:var(--fio-sys-color-primary-dark);
+    font-family: var(--fio-sys-typography-family-primary-medium);
+    font-size: var(--fio-sys-typography-size-0);
     max-width: 300px;
 }
 
 
 .popover-header {
-    color:var(--fio-sys-typography-head-color);
+    color:var(--fio-sys-color-primary-dark);
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    font-size: 1rem;
-    background-color: var(--fio-sys-color-primary-medium-contrast);
+    font-size: var(--fio-sys-typography-size-1);
+    background-color: var(--fio-sys-color-secondary-light);
     border-bottom: none;
-    border-top-left-radius: var(--fio-component-card-border-radius);
-    border-top-right-radius: var(--fio-component-card-border-radius);
+    border-top-left-radius: var(--fio-sys-size-radius-lg);
+    border-top-right-radius: var(--fio-sys-size-radius-lg);
 }
 
 .bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, 
 .bs-popover-top>.popover-arrow::after {
     bottom: 1px;
     border-width: 0.5rem 0.5rem 0;
-    border-top-color: var(--fio-sys-color-primary-light);
+    border-top-color: var(--fio-sys-color-primary-dark);
 }
 
 .bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after, 
 .bs-popover-end>.popover-arrow::after {
     left: 1px;
     border-width: 0.5rem 0.5rem 0.5rem 0;
-    border-right-color: var(--fio-sys-color-primary-light);
+    border-right-color: var(--fio-sys-color-primary-dark);
     border-color: transparent;
-    border-right-color: var(--fio-sys-color-primary-light);
+    border-right-color: var(--fio-sys-color-primary-dark);
 }
 
 .bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, 
 .bs-popover-bottom>.popover-arrow::after {
     top: 1px;
     border-width: 0 0.5rem 0.5rem 0.5rem;
-    border-bottom-color: var(--fio-sys-color-primary-light);
+    border-bottom-color: var(--fio-sys-color-primary-dark);
 }
 
 .bs-popover-auto[data-popper-placement^=right]>.popover-arrow::before, 

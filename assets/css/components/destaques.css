@@ -1,20 +1,59 @@
 /* --- DESTAQUES --- */
 
+/*** Destaque Olho de texto - Baixa ênfase ***/
+.olho-de-texto {
+	padding: var(--fio-sys-size-padding-xl) 0;
+	text-align: center;
+}
+/* .olho-de-texto p:first-child::before {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width:80px;
+	height:80px;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, -45%);
+}  */
+
+.olho-de-texto p:last-child::after {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width:80px;
+	height:80px;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, 20%);
+}
+
+.olho-de-texto p {
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+	font-size: var(--fio-sys-typography-size-1);
+	line-height: var(--fio-sys-typography-height-125);
+	color: var(--fio-sys-color-tertiary-dark);
+}
+
+@media (min-width: 768px) {
+	.olho-de-texto {
+		padding: var(--fio-sys-size-padding-xl);
+		text-align: center;
+	}
+}
+
 /*** Destaque Parallax - Alta ênfase ***/
 
 .destaque-parallax {
-	background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url(../../../sources/recursos-visuais/images/bg-destaque.jpg);
+	background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-color: var(--fio-sys-color-primary-medium);
-	padding: calc(var(--fio-sys-spacing-padding-xl) * 2) 0;
-	margin-bottom: calc(var(--fio-sys-spacing-margin-xl) * 2);
+	padding: var(--fio-sys-size-padding-xl);
+	margin-bottom: var(--fio-sys-size-margin-xl);
 }
 
 .destaque-parallax span:first-child {
 	display: block;
-	margin-bottom: var(--fio-sys-spacing-margin-xl);
+	margin-bottom: var(--fio-sys-size-margin-xl);
 }
 
 .destaque-parallax span:first-child,
@@ -23,7 +62,7 @@
 }
 
 .destaque-parallax p {
-	font-size: var(--fio-sys-typography-head-xs-size);
+	font-size: var(--fio-sys-typography-size-1);
 }
 
 .destaque-parallax p:last-child {

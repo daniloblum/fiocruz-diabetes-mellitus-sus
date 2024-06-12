@@ -6,11 +6,18 @@
 
 footer {
 	background-color: inherit;
-	border-bottom: 20px solid var(--fio-sys-color-primary-medium);
-	padding: 60px 0 40px;
+	/* border-bottom: 20px solid var(--fio-sys-color-primary-dark); */
+	padding: 60px 0 60px;
 	position: relative;
 	z-index: 99;
+
+	border-image-source: url('../../../media/templates/border-image.svg');
+    border-image-slice: 12;
+    border-image-width: 0 32px 32px;
+    border-image-outset: 0 8px;
+    border-image-repeat: round;
 }
+
 footer .logos {
 	padding: 20px 0;
 	display: flex;
@@ -60,6 +67,10 @@ footer .logos img {
 	:root {
 		--logo-space: 30px;
 	}
+	footer {
+		margin-left: 120px;
+	}
+
 	footer .logos {
 		gap: var(--logo-space);
 	}
@@ -68,8 +79,12 @@ footer .logos img {
 	}
 }
 @media (min-width: 1200px) {
+	footer {
+		margin-left: 120px;
+	}
+
 	footer .logos img {
-		height: 100px;
+		height: 60px;
 	}
 }
 @media (min-width: 1320px) {
