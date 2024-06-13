@@ -5,7 +5,7 @@
 @import 'colors.css';
 @import 'animations.css';
 @import '../../source/animate/animate.min.css';
-@import '../../sources/animate/aos/dist/aos.css';
+@import '../../source/animate/aos/dist/aos.css';
 @import 'components/header.css';
 @import 'components/footer.css';
 @import 'components/sidebar.css';
