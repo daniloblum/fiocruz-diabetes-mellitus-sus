@@ -42,13 +42,21 @@
 /*** Destaque Parallax - Alta ênfase ***/
 
 .destaque-parallax {
-	background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg');
+	/* background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg'); */
+	background: url('../../../media/templates/bg-destaque.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-color: var(--fio-sys-color-primary-medium);
 	padding: var(--fio-sys-size-padding-xl);
+	padding-bottom:0;
 	margin-bottom: var(--fio-sys-size-margin-xl);
+
+    /* border-image-source: url(../../../media/templates/border-image.svg);
+    border-image-slice: 2;
+    border-image-width: 0px 0 8px;
+    border-image-outset: 8px;
+    border-image-repeat: round; */
 }
 
 .destaque-parallax span:first-child {
@@ -58,7 +66,7 @@
 
 .destaque-parallax span:first-child,
 .destaque-parallax p {
-	color: var(--fio-sys-color-neutral-white);
+	color: var(--fio-sys-color-primary-dark);
 }
 
 .destaque-parallax p {
@@ -79,4 +87,12 @@
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
+}
+
+.destaque-parallax .parallax-footer{
+	display:flex;
+	justify-content: space-between;
+	align-items: end;
+	padding: 0 1rem;
+	max-height: 100px;
 }
