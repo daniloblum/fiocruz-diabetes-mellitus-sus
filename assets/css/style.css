@@ -163,7 +163,7 @@ section {
 		border-image-repeat: round;
 	}
 
-	.container-fluid {
+	.img-full .container-fluid {
 		position: relative;
 		z-index: -1;
 	}
