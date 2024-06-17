@@ -47,8 +47,7 @@
 	border:none;
     color: var(--fio-sys-color-primary-dark);
     position: relative;
-    margin-top: 30px;
-	margin-bottom:0;
+    margin: var(--fio-sys-size-margin-xl) 0;
 	transition: 0.4s;
 	overflow: visible;
 }

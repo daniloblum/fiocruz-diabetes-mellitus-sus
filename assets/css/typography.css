@@ -104,21 +104,20 @@ p:last-child {
 	margin-bottom: 0;
 }
 
-p > small,
-span > small {
+small,
+.small {
 	display: block;
-	font-size: var(--fio-sys-typography-size--1);
-	line-height: var(--fio-sys-typography-spacing-normal);
+	font-size: var(--fio-sys-typography-size--1) !important;
+	line-height: var(--fio-sys-typography-spacing-normal)!important;
 }
 
-p.extra-small,
-span.extra-small {
+.extra-small {
 	display: block;
-	font-size: var(--fio-sys-typography-size--2);
-	line-height: var(--fio-sys-typography-spacing-normal);
+	font-size: var(--fio-sys-typography-size--2) !important;
+	line-height: var(--fio-sys-typography-spacing-normal) !important;
 }
 
-quotation {
+blockquote {
 	font-family: var(--fio-sys-typography-quotation-family);
 }
 

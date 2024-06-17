@@ -50,7 +50,7 @@
 	background-color: var(--fio-sys-color-primary-medium);
 	padding: var(--fio-sys-size-padding-xl);
 	padding-bottom:0;
-	margin-bottom: var(--fio-sys-size-margin-xl);
+	margin: var(--fio-sys-size-margin-xxl) 0;
 }
 
 /* BORDAS PARA CONTAINER NO DESKTOP*/

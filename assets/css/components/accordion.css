@@ -70,6 +70,10 @@
 	color:var(--_accordion-text-color);
 }
 
+.accordion .accordion-item .accordion-collapse .accordion-body {
+	overflow: hidden;
+}
+
 .accordion .accordion-item .accordion-collapse .accordion-body > :last-child {
 	margin-bottom: var(--fio-sys-size-padding-xl);
 }

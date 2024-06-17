@@ -5,7 +5,8 @@
 	border-radius: var(--fio-sys-size-radius-lg);
 	border-style: solid;
 	border-width: 0 var(--fio-sys-size-stroke-md) var(--fio-sys-size-stroke-md) var(--fio-sys-size-stroke-md); */
-	margin-top: var(--fio-sys-size-margin-xl);	
+	margin: var(--fio-sys-size-margin-xl) 0;
+	padding-top: var(--fio-sys-size-padding-xl);	
 }
 
 .box .card {

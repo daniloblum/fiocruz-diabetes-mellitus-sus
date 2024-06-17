@@ -2,8 +2,12 @@
 
 a[data-bs-toggle="popover"]:not([href]):not([class]), 
 a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
+    color: var(--fio-sys-color-accent-medium);
+}
+
+a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
     color: var(--fio-sys-color-accent-light);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .popover {
@@ -15,6 +19,16 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
     font-family: var(--fio-sys-typography-family-primary-medium);
     font-size: var(--fio-sys-typography-size-0);
     max-width: 300px;
+}
+
+.popover p {
+    font-size: var(--fio-sys-typography-size--1) !important;
+}
+
+@media (min-width:992px){
+    .popover {
+        max-width: 500px;
+    }
 }
 
 
