@@ -21,6 +21,10 @@
 }
 
 /* Primary - Background */
+.background-primary-extra-light {
+	background-color: var(--fio-sys-color-primary-extra-light) !important;
+}
+
 .background-primary-light {
 	background-color: var(--fio-sys-color-primary-light) !important;
 }
@@ -115,6 +119,22 @@
 }
 .background-secondary-extra-dark {
 	background-color: var(--fio-sys-color-secondary-extra-dark) !important;
+}
+
+/* Tertiary Background */
+.background-tertiary-light {
+	background-color: var(--fio-sys-color-tertiary-light) !important;
+}
+
+.background-tertiary-medium {
+	background-color: var(--fio-sys-color-tertiary-medium) !important;
+}
+
+.background-tertiary-dark {
+	background-color: var(--fio-sys-color-tertiary-dark) !important;
+}
+.background-tertiary-extra-dark {
+	background-color: var(--fio-sys-color-tertiary-extra-dark) !important;
 }
 
 /* Neutral - Color */
