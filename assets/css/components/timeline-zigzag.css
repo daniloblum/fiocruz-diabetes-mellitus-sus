@@ -1,5 +1,8 @@
 /* --- TIMELINE ZIGZAG --- */
 
+.timeline-zigzag .timeline-z > div:last-child,
+.timeline-zigzag .timeline-z-estrutura > div:last-child {margin-bottom: 0;}
+
 .timeline-zigzag p.figure-caption {
 	font-size: 75%;
 	color: #6c757d;

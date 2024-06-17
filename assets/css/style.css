@@ -168,8 +168,6 @@ section {
 	margin-bottom: 0;
 }
 
-
-
 #page-content section .container:first-child .row:first-child {padding-top:40px;}
 
 /* BORDAS PARA CONTAINER NO DESKTOP*/
@@ -186,6 +184,39 @@ section {
 		position: relative;
 		z-index: -1;
 	}
+}
+
+/* BORDAS */
+.border-radius-xs {
+ border-radius: var(--fio-sys-size-radius-xs);
+}
+
+.border-radius-sm {
+	border-radius: var(--fio-sys-size-radius-sm);
+   }
+
+.border-radius-md {
+	border-radius: var(--fio-sys-size-radius-md);
+}
+
+.border-radius-lg {
+	border-radius: var(--fio-sys-size-radius-lg);
+}
+
+.border-radius-lg {
+	border-radius: var(--fio-sys-size-radius-xl);
+}
+
+.border-radius-full {
+	border-radius: var(--fio-sys-size-radius-full);
+}
+
+.border-image-top {
+	border-image-source: url('../../../media/templates/border-image.svg');
+	border-image-slice: 10;
+    border-image-width: 32px;
+    border-image-outset: 2 0 0 0;
+	border-image-repeat: round;
 }
 
 /* TÍTULOS */
