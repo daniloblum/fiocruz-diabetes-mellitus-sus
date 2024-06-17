@@ -11,7 +11,7 @@
 	--_slider-button-border-width: var(--fio-sys-size-stroke-md);
 	--_slider-button-border-radius:var(--fio-sys-size-radius-full);
 	--_slider-button-text: var(--fio-sys-color-primary-dark);
-	margin-top: 24px;
+	margin: var(--fio-sys-size-margin-xl) 0 !important;
 }
 
 .slider .card {
