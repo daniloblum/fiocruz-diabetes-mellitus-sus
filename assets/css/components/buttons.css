@@ -76,7 +76,8 @@ button,
 	border-color: var(--_button-color-primary);
 }
 .fio-button-primary:hover,
-.fio-button-primary:focus {
+.fio-button-primary:focus, 
+.fio-button-primary:visited:hover  {
 	background-color: var(--_button-color-primary--hover);
 	color: var(--_button-text-color-primary);
 	border-color: var(--_button-color-primary);
@@ -91,6 +92,13 @@ button,
 	border-color: var(--_button-color-primary--active);
 	color: var(--_button-text-color-primary--active);
 }
+
+.fio-button-primary:visited {
+	background-color: var(--_button-color-primary);
+	color: var(--_button-text-color-primary);
+	border-color: var(--_button-color-primary);
+}
+
 
 /* Primary outline button */
 .fio-button-outline-primary {
