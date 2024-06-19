@@ -1,0 +1,1356 @@
+/* --- INFOGRÁFICO M2-A1-INFO1--- */
+
+ .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-67, .cls-68, .cls-69, .cls-70, .cls-71, .cls-72, .cls-73, .cls-74, .cls-75, .cls-76, .cls-77, .cls-78, .cls-79, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-101, .cls-102, .cls-103, .cls-104, .cls-105, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-118, .cls-119, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-128, .cls-129, .cls-130, .cls-131, .cls-132, .cls-133, .cls-134, .cls-135, .cls-136, .cls-137, .cls-138, .cls-139, .cls-140, .cls-141, .cls-142, .cls-143, .cls-144, .cls-145, .cls-146, .cls-147, .cls-148, .cls-149, .cls-150, .cls-151, .cls-152, .cls-153, .cls-154, .cls-155, .cls-156, .cls-157, .cls-158, .cls-159, .cls-160, .cls-161, .cls-162, .cls-163, .cls-164, .cls-165, .cls-166, .cls-167, .cls-168, .cls-169, .cls-170, .cls-171, .cls-172, .cls-173, .cls-174, .cls-175, .cls-176, .cls-177, .cls-178, .cls-179, .cls-180, .cls-181, .cls-182, .cls-183, .cls-184, .cls-185, .cls-186, .cls-187, .cls-188, .cls-189, .cls-190, .cls-191, .cls-192, .cls-193, .cls-194, .cls-195, .cls-196, .cls-197, .cls-198, .cls-199, .cls-200, .cls-201, .cls-202, .cls-203, .cls-204, .cls-205, .cls-206, .cls-207, .cls-208, .cls-209, .cls-210, .cls-211, .cls-212, .cls-213, .cls-214, .cls-215, .cls-216, .cls-217, .cls-218, .cls-219, .cls-220, .cls-221, .cls-222, .cls-223, .cls-224, .cls-225, .cls-226, .cls-227, .cls-228, .cls-229, .cls-230, .cls-231, .cls-232, .cls-233, .cls-234, .cls-235, .cls-236, .cls-237, .cls-238, .cls-239, .cls-240, .cls-241, .cls-242, .cls-243, .cls-244, .cls-245, .cls-246, .cls-247, .cls-248, .cls-249, .cls-250, .cls-251, .cls-252, .cls-253, .cls-254, .cls-255, .cls-256, .cls-257, .cls-258, .cls-259, .cls-260, .cls-261, .cls-262, .cls-263, .cls-264, .cls-265, .bt-bt-circle, .cls-267, .cls-268, .cls-269, .cls-270, .cls-271, .cls-272, .cls-273, .cls-274, .cls-275, .cls-276, .cls-277, .cls-278, .cls-279, .cls-280, .cls-281, .cls-282, .cls-283, .cls-284, .cls-285, .cls-286, .cls-287, .cls-288, .cls-289, .cls-290, .cls-291, .cls-292, .cls-293, .cls-294, .cls-295, .cls-296, .cls-297, .cls-298, .cls-299, .cls-300, .cls-301, .cls-302, .cls-303, .cls-304, .cls-305, .cls-306, .cls-307, .cls-308, .cls-309, .cls-310, .cls-311, .cls-312, .cls-313, .cls-314, .cls-315, .cls-316, .cls-317, .cls-318, .cls-319, .cls-320, .cls-321, .cls-322, .cls-323, .cls-324, .cls-325, .cls-326, .cls-327, .cls-328 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-102, .cls-329, .cls-330, .cls-292 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-1, .cls-294 {
+        fill: #bac158;
+      }
+
+      .cls-2 {
+        fill: #dae3de;
+      }
+
+      .cls-3 {
+        fill: #dccf22;
+      }
+
+      .cls-4 {
+        opacity: .61;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-14, .cls-15, .cls-17, .cls-80, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-207, .cls-208, .cls-331, .cls-213, .cls-215, .cls-223, .cls-224, .cls-251, .cls-253, .cls-260, .cls-271, .cls-290, .cls-291, .cls-295, .cls-307, .cls-308, .cls-309, .cls-310, .cls-311, .cls-312, .cls-313, .cls-314, .cls-315, .cls-316, .cls-317, .cls-318, .cls-321 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-4, .cls-271, .cls-288, .cls-292 {
+        fill: #768d32;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-131);
+      }
+
+      .cls-5, .cls-6, .cls-207, .cls-208 {
+        opacity: .55;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-132);
+      }
+
+      .cls-7 {
+        fill: #8c1a00;
+      }
+
+      .cls-8 {
+        fill: #b04737;
+      }
+
+      .cls-9 {
+        fill: #323f43;
+      }
+
+      .cls-10 {
+        fill: #e88c2f;
+      }
+
+      .cls-11, .cls-301 {
+        fill: #cfcbaf;
+      }
+
+      .cls-12, .cls-13, .cls-18, .cls-81, .cls-103, .cls-133, .cls-210, .cls-227, .cls-228, .cls-229, .cls-230, .cls-231, .cls-232, .cls-233, .cls-235, .cls-237, .cls-250, .cls-255, .cls-273, .cls-277, .cls-284, .cls-285, .cls-286, .cls-323, .cls-324, .cls-325, .cls-326, .cls-327, .cls-328 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-12, .cls-14, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-224, .cls-237, .cls-268, .cls-277, .cls-307, .cls-308, .cls-309, .cls-310, .cls-311, .cls-312 {
+        opacity: .25;
+      }
+
+      .cls-12, .cls-210, .cls-291 {
+        fill: #d7f2b8;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-13, .cls-18, .cls-269, .cls-270, .cls-305, .cls-306, .cls-323, .cls-324, .cls-325, .cls-326, .cls-327, .cls-328 {
+        opacity: .65;
+      }
+
+      .cls-14 {
+        fill: #abcb3d;
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-30);
+      }
+
+      .cls-15, .cls-133, .cls-273, .cls-290, .cls-321 {
+        opacity: .15;
+      }
+
+      .cls-332 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-16 {
+        fill: none;
+      }
+
+      .cls-17 {
+        fill: #3e5219;
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-177);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-176);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-124);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-184);
+      }
+
+      .cls-23 {
+        fill: url(#linear-gradient-183);
+      }
+
+      .cls-24 {
+        fill: url(#linear-gradient-134);
+      }
+
+      .cls-25 {
+        fill: url(#linear-gradient-136);
+      }
+
+      .cls-26 {
+        fill: url(#linear-gradient-135);
+      }
+
+      .cls-27 {
+        fill: url(#linear-gradient-133);
+      }
+
+      .cls-28 {
+        fill: url(#linear-gradient-137);
+      }
+
+      .cls-29 {
+        fill: url(#linear-gradient-197);
+      }
+
+      .cls-30 {
+        fill: url(#linear-gradient-196);
+      }
+
+      .cls-31 {
+        fill: url(#linear-gradient-195);
+      }
+
+      .cls-32 {
+        fill: url(#linear-gradient-194);
+      }
+
+      .cls-33 {
+        fill: url(#linear-gradient-190);
+      }
+
+      .cls-34 {
+        fill: url(#linear-gradient-199);
+      }
+
+      .cls-35 {
+        fill: url(#linear-gradient-100);
+      }
+
+      .cls-36 {
+        fill: url(#linear-gradient-101);
+      }
+
+      .cls-37 {
+        fill: url(#linear-gradient-192);
+      }
+
+      .cls-38 {
+        fill: url(#linear-gradient-191);
+      }
+
+      .cls-39 {
+        fill: url(#linear-gradient-198);
+      }
+
+      .cls-40 {
+        fill: url(#linear-gradient-123);
+      }
+
+      .cls-41 {
+        fill: url(#linear-gradient-122);
+      }
+
+      .cls-42 {
+        fill: url(#linear-gradient-102);
+      }
+
+      .cls-43 {
+        fill: url(#linear-gradient-104);
+      }
+
+      .cls-44 {
+        fill: url(#linear-gradient-103);
+      }
+
+      .cls-45 {
+        fill: url(#linear-gradient-117);
+      }
+
+      .cls-46 {
+        fill: url(#linear-gradient-111);
+      }
+
+      .cls-47 {
+        fill: url(#linear-gradient-112);
+      }
+
+      .cls-48 {
+        fill: url(#linear-gradient-113);
+      }
+
+      .cls-49 {
+        fill: url(#linear-gradient-114);
+      }
+
+      .cls-50 {
+        fill: url(#linear-gradient-115);
+      }
+
+      .cls-51 {
+        fill: url(#linear-gradient-116);
+      }
+
+      .cls-52 {
+        fill: url(#linear-gradient-173);
+      }
+
+      .cls-53 {
+        fill: url(#linear-gradient-170);
+      }
+
+      .cls-54 {
+        fill: url(#linear-gradient-175);
+      }
+
+      .cls-55 {
+        fill: url(#linear-gradient-174);
+      }
+
+      .cls-56 {
+        fill: url(#linear-gradient-172);
+      }
+
+      .cls-57 {
+        fill: url(#linear-gradient-144);
+      }
+
+      .cls-58 {
+        fill: url(#linear-gradient-171);
+      }
+
+      .cls-59 {
+        fill: url(#linear-gradient-143);
+      }
+
+      .cls-60 {
+        fill: url(#linear-gradient-142);
+      }
+
+      .cls-61 {
+        fill: url(#linear-gradient-164);
+      }
+
+      .cls-62 {
+        fill: url(#linear-gradient-163);
+      }
+
+      .cls-63 {
+        fill: url(#linear-gradient-162);
+      }
+
+      .cls-64 {
+        fill: url(#linear-gradient-165);
+      }
+
+      .cls-65 {
+        fill: url(#linear-gradient-154);
+      }
+
+      .cls-66 {
+        fill: url(#linear-gradient-152);
+      }
+
+      .cls-67 {
+        fill: url(#linear-gradient-155);
+      }
+
+      .cls-68 {
+        fill: url(#linear-gradient-151);
+      }
+
+      .cls-69 {
+        fill: url(#linear-gradient-153);
+      }
+
+      .cls-70 {
+        fill: url(#linear-gradient-208);
+      }
+
+      .cls-71 {
+        fill: url(#linear-gradient-207);
+      }
+
+      .cls-72 {
+        fill: url(#linear-gradient-205);
+      }
+
+      .cls-73 {
+        fill: url(#linear-gradient-201);
+      }
+
+      .cls-74 {
+        fill: url(#linear-gradient-203);
+      }
+
+      .cls-75 {
+        fill: url(#linear-gradient-204);
+      }
+
+      .cls-76 {
+        fill: url(#linear-gradient-206);
+      }
+
+      .cls-77 {
+        fill: url(#linear-gradient-200);
+      }
+
+      .cls-78 {
+        fill: url(#linear-gradient-202);
+      }
+
+      .cls-79, .cls-81, .cls-133, .cls-250, .cls-255, .cls-268, .cls-300, .cls-303, .cls-304 {
+        fill: #fff;
+      }
+
+      .cls-79, .cls-103, .cls-213, .cls-217, .cls-255, .cls-260, .cls-313 {
+        opacity: .35;
+      }
+
+      .cls-80, .cls-293 {
+        fill: #aaae27;
+      }
+
+      .cls-80, .cls-303 {
+        opacity: .41;
+      }
+
+      .cls-81, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-227, .cls-228, .cls-229, .cls-230, .cls-231, .cls-232, .cls-233, .cls-235, .cls-284, .cls-285, .cls-286, .cls-314, .cls-315, .cls-316, .cls-317, .cls-318 {
+        opacity: .5;
+      }
+
+      .cls-82 {
+        fill: #9e5ea5;
+      }
+
+      .cls-83 {
+        fill: url(#linear-gradient-157);
+      }
+
+      .cls-84 {
+        fill: url(#linear-gradient-147);
+      }
+
+      .cls-85 {
+        fill: url(#linear-gradient-159);
+      }
+
+      .cls-86 {
+        fill: url(#linear-gradient-158);
+      }
+
+      .cls-87 {
+        fill: url(#linear-gradient-146);
+      }
+
+      .cls-88 {
+        fill: url(#linear-gradient-156);
+      }
+
+      .cls-89 {
+        fill: url(#linear-gradient-148);
+      }
+
+      .cls-90 {
+        fill: url(#linear-gradient-145);
+      }
+
+      .cls-91 {
+        fill: url(#linear-gradient-179);
+      }
+
+      .cls-92 {
+        fill: url(#linear-gradient-178);
+      }
+
+      .cls-93 {
+        fill: url(#linear-gradient-108);
+      }
+
+      .cls-94 {
+        fill: url(#linear-gradient-107);
+      }
+
+      .cls-95 {
+        fill: url(#linear-gradient-106);
+      }
+
+      .cls-96 {
+        fill: url(#linear-gradient-105);
+      }
+
+      .cls-97 {
+        fill: url(#linear-gradient-180);
+      }
+
+      .cls-98 {
+        fill: url(#linear-gradient-181);
+      }
+
+      .cls-99 {
+        fill: url(#linear-gradient-130);
+      }
+
+      .cls-100 {
+        fill: url(#linear-gradient-126);
+      }
+
+      .cls-101 {
+        fill: #ebebec;
+      }
+
+      .cls-102, .cls-272 {
+        fill: #abc62f;
+      }
+
+      .cls-103, .cls-224 {
+        fill: #f4ce2f;
+      }
+
+      .cls-104 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-105 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-106 {
+        fill: url(#linear-gradient-110);
+      }
+
+      .cls-107 {
+        fill: url(#linear-gradient-109);
+      }
+
+      .cls-108 {
+        fill: url(#linear-gradient-128);
+      }
+
+      .cls-109 {
+        fill: url(#linear-gradient-182);
+      }
+
+      .cls-110 {
+        fill: url(#linear-gradient-189);
+      }
+
+      .cls-111 {
+        fill: url(#linear-gradient-129);
+      }
+
+      .cls-112 {
+        fill: url(#linear-gradient-121);
+      }
+
+      .cls-113 {
+        fill: url(#linear-gradient-160);
+      }
+
+      .cls-114 {
+        fill: url(#linear-gradient-161);
+      }
+
+      .cls-115 {
+        fill: url(#linear-gradient-150);
+      }
+
+      .cls-116 {
+        fill: url(#linear-gradient-169);
+      }
+
+      .cls-117 {
+        fill: url(#linear-gradient-149);
+      }
+
+      .cls-118 {
+        fill: #efeae4;
+      }
+
+      .cls-119 {
+        fill: #d3a197;
+      }
+
+      .cls-120 {
+        fill: #e7e1bb;
+      }
+
+      .cls-121 {
+        fill: #979f9d;
+      }
+
+      .cls-122 {
+        fill: url(#radial-gradient-14);
+      }
+
+      .cls-123 {
+        fill: url(#radial-gradient-13);
+      }
+
+      .cls-124 {
+        fill: url(#radial-gradient-12);
+      }
+
+      .cls-125 {
+        fill: url(#radial-gradient-15);
+      }
+
+      .cls-126 {
+        fill: url(#radial-gradient-16);
+      }
+
+      .cls-127 {
+        fill: url(#radial-gradient-11);
+      }
+
+      .cls-128 {
+        fill: url(#radial-gradient-18);
+      }
+
+      .cls-129 {
+        fill: url(#radial-gradient-17);
+      }
+
+      .cls-130 {
+        fill: url(#radial-gradient-10);
+      }
+
+      .cls-131, .cls-253 {
+        fill: #b1bbb8;
+      }
+
+      .cls-132, .cls-215 {
+        fill: #e8f28f;
+      }
+
+      .cls-134 {
+        fill: url(#linear-gradient-38);
+      }
+
+      .cls-135 {
+        fill: url(#linear-gradient-36);
+      }
+
+      .cls-136 {
+        fill: url(#linear-gradient-39);
+      }
+
+      .cls-137 {
+        fill: url(#linear-gradient-37);
+      }
+
+      .cls-138 {
+        fill: url(#linear-gradient-25);
+      }
+
+      .cls-139 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-140 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-141 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-142 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-143 {
+        fill: url(#linear-gradient-23);
+      }
+
+      .cls-144 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-145 {
+        fill: url(#linear-gradient-27);
+      }
+
+      .cls-146 {
+        fill: url(#linear-gradient-24);
+      }
+
+      .cls-147 {
+        fill: url(#linear-gradient-26);
+      }
+
+      .cls-148 {
+        fill: url(#linear-gradient-45);
+      }
+
+      .cls-149 {
+        fill: url(#linear-gradient-46);
+      }
+
+      .cls-150 {
+        fill: url(#linear-gradient-44);
+      }
+
+      .cls-151 {
+        fill: url(#linear-gradient-42);
+      }
+
+      .cls-152 {
+        fill: url(#linear-gradient-43);
+      }
+
+      .cls-153 {
+        fill: url(#linear-gradient-40);
+      }
+
+      .cls-154 {
+        fill: url(#linear-gradient-41);
+      }
+
+      .cls-155 {
+        fill: url(#linear-gradient-59);
+      }
+
+      .cls-156 {
+        fill: url(#linear-gradient-57);
+      }
+
+      .cls-157 {
+        fill: url(#linear-gradient-58);
+      }
+
+      .cls-158 {
+        fill: url(#linear-gradient-55);
+      }
+
+      .cls-159 {
+        fill: url(#linear-gradient-56);
+      }
+
+      .cls-160 {
+        fill: url(#linear-gradient-53);
+      }
+
+      .cls-161 {
+        fill: url(#linear-gradient-51);
+      }
+
+      .cls-162 {
+        fill: url(#linear-gradient-52);
+      }
+
+      .cls-163 {
+        fill: url(#linear-gradient-54);
+      }
+
+      .cls-164 {
+        fill: url(#linear-gradient-60);
+      }
+
+      .cls-165 {
+        fill: url(#linear-gradient-61);
+      }
+
+      .cls-166 {
+        fill: url(#linear-gradient-62);
+      }
+
+      .cls-167 {
+        fill: url(#linear-gradient-65);
+      }
+
+      .cls-168 {
+        fill: url(#linear-gradient-79);
+      }
+
+      .cls-169 {
+        fill: url(#linear-gradient-78);
+      }
+
+      .cls-170 {
+        fill: url(#linear-gradient-75);
+      }
+
+      .cls-171 {
+        fill: url(#linear-gradient-76);
+      }
+
+      .cls-172 {
+        fill: url(#linear-gradient-74);
+      }
+
+      .cls-173 {
+        fill: url(#linear-gradient-67);
+      }
+
+      .cls-174 {
+        fill: url(#linear-gradient-68);
+      }
+
+      .cls-175 {
+        fill: url(#linear-gradient-66);
+      }
+
+      .cls-176 {
+        fill: url(#linear-gradient-63);
+      }
+
+      .cls-177 {
+        fill: url(#linear-gradient-69);
+      }
+
+      .cls-178 {
+        fill: url(#linear-gradient-64);
+      }
+
+      .cls-179 {
+        fill: url(#linear-gradient-71);
+      }
+
+      .cls-180 {
+        fill: url(#linear-gradient-72);
+      }
+
+      .cls-181 {
+        fill: url(#linear-gradient-70);
+      }
+
+      .cls-182 {
+        fill: url(#linear-gradient-73);
+      }
+
+      .cls-183 {
+        fill: url(#linear-gradient-84);
+      }
+
+      .cls-184 {
+        fill: url(#linear-gradient-85);
+      }
+
+      .cls-185 {
+        fill: url(#linear-gradient-82);
+      }
+
+      .cls-186 {
+        fill: url(#linear-gradient-83);
+      }
+
+      .cls-187 {
+        fill: url(#linear-gradient-89);
+      }
+
+      .cls-188 {
+        fill: url(#linear-gradient-88);
+      }
+
+      .cls-189 {
+        fill: url(#linear-gradient-86);
+      }
+
+      .cls-190 {
+        fill: url(#linear-gradient-87);
+      }
+
+      .cls-191 {
+        fill: url(#linear-gradient-80);
+      }
+
+      .cls-192 {
+        fill: url(#linear-gradient-81);
+      }
+
+      .cls-193 {
+        fill: url(#linear-gradient-98);
+      }
+
+      .cls-194 {
+        fill: url(#linear-gradient-91);
+      }
+
+      .cls-195 {
+        fill: url(#linear-gradient-92);
+      }
+
+      .cls-196 {
+        fill: url(#linear-gradient-93);
+      }
+
+      .cls-197 {
+        fill: url(#linear-gradient-96);
+      }
+
+      .cls-198 {
+        fill: url(#linear-gradient-97);
+      }
+
+      .cls-199 {
+        fill: url(#linear-gradient-94);
+      }
+
+      .cls-200 {
+        fill: url(#linear-gradient-95);
+      }
+
+      .cls-201 {
+        fill: url(#linear-gradient-99);
+      }
+
+      .cls-202 {
+        fill: #cbd4ce;
+      }
+
+      .cls-203 {
+        fill: #ddd4ca;
+      }
+
+      .cls-204 {
+        fill: #687472;
+      }
+
+      .cls-205 {
+        fill: #232121;
+      }
+
+      .cls-206 {
+        fill: #76347f;
+      }
+
+      .cls-207 {
+        fill: url(#linear-gradient-34);
+      }
+
+      .cls-208 {
+        fill: url(#linear-gradient-35);
+      }
+
+      .cls-209 {
+        fill: #7caccc;
+      }
+
+      .cls-210, .cls-304 {
+        opacity: .1;
+      }
+
+      .cls-211 {
+        fill: #dbd6bb;
+      }
+
+      .cls-212 {
+        fill: #b7bfbb;
+      }
+
+      .cls-213 {
+        fill: url(#linear-gradient-28);
+      }
+
+      .cls-214 {
+        fill: #a64436;
+      }
+
+      .cls-215 {
+        opacity: .85;
+      }
+
+      .cls-216 {
+        fill: #782c06;
+      }
+
+      .cls-333 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-334 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-217 {
+        fill: #f4cc92;
+      }
+
+      .cls-218 {
+        fill: #000;
+      }
+
+      .cls-219 {
+        fill: #e08326;
+      }
+
+      .cls-220 {
+        fill: #828c95;
+      }
+
+      .cls-221 {
+        fill: #ede7bf;
+      }
+
+      .cls-222 {
+        fill: #3a484c;
+      }
+
+      .cls-223 {
+        fill: #bfb753;
+      }
+
+      .cls-225 {
+        fill: #e9e3bc;
+      }
+
+      .cls-226 {
+        fill: #bfc7c2;
+      }
+
+      .cls-227 {
+        fill: url(#linear-gradient-139);
+      }
+
+      .cls-228 {
+        fill: url(#linear-gradient-119);
+      }
+
+      .cls-229 {
+        fill: url(#linear-gradient-186);
+      }
+
+      .cls-230 {
+        fill: url(#linear-gradient-187);
+      }
+
+      .cls-231 {
+        fill: url(#linear-gradient-141);
+      }
+
+      .cls-232 {
+        fill: url(#linear-gradient-140);
+      }
+
+      .cls-233 {
+        fill: url(#linear-gradient-167);
+      }
+
+      .cls-234 {
+        fill: #ededed;
+      }
+
+      .cls-235 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-236 {
+        fill: #d6ecf2;
+      }
+
+      .cls-237 {
+        fill: url(#linear-gradient-138);
+      }
+
+      .cls-238 {
+        fill: #e2dfda;
+      }
+
+      .cls-239 {
+        fill: #fffad9;
+      }
+
+      .cls-240, .cls-251 {
+        fill: #d9f1fd;
+        opacity: .69;
+      }
+
+      .cls-241 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-242 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-243 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-244 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-245 {
+        fill: url(#radial-gradient-9);
+      }
+
+      .cls-246 {
+        fill: url(#radial-gradient-8);
+      }
+
+      .cls-247 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-248 {
+        fill: url(#radial-gradient-7);
+      }
+
+      .cls-249 {
+        fill: #70a2c2;
+      }
+
+      .cls-250 {
+        opacity: .2;
+      }
+
+      .cls-252 {
+        fill: #273337;
+      }
+
+      .cls-253 {
+        opacity: .49;
+      }
+
+      .cls-254 {
+        fill: #d4d0b5;
+      }
+
+      .cls-256 {
+        fill: #9b6946;
+      }
+
+      .cls-257 {
+        fill: #fde481;
+      }
+
+      .cls-258, .cls-295 {
+        fill: #dfd460;
+      }
+
+      .cls-259 {
+        fill: #88959d;
+      }
+
+      .cls-260 {
+        fill: url(#linear-gradient-125);
+      }
+
+      .cls-261 {
+        fill: #5e1c17;
+      }
+
+      .cls-262 {
+        fill: #ea9238;
+      }
+
+      .cls-263 {
+        fill: #e2d0a8;
+      }
+
+      .cls-330 {
+        opacity: .28;
+      }
+
+      .cls-264 {
+        fill: #849336;
+      }
+
+      .cls-265 {
+        fill: #243865;
+      }
+
+      .bt-bt-circle {
+        fill: #e3d84f;
+      }
+
+      .cls-267 {
+        fill: #727921;
+      }
+
+      .cls-269 {
+        fill: #fc8a68;
+      }
+
+      .cls-270 {
+        fill: url(#linear-gradient-193);
+      }
+
+      .cls-273 {
+        fill: #ffffb8;
+      }
+
+      .cls-274 {
+        fill: #83b6d9;
+      }
+
+      .cls-275 {
+        fill: #fdd5b2;
+      }
+
+      .cls-276 {
+        fill: #f4f0d0;
+      }
+
+      .cls-277 {
+        fill: url(#linear-gradient-47);
+      }
+
+      .cls-278 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-279 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-280 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-281 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-282 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-283 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-284 {
+        fill: url(#linear-gradient-49);
+      }
+
+      .cls-285 {
+        fill: url(#linear-gradient-48);
+      }
+
+      .cls-286 {
+        fill: url(#linear-gradient-50);
+      }
+
+      .cls-289 {
+        fill: #e5c3b7;
+      }
+
+      .cls-290 {
+        fill: url(#linear-gradient-127);
+      }
+
+      .cls-335 {
+        isolation: isolate;
+      }
+
+      .cls-296 {
+        fill: #71a7c7;
+      }
+
+      .cls-297 {
+        fill: #e1f4fd;
+      }
+
+      .cls-298 {
+        fill: #243866;
+      }
+
+      .cls-299 {
+        fill: #3d4e76;
+      }
+
+      .cls-301 {
+        opacity: .6;
+      }
+
+      .cls-302 {
+        fill: #eadbbe;
+      }
+
+      .cls-305 {
+        fill: url(#linear-gradient-77);
+      }
+
+      .cls-306 {
+        fill: url(#linear-gradient-90);
+      }
+
+      .cls-307 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-308 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-309 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-310 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-311 {
+        fill: url(#linear-gradient-29);
+      }
+
+      .cls-312 {
+        fill: url(#linear-gradient-33);
+      }
+
+      .cls-313 {
+        fill: #a7cbd8;
+      }
+
+      .cls-314 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-315 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-316 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-317 {
+        fill: url(#linear-gradient-32);
+      }
+
+      .cls-318 {
+        fill: url(#linear-gradient-31);
+      }
+
+      .cls-319 {
+        fill: #300901;
+      }
+
+      .cls-320 {
+        fill: #dcddde;
+        opacity: .72;
+      }
+
+      .cls-321 {
+        fill: #f2a222;
+      }
+
+      .cls-322 {
+        fill: #2c4d75;
+      }
+
+      .cls-323 {
+        fill: url(#linear-gradient-168);
+      }
+
+      .cls-324 {
+        fill: url(#linear-gradient-166);
+      }
+
+      .cls-325 {
+        fill: url(#linear-gradient-188);
+      }
+
+      .cls-326 {
+        fill: url(#linear-gradient-185);
+      }
+
+      .cls-327 {
+        fill: url(#linear-gradient-118);
+      }
+
+      .cls-328 {
+        fill: url(#linear-gradient-120);
+      }
+
+
+.bg-info {
+    fill: #f7f4ce;
+    opacity: .3;
+  }
+  
+#Info1 .bts {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    animation: move .75s ease-out infinite alternate;
+}
+
+#Info1 .bts:hover .bt-bt-circle {
+    fill: var(--fio-sys-color-secondary-light);
+}
+
+#Info1 .popover {
+	cursor: pointer;
+	/* transition: 0.3s ease-out; */
+	animation: move .75s ease-out infinite alternate;
+}
+#Info1 .popover:hover {
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+#Info1 .popover .popover-bg {
+	fill: #c70596;
+}
+
+#Info1  .popover:focus {
+	animation:none;
+	transform: translateY(-5px);
+}
+
+@keyframes move {
+    from {
+      transform: translateY(0);
+	  filter: drop-shadow(0 1px 1px #ababab);
+    }
+
+    to {
+      transform: translateY(-10px);
+	  filter: drop-shadow(0 10px 4px #ababab);
+    }
+  }

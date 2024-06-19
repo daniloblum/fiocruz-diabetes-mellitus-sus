@@ -18,6 +18,11 @@ a:visited {
 	text-transform: none;
 	overflow-wrap: anywhere;
 }
+
+a[role='button'] {
+	cursor:pointer;
+}
+
 a:hover {
 	color: var(--fio-sys-color-accent-light);
 	text-decoration: underline;
