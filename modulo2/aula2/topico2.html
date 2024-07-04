@@ -728,7 +728,7 @@
 
 											<div class="list">
 		                                        <ul class="list-group">
-		                                            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Indivíduos que apresentem <a href="#" data-bs-toggle="modal" data-bs-target="#modal-creditos">IMC</a> >50 Kg/m2;</li>
+		                                            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Indivíduos que apresentem <a href="#" data-bs-toggle="modal" data-bs-target="#modal-IMC">IMC</a> >50 Kg/m2;</li>
 
 		                                            <li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">Indivíduos que apresentem IMC > 40 Kg/m², com ou sem comorbidades, sem sucesso no tratamento clínico longitudinal realizado, na Atenção Básica e/ou na Atenção Ambulatorial Especializada, por no mínimo dois anos e que tenham seguido protocolos clínicos;</li>
 		                                            <li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200">Indivíduos com IMC > 35 kg/m2 e com comorbidades, tais como pessoas com alto risco cardiovascular, Diabetes Mellitus e/ou Hipertensão Arterial Sistêmica de difícil controle, apneia do sono, doenças articulares degenerativas, sem sucesso no tratamento clínico longitudinal realizado por no mínimo dois anos e que tenham seguido protocolos clínicos.</li>
@@ -1145,6 +1145,63 @@
 		<script>
 			AOS.init();
 		</script>
+
+		<!-- Modal IMC -->
+		<div class="modal fade" id="modal-IMC" tabindex="-1" aria-labelledby="info-modulo3" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">IMC</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						
+						<p>Para avaliação nutricional de crianças e adolescentes, a Organização Mundial da Saúde (OMS) orienta a utilização das curvas de crescimento, que são parâmetros para avaliar a situação nutricional.
+
+						<p>As curvas mais utilizadas são:</p>
+
+						<div class="list">
+							<ul class="list-group">
+								<li class="list-group-item" list-style="default">Peso para idade;</li>
+								<li class="list-group-item" list-style="default">Peso para estatura;</li>
+								<li class="list-group-item" list-style="default">Estatura para idade; e</li>
+								<li class="list-group-item" list-style="default">Índice de massa corporal (IMC) por idade.</li>
+							</ul>
+						</div>
+
+
+						<p>Para interpretar essas curvas de crescimento, pode ser utilizado o percentil ou Escore-Z:</p>
+
+						<p>Percentil: está relacionado a posição das crianças em relação às outras. Por exemplo, uma criança de percentil 25 de peso, indica que 25% das crianças da mesma idade e sexo possuem seu mesmo peso. </p>
+
+						<p>Escore-Z: quantifica a distância, em desvio-padrão, do valor encontrado em relação à média da população.</p>
+
+						<p>Do ponto de vista nutricional, as crianças e adolescentes devem ser analisadas dinamicamente, pois apenas um ponto da curva não é o suficiente para nos dar informações completas. Por isso, deve-se analisar o paciente por diversos critérios.</p>
+
+						<p>No caso de avaliar os jovens entre 16 e 18 anos, como citado na portaria, ao avaliar o IMC por idade, devem ser observados os seguintes valores:</p>
+
+						<p>CRIANÇAS DE 5 A JOVENS DE 20 ANOS INCOMPLETOS:</p>
+
+						<div class="list">
+							<ul class="list-group">
+								
+								<li class="list-group-item" list-style="default">Percentil < 0,1 – Escore-Z < -3: Magreza acentuada;</li>
+								<li class="list-group-item" list-style="default">Percentil entre 0,1 e 3 – Escore-Z entre -3 e -2: Magreza;</li>
+								<li class="list-group-item" list-style="default">Percentil entre 3 e 97 – Escore-Z entre -2 e +1: Eutrofia;</li>
+								<li class="list-group-item" list-style="default">Percentil entre 85 e 97 – Escore-Z entre +1 e +2: Sobrepeso;</li>
+								<li class="list-group-item" list-style="default">Percentil entre 97 e 99,9 – Escore-Z entre +2 e +3: Obesidade; e</li>
+								<li class="list-group-item" list-style="default">Percentil > 99 – Escore-Z > +3: Obesidade grave.</li>
+
+						</ul>
+						</div>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="fio-button fio-button-primary" data-bs-dismiss="modal">Fechar</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</body>
 
