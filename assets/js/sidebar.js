@@ -33,7 +33,7 @@ sidebarDropdown.forEach(dropdown => {
 // // MOBILE
 
 const sidebarToggleOpen = document.querySelector('.mobile-toggle-open .mobile-toggle__button');
-const sidebarToggleClose = document.querySelector('.mobile-toggle-close .mobile-toggle__button');
+const sidebarToggleClose = document.querySelector('#mobile-toggle--close');
 const sidebarShow = document.querySelector('.sidebar');
 const content = document.querySelector('.content');
 // var sidebarMobile = $('.sidebar');
@@ -51,7 +51,7 @@ sidebarToggleOpen.addEventListener('click', function () {
 		sidebarShow.classList.add('show');
 
 		// prevent scroll behind
-		// document.querySelector(body).classList.add('prevent-scroll');
+		document.querySelector(html).classList.add('prevent-scroll');
 		// content.classList.add('touch-disable');
 	}
 });

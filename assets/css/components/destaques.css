@@ -18,10 +18,10 @@
 .olho-de-texto p:last-child::after {
 	content: url('../../../media/templates/destaque-graphism.svg');
 	display: block;
-	width:80px;
-	height:80px;
-	position:relative;
-	left:50%;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 50%;
 	transform: translate(-50%, 20%);
 }
 
@@ -49,8 +49,9 @@
 	background-attachment: fixed;
 	background-color: var(--fio-sys-color-primary-medium);
 	padding: var(--fio-sys-size-padding-xl);
-	padding-bottom:0;
+	padding-bottom: 0;
 	margin: var(--fio-sys-size-margin-xxl) 0;
+	overflow: hidden;
 }
 
 /* BORDAS PARA CONTAINER NO DESKTOP*/
@@ -94,8 +95,8 @@
 	background-repeat: no-repeat;
 }
 
-.destaque-parallax .parallax-footer{
-	display:flex;
+.destaque-parallax .parallax-footer {
+	display: flex;
 	justify-content: space-between;
 	align-items: end;
 	padding: 0 1rem;
