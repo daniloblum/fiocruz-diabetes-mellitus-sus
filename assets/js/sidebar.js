@@ -20,234 +20,71 @@
 // Define as configurações do dropdown (submenu) e animações.
 // Para não precisar escrever em todos os butões os atributos
 
-var sidebarDropdown = document.querySelectorAll('.dropend');
+// var sidebarDropdown = document.querySelectorAll('.dropend');
 
-sidebarDropdown.forEach(dropdown => {
-	dropdown.addEventListener('shown.bs.dropdown', function () {
-		const dropdownBox = dropdown.querySelector('.dropdown-menu');
-		dropdownBox.classList.add('open-dropdown');
-	});
-	// do something...
-});
+// sidebarDropdown.forEach(dropdown => {
+// 	dropdown.addEventListener('shown.bs.dropdown', function () {
+// 		const dropdownBox = dropdown.querySelector('.dropdown-menu');
+// 		dropdownBox.classList.add('open-dropdown');
+// 	});
+// 	// do something...
+// });
 
 // // MOBILE
 
-const sidebarToggleOpen = document.querySelector('.mobile-toggle-open .mobile-toggle__button');
-const sidebarToggleClose = document.querySelector('#mobile-toggle--close');
-const sidebarShow = document.querySelector('.sidebar');
-const content = document.querySelector('.content');
-// var sidebarMobile = $('.sidebar');
-// var btn = $('.btn');
+const sidebarMobile = document.querySelector('.sidebar');
+const openSidebarButton = document.querySelector('.mobile-toggle-open');
+const closeSidebarButton = document.querySelectorAll('.mobile-toggle-close');
 
-function touchControl(event, obj) {
-	if (event == true) {
-		obj.style.touchAction = 'auto';
+const dropdownMobile = document.querySelectorAll('.dropdown-menu');
+const openDropdownButton = document.querySelectorAll('.dropdown-toggle');
+const closeDropdownButton = document.querySelectorAll('.dropdown-menu__back-button');
+
+// Open sidebar
+openSidebarButton.addEventListener('click', openSidebarMobile);
+
+function openSidebarMobile(params) {
+	if (!sidebarMobile.classList.contains('sidebar-mobile--open')) {
+		sidebarMobile.classList.add('sidebar-mobile--open');
 	}
 }
 
-sidebarToggleOpen.addEventListener('click', function () {
-	if (!sidebarShow.classList.contains('show')) {
-		console.log('nao tem show');
-		sidebarShow.classList.add('show');
-
-		// prevent scroll behind
-		document.querySelector(html).classList.add('prevent-scroll');
-		// content.classList.add('touch-disable');
-	}
-});
-sidebarToggleClose.addEventListener('click', function () {
-	if (sidebarShow.classList.contains('show')) {
-		console.log('tem show');
-		sidebarShow.classList.remove('show');
-
-		// content.classList.remove('prevent-scroll');
-	}
+// Close sidebar
+closeSidebarButton.forEach(element => {
+	element.addEventListener('click', closeSidebarMobile);
 });
 
-// * zeynepjs v2.2.0
-// * A light-weight multi-level jQuery side menu plugin.
-// * It's fully customizable and is compatible with modern browsers such as Google Chrome, Mozilla Firefox, Safari, Edge and Internet Explorer
-// * MIT License
-// * by Huseyin ELMAS
-// */
-(function ($, pluginName) {
-	var defaults = {
-		htmlClass: true,
-	};
+function closeSidebarMobile(params) {
+	for (let i = 0; i < dropdownMobile.length; i++) {
+		const element = dropdownMobile[i];
 
-	function Plugin(element, options) {
-		this.element = element;
-		this.eventController = eventController;
-		this.options = $.extend({}, defaults, options);
-		this.options.initialized = false;
-
-		this.init();
-	}
-
-	Plugin.prototype.init = function () {
-		var zeynep = this.element;
-		var options = this.options;
-		var eventController = this.eventController.bind(this);
-
-		// exit if already initialized
-		if (options.initialized === true) return;
-
-		eventController('loading');
-
-		// handle subMenu links/triggers click events
-		zeynep.find('[data-submenu]').on('click', function (event) {
-			event.preventDefault();
-
-			var self = $(this);
-			var subMenuId = self.attr('data-submenu');
-			var subMenuEl = $('#' + subMenuId);
-
-			// if subMenu not found, do nothing
-			if (!subMenuEl.length) return;
-
-			var eventDetails = {
-				subMenu: true,
-				menuId: subMenuId,
-			};
-
-			eventController('opening', eventDetails);
-
-			// open the subMenu
-			zeynep.find('.submenu.current').removeClass('current');
-			subMenuEl.addClass('opened current');
-			!zeynep.hasClass('submenu-opened') && zeynep.addClass('submenu-opened');
-
-			// scroll to top before submenu transition
-			zeynep[0].scrollTo({ top: 0 });
-
-			eventController('opened', eventDetails);
-		});
-
-		// handle subMenu closers click events
-		zeynep.find('[data-submenu-close]').on('click', function (event) {
-			event.preventDefault();
-
-			var self = $(this);
-			var subMenuId = self.attr('data-submenu-close');
-			var subMenuEl = $('#' + subMenuId);
-
-			// if subMenu not found, do nothing
-			if (!subMenuEl.length) return;
-
-			var eventDetails = {
-				subMenu: true,
-				menuId: subMenuId,
-			};
-
-			eventController('closing', eventDetails);
-
-			// close subMenu
-			subMenuEl.removeClass('opened current');
-			zeynep.find('.submenu.opened').last().addClass('current');
-			!zeynep.find('.submenu.opened').length && zeynep.removeClass('submenu-opened');
-
-			// scroll to top between submenu transitions
-			subMenuEl[0].scrollTo({ top: 0 });
-
-			eventController('closed', eventDetails);
-		});
-
-		eventController('load');
-
-		// zeynepjs successfully initialized
-		this.options.htmlClass && !$('html').hasClass('zeynep-initialized') && $('html').addClass('zeynep-initialized');
-
-		options.initialized = true;
-	};
-
-	Plugin.prototype.open = function () {
-		this.eventController('opening', { subMenu: false });
-
-		// zeynepjs menu is opened
-		this.element.addClass('opened');
-		this.options.htmlClass && $('html').addClass('zeynep-opened');
-
-		this.eventController('opened', { subMenu: false });
-	};
-
-	Plugin.prototype.close = function (disableEvent) {
-		!disableEvent && this.eventController('closing', { subMenu: false });
-
-		// zeynepjs menu is opened
-		this.element.removeClass('opened');
-		this.options.htmlClass && $('html').removeClass('zeynep-opened');
-
-		!disableEvent && this.eventController('closed', { subMenu: false });
-	};
-
-	Plugin.prototype.destroy = function () {
-		this.eventController('destroying');
-
-		// close the menu without firing any event
-		this.close(true);
-
-		// close submenus
-		this.element.find('.submenu.opened').removeClass('opened');
-
-		// clear/remove the instance on the element
-		this.element.removeData(pluginName);
-
-		this.eventController('destroyed');
-
-		// reset options
-		this.options = defaults;
-
-		this.options.htmlClass && $('html').removeClass('zeynep-initialized');
-
-		delete this.element;
-		delete this.options;
-		delete this.eventController;
-	};
-
-	Plugin.prototype.on = function (name, handler) {
-		eventBinder.call(this, name, handler);
-	};
-
-	var eventController = function (type, details) {
-		if (!this.options[type]) return;
-		if (typeof this.options[type] !== 'function') throw Error('event handler must be a function: ' + type);
-
-		// call the event
-		this.options[type].call(this, this.element, this.options, details);
-	};
-
-	var getInstance = function (element, options) {
-		var instance = null;
-
-		if (!element.data(pluginName)) {
-			// zeynepjs is not initialized for the element
-			// crceate a new instance
-			instance = new Plugin(element, options || {});
-
-			// put the instance on element
-			element.data(pluginName, instance);
-		} else {
-			// return the already initialized instance
-			instance = element.data(pluginName);
+		if (element.classList.contains('show')) {
+			element.classList.remove('show');
 		}
+	}
 
-		return instance;
-	};
+	sidebarMobile.classList.remove('sidebar-mobile--open');
+}
 
-	var eventBinder = function (name, handler) {
-		if (typeof name !== 'string') throw Error('event name is expected to be a string but got: ' + typeof name);
-		if (typeof handler !== 'function') throw Error('event handler is not a function for: ' + name);
+// Close dropdown
+closeDropdownButton.forEach(button => {
+	button.addEventListener('click', closeDropdownMobile);
+});
 
-		// update options
-		this.options[name] = handler;
-	};
+function closeDropdownMobile() {
+	for (let i = 0; i < openDropdownButton.length; i++) {
+		const element = openDropdownButton[i];
 
-	// a really lightweight plugin wrapper around the constructor
-	// preventing against multiple instantiations
-	$.fn[pluginName] = function (options) {
-		// get a zeynepjs instance
-		var instance = getInstance($(this[0]), options);
+		if (element.classList.contains('show')) {
+			element.classList.remove('show');
+			element.setAttribute('aria-expanded', false);
+		}
+	}
+	for (let i = 0; i < dropdownMobile.length; i++) {
+		const element = dropdownMobile[i];
 
-		return instance;
-	};
-})(window.jQuery || window.cash, 'zeynep');
+		if (element.classList.contains('show')) {
+			element.classList.remove('show');
+		}
+	}
+}

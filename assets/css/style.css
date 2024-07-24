@@ -75,7 +75,7 @@ figure img {
 figcaption.figure-caption {
 	font-size: 75%;
 	font-family: var(--fio-sys-typography-family-primary-medium);
-	color: var(--fio-sys-color-neutral-medium);
+	color: var(--fio-sys-color-text-light);
 	text-align: center;
 }
 

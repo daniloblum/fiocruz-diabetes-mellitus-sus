@@ -65,7 +65,7 @@
 	--fio-sys-color-neutral-black: var(--fio-ref-color-neutral-0);
 
 	/* Text */
-	--fio-sys-color-text-light: var(--fio-ref-color-neutral-60);
+	--fio-sys-color-text-light: var(--fio-ref-color-neutral-40);
 	--fio-sys-color-text-light-contrast: var(--fio-ref-color-neutral-10);
 	--fio-sys-color-text-dark: var(--fio-ref-color-text-20);
 	--fio-sys-color-text-dark-contrast: var(--fio-ref-color-text-95);
@@ -220,9 +220,7 @@
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 4);
 	--fio-sys-typography-size-: calc(var(--fio-ref-typography-size-base) * 5);
 
-
 	/* ELEMENTS */
-
 
 	/* Hr line */
 	--fio-sys-hr-color: var(--fio-sys-color-neutral-light);
