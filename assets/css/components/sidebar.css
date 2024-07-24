@@ -236,6 +236,10 @@
 	line-height: var(--fio-sys-typography-height-125);
 	padding: 16px;
 }
+.sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu .dropdown-menu__item .dropdown-menu__item-link:focus {
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.2);
+}
 
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu li a strong {
 	line-height: var(--fio-sys-typography-height-150);
@@ -444,11 +448,13 @@
 		vertical-align: 0;
 	}
 	.sidebar .sidebar__group .sidebar__group-item button:hover .label,
+	.sidebar .sidebar__group .sidebar__group-item button:focus .label,
 	.sidebar .sidebar__group .sidebar__group-item button.show .label {
 		font-weight: 700;
 		transition: 0.25s;
 	}
 	.sidebar .sidebar__group .sidebar__group-item button:hover .icon,
+	.sidebar .sidebar__group .sidebar__group-item button:focus .icon,
 	.sidebar .sidebar__group .sidebar__group-item button.show .icon {
 		background-color: var(--_color-accent);
 		color: var(--_color-background);

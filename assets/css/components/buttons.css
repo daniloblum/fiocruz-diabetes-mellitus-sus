@@ -1,5 +1,5 @@
 /* BUTTON VARIABLES */
-:root{
+:root {
 	/* Button white color */
 	--_button-color-white: var(--fio-sys-color-neutral-white);
 	--_button-color-white--hover: var(--fio-sys-color-neutral-white--hover);
@@ -44,19 +44,19 @@ button,
 	text-transform: none;
 }
 
-.fio-button[rel="prev"] .material-symbols-rounded,
-.fio-button[rel="next"] .material-symbols-rounded  {
+.fio-button[rel='prev'] .material-symbols-rounded,
+.fio-button[rel='next'] .material-symbols-rounded {
 	font-weight: 900;
 	transition: transform 0.2s ease-in-out;
-	transform: translateX(0)
+	transform: translateX(0);
 }
 
-.fio-button[rel="prev"]:hover .material-symbols-rounded {
-	transform: translateX(-25%)
+.fio-button[rel='prev']:hover .material-symbols-rounded {
+	transform: translateX(-25%);
 }
 
-.fio-button[rel="next"]:hover .material-symbols-rounded {
-	transform: translateX(25%)
+.fio-button[rel='next']:hover .material-symbols-rounded {
+	transform: translateX(25%);
 }
 
 /* Primary button */
@@ -76,8 +76,8 @@ button,
 	border-color: var(--_button-color-primary);
 }
 .fio-button-primary:hover,
-.fio-button-primary:focus, 
-.fio-button-primary:visited:hover  {
+.fio-button-primary:focus,
+.fio-button-primary:visited:hover {
 	background-color: var(--_button-color-primary--hover);
 	color: var(--_button-text-color-primary);
 	border-color: var(--_button-color-primary);
@@ -98,7 +98,6 @@ button,
 	color: var(--_button-text-color-primary);
 	border-color: var(--_button-color-primary);
 }
-
 
 /* Primary outline button */
 .fio-button-outline-primary {
@@ -125,8 +124,8 @@ button,
 	background-color: transparent;
 	color: var(--fio-sys-color-accent-medium);
 	border-color: transparent;
-	padding-left:0 !important;
-	padding-right:0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .fio-button-text-primary:hover {
 	background-color: transparent;
@@ -145,7 +144,7 @@ button,
 .fio-button-secondary {
 	--_button-color-secondary: transparent;
 	--_button-color-secondary--hover: var(--fio-sys-color-secondary-light);
-	--_button-text-color-secondary:var(--_button-color);
+	--_button-text-color-secondary: var(--_button-color);
 	--_button-text-color-secondary--hover: var(--fio-sys-color-secondary-dark-contrast);
 	--_button-outline-color-secondary: var(--fio-sys-color-primary-dark);
 	--_button-outline-color-secondary--hover: var(--fio-sys-color-primary-dark);
@@ -155,7 +154,8 @@ button,
 	color: var(--_button-text-color-secondary);
 	border-color: var(--_button-outline-color-secondary);
 }
-.fio-button-secondary:hover {
+.fio-button-secondary:hover,
+.fio-button-secondary:focus {
 	background-color: var(--_button-color-secondary--hover);
 }
 .fio-button-secondary:focus {
@@ -239,7 +239,7 @@ button,
 	--_button-color-primary-disable-contrast: var(--fio-sys-color-neutral-light-contrast);
 
 	background-color: var(--_button-color-primary-disable);
-	color:var(--_button-color-primary-disable-contrast);
+	color: var(--_button-color-primary-disable-contrast);
 	border-color: var(--_button-color-primary-disable);
 	cursor: not-allowed;
 }
@@ -258,7 +258,7 @@ button,
 	--_button-outline-color-secondary-disabled: var(--fio-sys-color-neutral-medium);
 
 	background-color: var(--_button-color-secondary-disable);
-	color:var(--_button-color-secondary-disable-contrast);
+	color: var(--_button-color-secondary-disable-contrast);
 	border-color: var(--_button-outline-color-secondary-disabled);
 	cursor: not-allowed;
 }
@@ -266,7 +266,7 @@ button,
 .fio-button:has('outline'):disabled,
 .fio-button.fio-button-secondary.disabled {
 	background-color: var(--_button-color-secondary-disable);
-	color:var(--_button-color-secondary-disable-contrast);
+	color: var(--_button-color-secondary-disable-contrast);
 	border-color: var(--_button-outline-color-secondary-disabled);
 }
 
@@ -276,11 +276,11 @@ button,
 	--_button-sm-padding-x: var(--fio-sys-size-margin-md);
 	--_button-sm-padding-y: var(--fio-sys-size-padding-xs);
 	--_button-sm-gap: var(--fio-sys-spacing-padding-sm);
-	--_button-sm-border-radius:var(--fio-sys-size-radius-md);
+	--_button-sm-border-radius: var(--fio-sys-size-radius-md);
 
 	padding: var(--_button-sm-padding-y) var(--_button-sm-padding-x);
 	font-size: var(--_button-sm-size);
-	border-radius:var(--_button-sm-border-radius);
+	border-radius: var(--_button-sm-border-radius);
 }
 
 .fio-button.button-lg {
@@ -292,5 +292,5 @@ button,
 
 	padding: var(--_button-lg-padding-y) var(--_button-lg-padding-x);
 	font-size: var(--_button-lg-size);
-	border-radius:var(--_button-lg-border-radius);
+	border-radius: var(--_button-lg-border-radius);
 }

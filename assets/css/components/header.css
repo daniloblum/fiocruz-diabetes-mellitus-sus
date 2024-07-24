@@ -5,10 +5,10 @@
 	background: linear-gradient(180deg, rgba(0, 24, 51, 1), rgba(0, 48, 102, 0));
 	background: var(--fio-sys-color-neutral-white);
 	display: flex;
-	gap: 20px;
+	gap: 16px;
 	height: 80px;
 	justify-content: start;
-	padding: 15px 0;
+	padding: 12px 0;
 	position: fixed;
 	transition: 0.25s ease-out;
 	width: 100%;
@@ -35,6 +35,10 @@
 .header .brand {
 	height: 100%;
 }
+.header .brand h1 {
+	margin: 0;
+	height: 100%;
+}
 .header .brand img {
 	display: block;
 	height: 100%;
@@ -54,7 +58,7 @@
 	flex: auto;
 	font-family: var(--fio-sys-typography-family-primary-medium);
 	font-size: var(--fio-sys-typography-size--1);
-	color: var(--fio-sys-color-text-light);
+	color: var(--fio-sys-color-neutral-dark);
 	line-height: 125%;
 	height: 100%;
 	padding-left: 20px;
@@ -90,7 +94,7 @@
 /* Sticky */
 
 .header.header--sticky {
-	height: 80px;
+	height: 60px;
 	background: var(--fio-sys-color-neutral-white);
 	box-shadow: var(--fio-sys-size-shadow-sm);
 }
@@ -121,6 +125,10 @@
 @media (min-width: 992px) {
 	.header {
 		justify-content: space-between;
+		padding: 12px 16px;
+	}
+	.header.header--sticky {
+		height: 80px;
 	}
 	.header .mobile-toggle-open {
 		display: none;
@@ -128,7 +136,7 @@
 	.header .brand {
 		/* width: 360px; */
 		height: 100%;
-		padding-left: 30px;
+		padding-left: 0px;
 	}
 	.header .title {
 		display: block;
