@@ -35,10 +35,6 @@
 .header .brand {
 	height: 100%;
 }
-.header .brand h1 {
-	margin: 0;
-	height: 100%;
-}
 .header .brand img {
 	display: block;
 	height: 100%;
@@ -56,12 +52,15 @@
 	align-content: center;
 	border-left: 1px solid;
 	flex: auto;
+	height: 100%;
+	padding-left: 20px;
+}
+.header .title h1 {
 	font-family: var(--fio-sys-typography-family-primary-medium);
 	font-size: var(--fio-sys-typography-size--1);
 	color: var(--fio-sys-color-neutral-dark);
 	line-height: 125%;
-	height: 100%;
-	padding-left: 20px;
+	margin-bottom: 0;
 }
 /* .header:not(.header--sticky) .title {
 	color: var(--fio-sys-color-neutral-black);
