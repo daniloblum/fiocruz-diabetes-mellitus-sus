@@ -1,0 +1,63 @@
+/* INFOGRAPHIC IMG-INFO1 */
+
+.infographic1 .st0{opacity:0.3;fill:#F7F4CE;}
+.infographic1 .st1{fill:none;stroke:#73818C;stroke-width:3;stroke-miterlimit:10;}
+.infographic1 .st2{fill:#308190;}
+.infographic1 .st3{fill:#3D4E76;}
+.infographic1 .st4{fill:none;}
+.infographic1 .st5{fill:#FFFFFF;}
+.infographic1 .st6{font-family:'CordelEncarnadoII';}
+.infographic1 .st7{font-size:24px;}
+.infographic1 .st8{fill:#3F62AF;}
+.infographic1 .st9{fill:#313F59;}
+.infographic1 .st10{fill:#E4DA4E;}
+.infographic1 .st11{fill:#243865;}
+.infographic1 .st12{font-size:32px;}
+.infographic1 .st13{fill:#B3DCE4;}
+.infographic1 .st14{font-size:20px;}
+.infographic1 .st15{fill:#DAE1F1;}
+.infographic1 .st16{font-size:40px;}
+
+
+/* Config Popover */
+.infographic1 .bts {
+	cursor: pointer;
+	/* transition: 0.3s ease-out; */
+	animation: move .75s ease-out infinite alternate;
+}
+.infographic1 .bts:hover {
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+.infographic1 .bts:hover .circle-base{
+	fill: var(--fio-sys-color-secondary-light);
+}
+
+.infographic1 .bts:focus {
+	animation:none;
+	transform: translateY(-5px);
+}
+
+/* Config Botão */
+/* .infographic1 .label-base {
+	filter: drop-shadow(8px 8px 8px #d2d2d2);
+}
+.infographic1 .circle-base {
+	filter: drop-shadow(8px 8px 8px #d2d2d2);
+}
+
+.infographic1 .circle-base {
+	filter: drop-shadow(8px 8px 8px #d2d2d2);
+} */
+
+@keyframes move {
+    from {
+      transform: translateY(0);
+	  filter: drop-shadow(0 1px 1px #ababab);
+    }
+
+    to {
+      transform: translateY(-10px);
+	  filter: drop-shadow(0 10px 4px #ababab);
+    }
+  }

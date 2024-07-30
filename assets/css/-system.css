@@ -44,7 +44,7 @@
 	/* Accent (cor de interação) */
 	--fio-sys-color-accent-light: var(--fio-ref-color-tertiary-60);
 	--fio-sys-color-accent-light-contrast: var(--fio-ref-color-tertiary-10);
-	--fio-sys-color-accent-medium: var(--fio-ref-color-tertiary-40);
+	--fio-sys-color-accent-medium: var(--fio-ref-color-tertiary-30);
 	--fio-sys-color-accent-medium-contrast: var(--fio-ref-color-tertiary-95);
 	--fio-sys-color-accent-dark: var(--fio-ref-color-tertiary-20);
 	--fio-sys-color-accent-dark-contrast: var(--fio-ref-color-tertiary-90);

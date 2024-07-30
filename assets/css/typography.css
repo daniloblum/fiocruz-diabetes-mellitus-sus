@@ -13,6 +13,7 @@ body {
 
 a,
 a:visited {
+	background: var(--fio-sys-color-tertiary-light);
 	color: var(--fio-sys-color-accent-medium);
 	text-decoration: none;
 	text-transform: none;
@@ -24,8 +25,12 @@ a[role='button'] {
 }
 
 a:hover {
-	color: var(--fio-sys-color-accent-light);
-	text-decoration: underline;
+	/* color: var(--fio-sys-color-accent-light);
+	text-decoration: underline; */
+
+	color: var(--fio-sys-color-tertiary-extra-light);
+    text-decoration: underline;
+    background: var(--fio-sys-color-tertiary-dark);
 }
 
 a:focus {

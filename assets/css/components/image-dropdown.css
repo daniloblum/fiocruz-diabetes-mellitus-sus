@@ -12,6 +12,7 @@
 }
 
 .image-dropdown .image-button {
+	background:transparent;
 	margin-bottom: var(--_image-dropdown-margin);
 	display: block;
 }

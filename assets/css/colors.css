@@ -106,6 +106,10 @@
 }
 
 /* Secondary Background */
+.background-secondary-extra-light {
+	background-color: var(--fio-sys-color-secondary-extra-light) !important;
+}
+
 .background-secondary-light {
 	background-color: var(--fio-sys-color-secondary-light) !important;
 }

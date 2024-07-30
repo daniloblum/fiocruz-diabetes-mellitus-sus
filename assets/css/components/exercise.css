@@ -1,7 +1,7 @@
 /* --- EXERCISE --- */
 
 .exercise .exercise__question {
-	padding-bottom: var(--fio-sys-spacing-padding-lg);
+	padding-bottom: var(--fio-sys-size-padding-lg);
 	border-bottom: 1px solid var(--fio-sys-hr-color);
 	/* font-family: var(--fio-sys-typography-paragraph-family);
 	font-size: var(--fio-sys-typography-paragraph-size); */
@@ -9,7 +9,7 @@
 
 /* Answers List */
 .exercise .exercise__answers {
-	padding-top: var(--fio-sys-spacing-padding-lg);
+	padding-top: var(--fio-sys-size-padding-lg);
 }
 .exercise .exercise__answers > ul {
 	list-style-type: none;
@@ -17,7 +17,7 @@
 	padding: 0;
 }
 .exercise .exercise__answers .answer__option {
-	padding: var(--fio-sys-spacing-padding-md);
+	padding: var(--fio-sys-size-padding-md);
 	margin-bottom: var(--fio-sys-spacing-margin-md);
 	border: 2px solid var(--fio-sys-color-neutral-light);
 	background-color: var(--fio-sys-color-neutral-extra-light);
@@ -84,7 +84,7 @@
 	font-size: var(--fio-sys-typography-paragraph-size);
 	font-weight: 400;
 	line-height: 1.5;
-	padding: var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-xl) var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-md);
+	padding: var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-xl) var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-md);
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	width: auto;
 	-webkit-appearance: none;
@@ -125,7 +125,7 @@
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
-	/* padding: var(--fio-sys-spacing-padding-xl) 0; */
+	/* padding: var(--fio-sys-size-padding-xl) 0; */
 	/* border-top: 1px solid var(--exercise-divider-line); */
 }
 .exercise .exercise__submit button {
