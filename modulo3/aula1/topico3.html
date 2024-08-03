@@ -328,33 +328,53 @@
 					</li>
 				</ul>
 			</div> -->
+			
 			<div class="sidebar" role="navigation">
 				<div class="sidebar__inner">
+					<div class="sidebar__group d-lg-none">
+						<div class="sidebar__group-item">
+							<div class="sidebar__header">
+								<span>Curso</span>
+								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="sidebar__title">
+								<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
 									<span class="label">Módulos</span>
 								</button>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="../../modulo1/aula1/topico1.html"
-											><strong>Módulo 1</strong><br />
-											Panorama epidemiológico do diabetes</a
-										>
+								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
 									</li>
-									<li>
-										<a href="../../modulo2/aula1/topico1.html"
-											><strong>Módulo 2</strong><br />
-											Tratamanto do diabetes</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama epidemiológico do diabetes</a>
 									</li>
-									<li>
-										<a href="../../modulo3/aula1/topico1.html"
-											><strong>Módulo 3</strong><br />
-											Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Tratamanto do diabetes</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Prevenção das complicações e organização da rede de atenção</a>
 									</li>
 								</ul>
 							</div>
@@ -365,30 +385,34 @@
 					</div>
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
-							<span class="text module">Módulo<br /><span>3</span></span>
+							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>3</span></span>
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
 									<span class="label">Conteúdo</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
 										<span class="label">Módulo 3</span>
-										<br />
-										Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus
+										<span class="title">Prevenção das complicações e organização da rede de atenção</span>
 									</li>
-									<li>
-										<a href="../../modulo3/aula1/topico1.html"><strong>Aula 1: </strong>Redes de atenção à saúde, doenças crônicas e autocuidado</a>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Aula 1: </strong>Redes de atenção à saúde, doenças crônicas e autocuidado</a>
 									</li>
-									<li>
-										<a href="../../modulo3/aula2/topico1.html"><strong>Aula 2: </strong>Complicações cardiovasculares e estratégias de prevenção</a>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 2: </strong>Complicações cardiovasculares e estratégias de prevenção</a>
 									</li>
-									<li>
-										<a href="../../modulo3/aula3/topico1.html"><strong>Aula 3: </strong>Prevenção das complicações e organização da rede de atenção</a>
+
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 3: </strong>Complicações microvasculares e mistas e estratégias de prevenção</a>
 									</li>
-									<li><a href="../../modulo3/atividade.html">Atividade de Fixação</a></li>
+									<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html">Atividade de Fixação</a></li>
 								</ul>
 							</div>
 						</div>
@@ -402,13 +426,20 @@
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
 									<span class="label">Tópicos</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title"><span class="label">Aula 1</span><br />Redes de atenção à saúde, doenças crônicas e autocuidado</li>
-									<li>
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Aula 1</span>
+										<span class="title">Redes de atenção à saúde, doenças crônicas e autocuidado</span>
+									</li>
+									<li class="dropdown-menu__item">
 										<nav class="topic-list">
 											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução </a>
 
@@ -428,17 +459,18 @@
 								</ul>
 							</div>
 						</div>
-						<div class="sidebar__group-item">
+
+						<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autor">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
 								<span class="label">Autor</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 					<div class="divider">
 						<hr />
 					</div>
-					<div class="sidebar__group">
+					<div class="sidebar__group extra">
 						<div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
@@ -446,17 +478,17 @@
 							</button>
 						</div>
 						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
 								<span class="label">Bibliografia</span>
 							</button>
 						</div>
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-">
+						<!-- <div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
 								<span class="label">Material complementar</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

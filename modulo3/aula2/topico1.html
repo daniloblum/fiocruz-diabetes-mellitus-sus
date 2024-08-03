@@ -48,7 +48,7 @@
 		<!-- <meta name="theme-color" content="#003066" /> -->
 		<meta name="theme-color" content="#001833" />
 
-		<title>Mod 1 | Aula 2.1 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
+		<title>Mod 3 | Aula 2.1 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
 
 		<!-- Bootstrap 5.1.3 CSS -->
 		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
@@ -329,31 +329,50 @@
 			</div> -->
 			<div class="sidebar" role="navigation">
 				<div class="sidebar__inner">
+					<div class="sidebar__group d-lg-none">
+						<div class="sidebar__group-item">
+							<div class="sidebar__header">
+								<span>Curso</span>
+								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="sidebar__title">
+								<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
 									<span class="label">Módulos</span>
 								</button>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="../../modulo1/aula1/topico1.html"
-											><strong>Módulo 1</strong><br />
-											Panorama epidemiológico do diabetes</a
-										>
+								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
 									</li>
-									<li>
-										<a href="../../modulo2/aula1/topico1.html"
-											><strong>Módulo 2</strong><br />
-											Tratamanto do diabetes</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama epidemiológico do diabetes</a>
 									</li>
-									<li>
-										<a href="../../modulo3/aula1/topico1.html"
-											><strong>Módulo 3</strong><br />
-											Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Tratamanto do diabetes</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Prevenção das complicações e organização da rede de atenção</a>
 									</li>
 								</ul>
 							</div>
@@ -364,27 +383,34 @@
 					</div>
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
-							<span class="text module">Módulo<br /><span>1</span></span>
+							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>3</span></span>
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
 									<span class="label">Conteúdo</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title">
-										<span class="label">Módulo 1</span>
-										<br />
-										Panorama epidemiológico do diabetes
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
 									</li>
-									<li>
-										<a href="../../modulo1/aula1/topico1.html"><strong>Aula 1: </strong>Diabetes Mellitus: epidemiologia, fatores de risco e estratégias de prevenção.</a>
+									<li class="dropdown-menu__title">
+										<span class="label">Módulo 3</span>
+										<span class="title">Prevenção das complicações e organização da rede de atenção</span>
 									</li>
-									<li>
-										<a href="../../modulo1/aula2/topico1.html"><strong>Aula 2: </strong>Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus</a>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Aula 1: </strong>Redes de atenção à saúde, doenças crônicas e autocuidado</a>
 									</li>
-									<li><a href="">Atividade de Fixação</a></li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 2: </strong>Complicações cardiovasculares e estratégias de prevenção</a>
+									</li>
+
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 3: </strong>Complicações microvasculares e mistas e estratégias de prevenção</a>
+									</li>
+									<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html">Atividade de Fixação</a></li>
 								</ul>
 							</div>
 						</div>
@@ -398,37 +424,47 @@
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
 									<span class="label">Tópicos</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title"><span class="label">Aula 2</span><br />Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus</li>
-									<li>
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Aula 2</span>
+										<span class="title">Complicações cardiovasculares e estratégias de prevenção</span>
+									</li>
+									<li class="dropdown-menu__item">
 										<nav class="topic-list">
 											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="selected"> <span class="material-symbols-rounded"></span>Introdução </a>
 
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Comorbidades</a>
+											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Morbimortalidade por complicações cardiovasculares em diabéticos</a>
 
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span>Epidemiologia e vias de prevenção das complicações</a>
+											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span>Prevenção das doenças cardiovasculares ateroscleróticas</a>
 
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
+											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Manejo dos diabéticos com insuficiência cardíaca declarada</a>
+
+											<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
 										</nav>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div class="sidebar__group-item">
+
+						<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autor">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
 								<span class="label">Autor</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 					<div class="divider">
 						<hr />
 					</div>
-					<div class="sidebar__group">
+					<div class="sidebar__group extra">
 						<div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
@@ -436,17 +472,17 @@
 							</button>
 						</div>
 						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
 								<span class="label">Bibliografia</span>
 							</button>
 						</div>
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-">
+						<!-- <div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
 								<span class="label">Material complementar</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -457,9 +493,9 @@
 						<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
 							<div class="col-12 col-md-10 col-lg-8">
 								<h2 class="title">
-									<span class="label small">Módulo 1 | Aula 2</span>
+									<span class="label small">Módulo 3 | Aula 2</span>
 
-									Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus
+									Complicações cardiovasculares e estratégias de prevenção
 								</h2>
 							</div>
 						</div>
@@ -477,41 +513,27 @@
 										<h3 class="heading__title">Introdução</h3>
 									</div>
 
-									<p>Olá! Que bom ter você aqui!</p>
+									<p class="small">Muito do conteúdo desta aula foi retirado, inspirado e/ou adaptado do capítulo 36 (Diabetes melito: cuidado longitudinal) do livro "Medicina ambulatorial: Condutas de atenção primária baseadas em evidências", 5ª edição, organizado por Bruce B. Duncan, Maria Inês Schmidt, Elsa R.J. Giugliani, Michael Schmidt Duncan e Camila Giugliani, publicado em 2022 pela Editora Artmed de Porto Alegre. A conteudista expressa seus sinceros agradecimentos aos autores deste capítulo, Maria Inês Schmidt, Michael Schmidt Duncan e Bruce B. Duncan, pela permissão concedida para utilizar seu conteúdo.</p>
 
-									<p>Dando continuidade aos nossos estudos, vamos falar agora sobre as comorbidades e complicações do diabetes mellitus tipo 2.</p>
+									<p>As complicações cardiovasculares em pessoas com diabetes são semelhantes às encontradas na população em geral.</p>
 
-									<p>O diabetes tipo 2 frequentemente ocorre junto com outras doenças crônicas, chamadas de comorbidades. Isso acontece principalmente devido a fatores de risco como obesidade, inflamação nos vasos sanguíneos, resistência à insulina e outros.</p>
+									<p>A maioria dessas complicações são cardiovasculares ateroscleróticas, resultantes do processo de aterosclerose, caracterizado pela formação de depósitos complexos de células e gorduras nas paredes das artérias, conhecidos como "placas" de ateroma.</p>
 
-									<p>As comorbidades podem estar ligadas diretamente ou indiretamente ao diabetes, seja tipo 1 ou tipo 2. Quando se referem a essas condições em relação ao diabetes, é mais comum chamá-las de "complicações".</p>
-
-									<p>As complicações microvasculares, que afetam os pequenos vasos sanguíneos e são principalmente causadas por níveis elevados de açúcar no sangue (hiperglicemia), são bem conhecidas e temidas por causarem problemas como cegueira, necessidade de diálise, amputações e impotência sexual.</p>
-
-									<p>No entanto, é importante lembrar que a maioria das mortes em pessoas com diabetes está relacionada a complicações cardiovasculares. Estas complicações têm várias causas, como infarto do miocárdio ou derrames cerebrais, e não se originam apenas de uma única fonte de risco. Por exemplo, a taxa de morte por problemas cardiovasculares é cerca de dez vezes maior do que as mortes devido a falência renal.</p>
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
 									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula2-img1.svg" alt="Descrição da Imagem" title="Fonte: elaboração própria com ícones Freepik" />
-										<figcaption class="figure-caption">Fotomontagem com imagens de Freepik</figcaption>
-										<figcaption class="figure-caption fonte">Fonte: elaboração própria</figcaption>
+										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo3/aula2-img1.jpg" title="" alt="Esquema ilustrando uma artéria normal e outra artéria acometida de estreitamento (estenose) devido a presença de uma placa de aterosclerose, na figura ilustrativa a primeira artéria está com o fluxo de sangue liberado, a segunda está com a placa de aterosclerose, está ilustrada com várias bolinhas amarelas que impossibilitam a passagem de sangue.">
+										<figcaption class="figure-caption fonte">Fonte: <a href='https://www.anm.org.br/aterosclerose-o-que-e-como-prevenir/' target='_blank'>Academia Nacional de Medicina</a></figcaption>
 									</figure>
-								</div>
-							</div>
 
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<p>É sabido que muitas das complicações do diabetes podem ser evitadas, mas isso requer uma mudança significativa na forma como os pacientes são tratados.</p>
+									<p>À medida que essas placas crescem, elas estreitam o calibre dos vasos, causando problemas de circulação sanguínea e danos aos órgãos que dependem dessas artérias para nutrição e oxigenação. Em caso de obstrução completa, ocorre necrose (morte celular) do órgão ou de parte dele, resultando em um quadro agudo que pode ser fatal. Por exemplo, a obstrução de uma das artérias coronarianas (artérias que irrigam o coração) causa infarto do miocárdio, enquanto a obstrução de uma das artérias cerebrais causa acidente vascular cerebral (derrame). Outra localização perigosa das placas de ateroma é nas artérias dos membros inferiores, o que pode levar à gangrena e à amputação da perna.</p>
 
-									<p>Os sistemas de saúde foram originalmente criados para lidar principalmente com doenças infecciosas, que podem ser tratadas com intervenções pontuais.</p>
+									<p>Além das complicações ateroscleróticas, outra doença cardiovascular que vamos conhecer nesta aula é a insuficiência cardíaca . Ela ocorre quando o músculo cardíaco fica fraco e não bombeia sangue no corpo de maneira adequada para o corpo. A insuficiência cardíaca, na maioria das vezes, é consequência a longo prazo de cardiopatia isquêmica (falta de oxigenação do coração por aterosclerose das artérias coronarianas) ou de hipertensão arterial não controlada. Todavia, na ausência dessas causas, diabéticos podem desenvolver insuficiência cardíaca  devido a uma doença específica que acomete o músculo cardíaco: a cardiomiopatia diabética.</p>
 								</div>
 							</div>
 
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8">
 									<h4>Objetivos</h4>
+									<p>Ao final desta aula, esperamos que você seja capaz de:</p>
 								</div>
 							</div>
 
@@ -519,9 +541,11 @@
 								<div class="col-12 col-md-10 col-lg-8">
 									<div class="list">
 										<ul class="list-group">
-											<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" list-style="default">Conhecer as principais comorbidades e complicações associadas ao diabetes tipo 2</li>
+											<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" list-style="default">Listar as principais complicações cardiovasculares que podem ocorrer em pessoas com diabetes.</li>
 
-											<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100" list-style="default">Entender qual organização de atenção à saúde está mais apta ao manejo do diabetes mellitus e à prevenção de suas complicações.</li>
+											<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100" list-style="default">Reconhecer a importância do controle dos principais fatores de risco cardiovascular na prevenção dessas complicações.</li>
+
+											<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200" list-style="default">Ter conhecimentos básicos sobre insuficiência cardíaca enquanto complicação do diabetes.</li>
 										</ul>
 									</div>
 								</div>

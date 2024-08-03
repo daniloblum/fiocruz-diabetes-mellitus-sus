@@ -48,7 +48,7 @@
 		<!-- <meta name="theme-color" content="#003066" /> -->
 		<meta name="theme-color" content="#001833" />
 
-		<title>Mod 1 | Aula 2.2 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
+		<title>Mod 3 | Aula 2.2 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
 
 		<!-- Bootstrap 5.1.3 CSS -->
 		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
@@ -329,31 +329,50 @@
 			</div> -->
 			<div class="sidebar" role="navigation">
 				<div class="sidebar__inner">
+					<div class="sidebar__group d-lg-none">
+						<div class="sidebar__group-item">
+							<div class="sidebar__header">
+								<span>Curso</span>
+								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<div class="sidebar__title">
+								<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
+							</div>
+						</div>
+						<div class="sidebar__group-item">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
 									<span class="label">Módulos</span>
 								</button>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="../../modulo1/aula1/topico1.html"
-											><strong>Módulo 1</strong><br />
-											Panorama epidemiológico do diabetes</a
-										>
+								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
 									</li>
-									<li>
-										<a href="../../modulo2/aula1/topico1.html"
-											><strong>Módulo 2</strong><br />
-											Tratamanto do diabetes</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama epidemiológico do diabetes</a>
 									</li>
-									<li>
-										<a href="../../modulo3/aula1/topico1.html"
-											><strong>Módulo 3</strong><br />
-											Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus</a
-										>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Tratamanto do diabetes</a>
+									</li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Prevenção das complicações e organização da rede de atenção</a>
 									</li>
 								</ul>
 							</div>
@@ -364,27 +383,34 @@
 					</div>
 					<div class="sidebar__group">
 						<div class="sidebar__group-item">
-							<span class="text module">Módulo<br /><span>1</span></span>
+							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>3</span></span>
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
 									<span class="label">Conteúdo</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title">
-										<span class="label">Módulo 1</span>
-										<br />
-										Panorama epidemiológico do diabetes
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
 									</li>
-									<li>
-										<a href="../../modulo1/aula1/topico1.html"><strong>Aula 1: </strong>Diabetes Mellitus: epidemiologia, fatores de risco e estratégias de prevenção.</a>
+									<li class="dropdown-menu__title">
+										<span class="label">Módulo 3</span>
+										<span class="title">Prevenção das complicações e organização da rede de atenção</span>
 									</li>
-									<li>
-										<a href="../../modulo1/aula2/topico1.html"><strong>Aula 2: </strong>Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus</a>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Aula 1: </strong>Redes de atenção à saúde, doenças crônicas e autocuidado</a>
 									</li>
-									<li><a href="">Atividade de Fixação</a></li>
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 2: </strong>Complicações cardiovasculares e estratégias de prevenção</a>
+									</li>
+
+									<li class="dropdown-menu__item">
+										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula2/topico1.html"><strong>Aula 3: </strong>Complicações microvasculares e mistas e estratégias de prevenção</a>
+									</li>
+									<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html">Atividade de Fixação</a></li>
 								</ul>
 							</div>
 						</div>
@@ -398,37 +424,47 @@
 						</div>
 						<div class="sidebar__group-item">
 							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,20">
+								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
 									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
 									<span class="label">Tópicos</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li class="title"><span class="label">Aula 2</span><br />Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus</li>
-									<li>
+									<li class="d-lg-none dropdown-menu__header">
+										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
+									</li>
+									<li class="dropdown-menu__title">
+										<span class="label">Aula 2</span>
+										<span class="title">Complicações cardiovasculares e estratégias de prevenção</span>
+									</li>
+									<li class="dropdown-menu__item">
 										<nav class="topic-list">
 											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução </a>
 
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="selected"><span class="material-symbols-rounded"></span>Comorbidades</a>
+											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="selected"><span class="material-symbols-rounded"></span>Morbimortalidade por complicações cardiovasculares em diabéticos</a>
 
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span>Epidemiologia e vias de prevenção das complicações</a>
+											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span>Prevenção das doenças cardiovasculares ateroscleróticas</a>
 
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
+											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Manejo dos diabéticos com insuficiência cardíaca declarada</a>
+
+											<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
 										</nav>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div class="sidebar__group-item">
+
+						<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autor">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
 								<span class="label">Autor</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 					<div class="divider">
 						<hr />
 					</div>
-					<div class="sidebar__group">
+					<div class="sidebar__group extra">
 						<div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
@@ -436,17 +472,17 @@
 							</button>
 						</div>
 						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod1">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
 								<span class="label">Bibliografia</span>
 							</button>
 						</div>
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-">
+						<!-- <div class="sidebar__group-item">
+							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
 								<span class="label">Material complementar</span>
 							</button>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -457,9 +493,9 @@
 						<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
 							<div class="col-12 col-md-10 col-lg-8">
 								<h2 class="title">
-									<span class="label small">Módulo 1 | Aula 2</span>
+									<span class="label small">Módulo 3 | Aula 2</span>
 
-									Epidemiologia das comorbidades e complicações associadas ao Diabetes Mellitus
+									Complicações cardiovasculares e estratégias de prevenção
 								</h2>
 							</div>
 						</div>
@@ -474,396 +510,108 @@
 								<div class="col-12 col-md-10 col-lg-8">
 									<div class="heading__block">
 										<span class="small">Tópico 2</span>
-										<h3 class="heading__title">Comorbidades</h3>
+										<h3 class="heading__title">Morbimortalidade por complicações cardiovasculares em diabéticos</h3>
 									</div>
 
-									<p>Cerca de 90% das pessoas com diabetes, especialmente aquelas com diabetes tipo 2, têm pelo menos uma outra condição de saúde crônica associada.</p>
+									<!-- Texto à esquerda com Imagem -->
+									<div class="row justify-content-center d-lg-block">
+										<!-- Imagem -->
+										<div class="col-md-8 col-lg-6 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
+											<figure>
+												<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo3/aula2-img2.jpg" alt="Figura ilustrativa de um coração." title="Fonte: Freepik">
+												<figcaption class="figure-caption fonte">Fonte: Freepik</figcaption>
+											</figure>
+										</div>
+		
+										<!-- Texto -->
+										<div class="order-2 order-lg-1">
+											<p>As doenças cardiovasculares são a principal causa de morbidade e mortalidade em pessoas com diabetes. Isso significa que essas doenças representam a maior ameaça à vida e à qualidade de vida dos diabéticos. Além de serem as principais causas de morte, as complicações cardiovasculares podem deixar sintomas e sequelas que dificultam a vida diária dos pacientes.</p>
 
-									<p>A maioria das comorbidades assocoadas ao diabetes está relacionada à obesidade, especialmente à obesidade abdominal, que é quando a gordura se acumula na região do abdômen.</p>
+											<p>Portanto, quando se trata de diabetes, o que mais preocupa tanto o público em geral quanto os próprios diabéticos são os riscos de amputação, cegueira ou diálise.</p>
 
-									<p>Uma das raras comorbidades associadas à hiperglicemia é a periodontite, uma doença nas gengivas que, por sua vez, torna mais difícil controlar o açúcar no sangue. Por isso, é essencial alertar e garantir que as pessoas com diabetes façam consultas regulares ao dentista.</p>
+											<p>Segundo uma pesquisa realizada no Brasil em 2019, chamada "Quando o diabetes toca o coração", somente metade dos entrevistados que tinham diabetes achava que era uma condição muito séria e um quarto deles não sabia que existia uma relação entre diabetes e infarto.</p>
 
-									<p>A apneia do sono, um distúrbio caracterizado por interrupções na respiração durante o sono, é comum em pessoas com diabetes devido ao excesso de peso. No entanto, o tratamento, que envolve o uso de um aparelho de pressão positiva contínua conectado a uma máscara durante o sono, pode melhorar o controle do açúcar no sangue.</p>
+											<p>É muito importante mudar essa percepção enganosa da "hierarquia" das complicações do diabetes. A seguir, apresentaremos alguns fatos de interesse.</p>
 
-									<p>Vamos conhecer agora, algumas das comorbidades mais frequentes em pessoas com diabetes:</p>
+											<p>Nos anos 1980-1990, as complicações cardiovasculares representavam de 70 a 75% da mortalidade total entre pacientes com diabetes tipo 2, reduzindo sua expectativa de vida em até 10 anos devido a cardiopatias isquêmicas e acidentes vasculares cerebrais. Esse cenário alarmante motivou a realização de grandes ensaios clínicos para determinar estratégias eficazes de prevenção.</p>
+
+											<p>Um dos ensaios clínicos mais reconhecidos foi o UKPDS (Estudo Prospectivo de Diabetes do Reino Unido), que acompanhou mais de 7000 pacientes recém-diagnosticados com diabetes tipo 2 por cerca de 10 anos. Este estudo demonstrou pela primeira vez que o controle rigoroso da hiperglicemia com sulfonilureias ou insulina poderia reduzir a incidência de infartos do miocárdio em 16%. Além disso, testou-se o uso de metformina em pacientes com sobrepeso, revelando-se ainda mais eficaz na prevenção cardiovascular, com reduções de 39% nos infartos do miocárdio, 41% nos acidentes vasculares cerebrais e 36% nas mortes.</p>
+
+											<p>O UKPDS evidenciou que o controle rigoroso da pressão arterial potencializava significativamente os benefícios do controle glicêmico na prevenção de todas as formas de complicações do diabetes.</p>
+
+											<p>Esses resultados provocaram uma mudança profunda na atenção aos pacientes com diabetes, passando a enfatizar o manejo integrado de todos os fatores de risco cardiovascular. Essa mudança também levou a uma revisão no modelo de cuidado, enfatizando a necessidade de monitoramento contínuo e envolvimento ativo da equipe de saúde e dos pacientes, mesmo na ausência de sintomas, visando a prevenção de complicações. Este novo modelo de atenção é conhecido como Modelo de Atenção a Condições Crônicas, adotado no Brasil.</p>
+
+											<p>Tais mudanças, acompanhadas por transformações na sociedade, como combate ao tabagismo e incentivo a uma alimentação saudável, além dos avanços médicos como os procedimentos de revascularização arterial, resultaram em efeitos mensuráveis nos pacientes diabéticos, conforme resumido no quadro a seguir:</p>
+										</div>
+									</div>
+									<!-- Fim de texto e imagem à esquerda-->
 								</div>
 							</div>
 
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8">
-									<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-										<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula2-img2.svg" alt="Desenho da figura de um homem com setas que indicam a causa da doença, primeiro a depressão, com uma seta que aponta para a cabeça, depois hipertensão arterial, com uma seta que indica o coração, terceiro a dislipidemia (alterações de gordura no sangue), quarto esteatose hepática (“fígado gordo”) e por último neoplasias com uma seta que indica a perna." title="Fonte: elaboração própria" />
-										<figcaption class="figure-caption">Fotomontagem com imagens de Freepik</figcaption>
-										<figcaption class="figure-caption fonte">Fonte: elaboração própria</figcaption>
-									</figure>
+									<!-- Tabela -->
+									<div class="table-responsive">
+										<table class="table table-bordered">
+											<thead>
+												<tr>
+													<th class="text-center" colspan="5">Evolução das percentagens de óbitos por doenças cardiovasculares (DCV), câncer ou outras causas em pessoas com diabetes</th>
+												</tr>
+												<tr class="text-center">
+													<th>Causa de óbito</th>
+													<th>1988-1994<sup>1</sup></th>
+													<th>1998-2008<sup>2</sup></th>
+													<th>1997-2011<sup>3</sup></th>
+													<th>2010-2015<sup>1</sup></th>
+												</tr>
+
+												<tr>
+													<td class="table-border" colspan="5"></td>
+												</tr>
+											</thead>
+
+											<tbody>
+												<tr class="text-center">
+													<td class="text-center">DCV</td>
+													<td class="text-center">47,7%</td>
+													<td class="text-center">51,5%</td>
+													<td class="text-center">51,5%</td>
+													<td class="text-center">34,0%</td>
+												</tr>
+
+												<tr class="text-center background-secondary-extra-light">
+													<td class="text-center">Câncer</td>
+													<td class="text-center">18,9%</td>
+													<td class="text-center">24,2%</td>
+													<td class="text-center">23,4%</td>
+													<td class="text-center">19,7%</td>
+												</tr>
+
+												<tr class="text-center">
+													<td class="text-center">Outras</td>
+													<td class="text-center">33,4%</td>
+													<td class="text-center">24,3%</td>
+													<td class="text-center">25,5%</td>
+													<td class="text-center">46,3%</td>
+												</tr>
+											</tbody>
+										</table>
+										<span><small><sup>1</sup> Gregg, 2018</small></span>
+										<span><small><sup>2</sup> Holman, 2018</small></span>
+										<span><small><sup>3</sup> The Emerging Risk Factor Collaboration, 2011</small></span>
+									</div>
 								</div>
 							</div>
 
 							<div class="row justify-content-center">
 								<div class="col-12 col-md-10 col-lg-8">
-									<!-- Accordion -->
-									<div class="accordion accordion-flush" id="accordionExample2">
-										<div class="accordion-item">
-											<h5 class="accordion-header" id="heading1-item1">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Hipertensão arterial</button>
-											</h5>
-											<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-												<div class="accordion-body">
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<p>Hipertensão arterial, também conhecida como pressão alta, é uma condição em que a pressão do sangue nas artérias está consistentemente elevada</p>
+									<p>A tendência decrescente das mortes por doenças cardiovasculares em pessoas com diabetes não deve obscurecer o fato de que essas doenças continuam sendo, de longe, a principal causa de mortalidade entre os diabéticos. Entre as outras causas, as mortes por causas externas são as mais frequentes, representando cerca de 15% do total de óbitos, enquanto as mortes por doença renal, uma complicação típica do diabetes, constituem menos de 3% das causas de morte entre os diabéticos.</p>
 
-															<p>A hipertensão arterial sistêmica (HAS) é duas vezes mais frequente em portadores de diabetes.</p>
+									<p>Vale ressaltar também que os números encorajadores são em grande parte resultado da melhoria nas medidas de prevenção e no manejo do diabetes, as quais não devem ser negligenciadas.</p>
 
-															<p>A combinação das duas condições (diabetes e HAS) multiplica o risco de complicações comuns a cada uma, como doenças cardiovasculares ou insuficiência renal.</p>
+									<p>É importante notar que, enquanto houve redução em algumas das complicações cardiovasculares mais comuns no passado, como o infarto do miocárdio, outras complicações menos destacadas anteriormente, como a arteriopatia periférica e a insuficiência cardíaca, têm aumentado. Atualmente, essas complicações lideram a lista de eventos cardiovasculares que afetam pessoas com diabetes tipo 2 (Shah, 2015).</p>
 
-															<p>Portanto, é importante controlar bem a pressão arterial quando se tem diabetes. Isso significa alcançar níveis menores que 130 mmHg para a pressão sistólica e 80 mmHg para a pressão diastólica (para pessoas sem diabetes, a recomendação é manter a <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html="true" data-bs-content="<p> pressão arterial é medida em milímetros de mercúrio (mmHg). O primeiro valor corresponde à pressão arterial sistólica (quando o coração pulsa o sangue na circulação) e o segundo valor à pressão arterial diastólica (quando o coração relaxa).</p>" data-bs-original-title="Pressão arterial">pressão arterial</a> abaixo de 140/90 mmHg).</p>
-														</div>
-													</div>
-
-													<div class="row justify-content-center px-0">
-														<div class="col-12 col-md-11 p-4 background-secondary-light border-radius-md border-image-full">
-															<div class="row justify-content-center align-items-center">
-																<div class="col-4 col-md-2">
-																	<img class="img-fluid" src="../../media/modulo1/aula2-img2.png" alt="" />
-																</div>
-																<div class="col-6 col-md-4 mb-0">
-																	<h6 class="pt-0">Tratamento</h6>
-																</div>
-															</div>
-															<hr class="mb-5" />
-
-															<div class="row justify-content-center align-items-center">
-																<div class="col-12 p-4 pt-0">
-																	<p>Mas para conseguir esse controle, é necessário adotar hábitos de vida saudáveis, que são a base do tratamento:</p>
-
-																	<div class="list">
-																		<ul class="list-group">
-																			<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" list-style="default">alimentação equilibrada ;</li>
-
-																			<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100" list-style="default">prática regular de atividade física;</li>
-
-																			<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200" list-style="default">moderação no uso do sal e do álcool;</li>
-
-																			<li class="list-group-item aos-init" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="300" list-style="default">abandono do tabagismo.</li>
-																		</ul>
-																	</div>
-
-																	<p>No entanto, em muitos casos, o uso de medicamentos se torna necessário.</p>
-
-																	<p>Os anti-hipertensivos de primeira escolha em pessoas com diabetes são os que pertencem à classe dos inibidores da enzima conversora da angiotensina ou à classe dos antagonistas da angiotensina II.</p>
-
-																	<p>Em pessoas sem diabetes, os diuréticos são a classe de anti-hipertensivos de primeira linha.</p>
-
-																	<p>Quando uma única classe de medicamento para pressão arterial não é suficiente para alcançar a meta desejada, pode-se adicionar anti-hipertensivo da família dos bloqueadores dos canais de cálcio. Se ainda assim for necessário mais de dois anti-hipertensivo , considera-se adicionar um diurético.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="accordion-footer">
-													<img src="../../media/templates/accordion-footer-img1.svg" />
-													<img src="../../media/templates/accordion-footer-img2.svg" />
-												</div>
-											</div>
-										</div>
-
-										<div class="accordion-item">
-											<h5 class="accordion-header" id="heading1-item2">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Dislipidemia</button>
-											</h5>
-											<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-												<div class="accordion-body">
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<p>A dislipidemia é uma condição caracterizada por níveis anormais de lipídios (gorduras) no sangue, incluindo colesterol e triglicerídeos.</p>
-
-															<p>A maioria das pessoas com diabetes tipo 2 tem uma condição chamada "síndrome metabólica", que é bastente comum em pessoas com obesidade, também conhecida como obesidade "central" ou "androide". Isso significa que há um excesso de gordura concentrada principalmente na região abdominal. A obesidade desse tipo é identificada quando a medida da cintura é maior que 102 cm em homens ou 88 cm em mulheres.</p>
-														</div>
-													</div>
-
-													<div class="row justify-content-center">
-														<div class="col-12 col-md-6 mb-5">
-															<div class="card card--in h-100">
-																<div class="card-thumb">
-																	<img src="../../media/modulo1/aula2-img3.jpg" alt="Imagem ilustrativa da obesidade androide, também conhecida como obesidade central, a gordura localiza-se principalmente na parte superior do corpo (gordura visceral), há uma imagem ilustrativa de uma mulher e sobre o corpo o desenho de uma maçã, mostrando que o formato do corpo está na forma de uma maçã." />
-																</div>
-
-																<div class="card-header">
-																	<span class="">Obesidade Androide</span>
-																</div>
-
-																<div class="card-body">
-																	<p>Também conhecida como obesidade central, a gordura localiza-se principalmente na parte superior do corpo (gordura visceral).</p>
-																	<p>Fonte: <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://files.cercomp.ufg.br/weby/up/93/o/Folder_Obesidade.pdf" target="_blank">UFG</a></p>
-																</div>
-															</div>
-														</div>
-
-														<div class="col-12 col-md-6 mb-5">
-															<div class="card card--in h-100">
-																<div class="card-thumb">
-																	<img src="../../media/modulo1/aula2-img4.jpg" alt="Imagem ilustrativa da obesidade ginecóide, também conhecida como obesidade periférica, na qual a gordura localiza-se principalmente na parte inferior do corpo, quadril, nádegas e coxas, sobre o corpo a forma de uma pera." />
-																</div>
-
-																<div class="card-header">
-																	<span class="">Obesidade Ginecóide</span>
-																</div>
-
-																<div class="card-body">
-																	<p>Também conhecida como obesidade periférica, na qual a gordura localiza-se principalmente na parte inferior do corpo, quadril nádegas e coxas.</p>
-
-																	<p>Fonte: <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://files.cercomp.ufg.br/weby/up/93/o/Folder_Obesidade.pdf" target="_blank">UFG</a></p>
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<p>A obesidade androide traz consigo alterações no metabolismo da glicose devido à insulinoresistência, isto é, quando as células não respondem bem à ação da insulina, o que resulta em uma hiperglicemia moderada, podendo evoluir para diabetes.</p>
-
-															<p>Outra condição a ser observada são as alterações nos lipídios (dislipidemia), sendo a mais comum o aumento dos triglicérides e a redução do HDL-colesterol.</p>
-
-															<!-- Box de Glossário -->
-															<div class="box" data-box="Glossário">
-																<div class="card card--in">
-																	<div class="card-header">
-																		<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																		<span class="label">Glossário</span>
-																	</div>
-																	<div class="card-body">
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><strong>HDL-colesterol:</strong> Fração do colesterol ligada a proteínas de alta densidade (High Density Lipoproteins em inglês) que é conhecida popularmente como "o bom colesterol" . Ao contrário do LDL-colesterol (ligado a proteínas de baixa densidade, Low Density Lipoproteins em inglês), ela "protege" contra as doenças cardiovasculares.</li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- Fim do Box de Glossário -->
-
-															<p>Essas alterações conjuntas, associadas à obesidade central e a outros fatores como inflamação vascular, problemas de coagulação do sangue, etc, recebem o nome de síndrome metabólica.</p>
-
-															<p>Em pessoas com diabetes tipo 2, a presença dessa síndrome explica por que muitos têm dislipidemia, com níveis elevados de triglicerídeos (hipertrigliceridemia) e baixos níveis de HDL-colesterol. Isso aumenta o risco de doenças cardiovasculares. Além disso, a hipertrigliceridemia pode desencadear uma inflamação aguda no pâncreas, o que por sua vez pode piorar o diabetes.</p>
-														</div>
-													</div>
-
-													<div class="row justify-content-center px-0">
-														<div class="col-12 col-md-11 p-4 background-secondary-light border-radius-md border-image-full">
-															<div class="row justify-content-center align-items-center">
-																<div class="col-4 col-md-2">
-																	<img class="img-fluid" src="../../media/modulo1/aula2-img2.png" alt="" />
-																</div>
-																<div class="col-6 col-md-4 mb-0">
-																	<h6 class="pt-0">Tratamento</h6>
-																</div>
-															</div>
-															<hr class="mb-5" />
-
-															<div class="row justify-content-center align-items-center">
-																<div class="col-12 p-4 pt-0">
-																	<p>O tratamento da dislipidemia geralmente envolve mudanças no estilo de vida, como dieta saudável, exercícios físicos regulares, perda de peso e, em alguns casos, medicamentos como estatinas para diminuir os níveis de colesterol. O controle adequado da dislipidemia é essencial para reduzir o risco de complicações cardiovasculares.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-
-												<div class="accordion-footer">
-													<img src="../../media/templates/accordion-footer-img1.svg" />
-													<img src="../../media/templates/accordion-footer-img2.svg" />
-												</div>
-											</div>
-										</div>
-
-										<div class="accordion-item">
-											<h5 class="accordion-header" id="heading1-item3">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item3">Esteatose hepática</button>
-											</h5>
-											<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-												<div class="accordion-body">
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<p>Esteatose hepática, comumente conhecida como "fígado gorduroso", é uma condição em que há acúmulo excessivo de gordura nas células do fígado.</p>
-
-															<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-																<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula2-img5.jpg" alt="Imagem ilustrativa de dois fígados, o primeiro é um fígado saudável e de cor vermelha, e há um destaque para as suas células também, o segundo é um fígado com Esteatose hepática, em uma cor amarela, e há um destaque para as células adiposas." title="Fonte: Freepik" />
-																<figcaption class="figure-caption fonte">Fonte: Freepik</figcaption>
-															</figure>
-
-															<p>As perturbações da síndrome metabólica, especialmente a resistência à insulina, podem levar ao acúmulo de gordura (esteatose) em órgãos além do tecido adiposo, que é onde normalmente é armazenada.</p>
-
-															<p>Esse fenômeno se encontra na origem de uma doença do fígado de descoberta recente: <strong>a doença hepática gordurosa não alcoólica (DHGNA)</strong>.</p>
-
-															<p>Atualmente, a DHGNA se tornou a principal causa de doença hepática crônica no mundo, podendo, segundo alguns estudos, atingir de 20 a 40% dos adultos.</p>
-
-															<p>A DHGNA é assintomática e muitas vezes é descoberta durante a ultrasonografia abdominal.</p>
-
-															<p>Cerca de 20% das pessoas com DHGNA têm inflamação crônica do fígado (esteatohepatite), que está associada à fibrose e pode evoluir para cirrose e câncer hepatocelular.</p>
-
-															<p>Devido à síndrome metabólica ser um fator de risco comum, a DHGNA e o diabetes tipo 2 frequentemente ocorrem juntos.</p>
-
-															<p>Uma análise combinando estudos observacionais de 20 países estimou que a prevalência global de DHGNA em pessoas com diabetes tipo 2 é de aproximadamente 56%.</p>
-
-															<p>A combinação dessas duas patologias age sinergicamente para aumentar o risco de resultados clínicos adversos (hepáticos e extra-hepáticos, particularmente doenças cardiovasculares, que são as principais complicações da síndrome metabólica).</p>
-
-															<p>Além disso, o diabetes tipo 2 é um dos principais fatores que fazem com que a DHGNA progrida mais rapidamente para estágios mais graves, como a esteatohepatite não alcoólica, fibrose ou cirrose. Por sua vez, a DHGNA leva a uma duplicação do risco de aparição de diabetes tipo 2, com efeito "dose-resposta" (mais risco de diabetes tipo 2 se a DHGNA for com formas mais severas). Por isso, é fortemente recomendado o rastreio de rotina para diabetes em todos os indivíduos com DHGNA.</p>
-														</div>
-													</div>
-
-													<div class="row justify-content-center px-0">
-														<div class="col-12 col-md-11 p-4 background-secondary-light border-radius-md border-image-full">
-															<div class="row justify-content-center align-items-center">
-																<div class="col-4 col-md-2">
-																	<img class="img-fluid" src="../../media/modulo1/aula2-img2.png" alt="" />
-																</div>
-																<div class="col-6 col-md-4 mb-0">
-																	<h6 class="pt-0">Tratamento</h6>
-																</div>
-															</div>
-															<hr class="mb-5" />
-
-															<div class="row justify-content-center align-items-center">
-																<div class="col-12 p-4 pt-0">
-																	<p>Não há tratamento específico para fígado gordo.</p>
-
-																	<p>Reequilibrar a alimentação é fundamental: tirar álcool da dieta, reduzir bastante as gorduras saturadas (manteiga, queijo, carnes vermelhas, embutidos, etc.), favorecer legumes e verduras e outros alimentos ricos em vitaminas e fibras.</p>
-
-																	<p>Alguns antidiabéticos podem ter ação benéfica – porém ainda em espera de comprovação firme –, por diminuir o peso e/ou a insulinoresistência, como metformina, agonistas do receptor do peptídeo-1 semelhante a glucagon (arGLP-1) ou inibidores do cotransportador sódio-glicose tipo 2 (ISGLT2).</p>
-
-																	<p>Por fim, devido ao prognóstico grave, a associação de DHGNA, sobretudo nas formas mais avançadas com esteatohepatite e/ou fibrose, obesidade severa e diabetes é uma indicação à cirurgia bariátrica.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-
-												<div class="accordion-footer">
-													<img src="../../media/templates/accordion-footer-img1.svg" />
-													<img src="../../media/templates/accordion-footer-img2.svg" />
-												</div>
-											</div>
-										</div>
-
-										<div class="accordion-item">
-											<h5 class="accordion-header" id="heading1-item4">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Neoplasias</button>
-											</h5>
-											<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
-												<div class="accordion-body">
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<p>Neoplasia é um termo médico que se refere a um crescimento anormal e descontrolado de células no corpo. Essas células, conhecidas como neoplásicas ou tumorais, se multiplicam de forma desordenada e podem formar um tumor ou massa de tecido.</p>
-
-															<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-																<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula2-img6.jpg" alt="" title="Fonte: Freepik" />
-																<figcaption class="figure-caption fonte">Fonte: Freepik</figcaption>
-															</figure>
-
-															<p>Pessoas com diabetes tipo 1 e tipo 2, apresentam um risco maior de desenvolver câncer, em torno de 20 a 25%, com uma taxa de mortalidade maior, em torno de 30%, em comparação com a população geral.</p>
-
-															<p>O aumento do risco é significativo, mais que o dobro em comparação com pessoas sem diabetes, para câncer de fígado, endométrio, vesícula biliar e <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html="true" data-bs-content="<p>Para o câncer do pâncreas, o diabetes tipo 2 em si parece ser um dos seus fatores de risco, mas um diabetes de início recente também pode ser uma de suas manifestações precoces.</p>" data-bs-original-title="Pâncreas">pâncreas</a>. No entanto, em números absolutos, os tipos mais comuns (e um pouco mais prevalentes do que na população geral) são câncer de mama, câncer colorretal e câncer de pulmão.</p>
-
-															<p>Os mecanismos específicos que levam ao aumento de risco de câncer em diabéticos ainda não são claros. O <a tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html="true" data-bs-content="<p>Pa insulina é o principal hormônio anabólico, ou seja, favorecendo a 'construção', do corpo.</p>" data-bs-original-title="Hiperinsulinismo">hiperinsulinismo</a> pode contribuir, por ser um fator de crescimento celular.</p>
-
-															<p>Sabemos que no diabtes tipo 2, existe elevada secreção de insulina para se contrapor à insulinoresistência, e no diabetes tipo 1, o próprio tratamento por insulina injetável produz altos níveis de insulina no sangue.</p>
-
-															<p>Temos também a hipótese do envolvimento dos chamados "produtos de glicação avançada" (AGEs, do inglês, <em>Advanced Glycation End-products</em>). A maioria vem diretamente da combinação química de açúcares e proteínas dos alimentos quando fritos ou cozidos em temperaturas altas (caramelização). Em pessoas com diabetes, a hiperglicemia crônica mal controlada promove a mesma reação com as proteínas do corpo, propiciando a geração de AGEs.</p>
-
-															<p>Já se sabe que um alto consumo de AGEs na dieta está associado a um maior risco de câncer (e um pior prognóstico) na população em geral, o que se constitui em um argumento a favor do papel dos AGEs no desenvolvimento do câncer em pacientes com diabetes.</p>
-
-															<p>Independentemente do mecanismo envolvido, é importante estar ciente de que pessoas com diabetes têm um risco maior de desenvolver certos tipos de câncer do que aquelas sem diabetes. Portanto, é essencial ficar atento e garantir a detecção precoce.</p>
-														</div>
-													</div>
-												</div>
-
-												<div class="accordion-footer">
-													<img src="../../media/templates/accordion-footer-img1.svg" />
-													<img src="../../media/templates/accordion-footer-img2.svg" />
-												</div>
-											</div>
-										</div>
-
-										<div class="accordion-item">
-											<h5 class="accordion-header" id="heading1-item5">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">Depressão</button>
-											</h5>
-											<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
-												<div class="accordion-body">
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<!-- Texto com Imagem à direita -->
-															<div class="row justify-content-center d-lg-block">
-																<!-- Imagem -->
-																<div class="col-md-8 col-lg-6 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																	<figure>
-																		<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo1/aula2-img7.png" alt="Foto de uma mulher de pele escura com cabelos escuros e blusa cinza, ela está apoiada em uma almofada, está séria e com um olhar sem direção." title="Fonte: Freepik" />
-																		<figcaption class="figure-caption fonte">Fonte: Freepik</figcaption>
-																	</figure>
-																</div>
-
-																<!-- Texto -->
-																<div class="order-2 order-lg-1">
-																	<p>A depressão é um transtorno mental comum que afeta negativamente o estado de ânimo, os pensamentos e o comportamento de uma pessoa.</p>
-
-																	<p>Considera-se que a doença afeta cerca de um em cada cinco adultos com diabetes tipo 2, o que significa um aumento de 20 a 30% em relação à população em geral.</p>
-
-																	<p>Esse excesso de risco se concentra em diabéticos com um maior número de características da síndrome metabólica, abrindo a hipótese de envolvimento da obesidade e de processos como resistência à insulina ou inflamação celular crônica.</p>
-
-																	<p>O diagnóstico da depressão é importante, pois afeta negativamente o autocuidado do diabetes aumentando o risco de complicações.</p>
-
-																	<p>Os sinais de alerta mais significativos são:</p>
-																</div>
-															</div>
-															<!-- Fim de texto e imagem à direita-->
-
-															<div class="list">
-																<ul class="list-group">
-																	<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">queda de energia duradoura;</li>
-
-																	<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">sensação de cansaço físico e mental;</li>
-																	<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200">perda de interesse em coisas que antes se gostava de fazer.</li>
-																</ul>
-															</div>
-
-															<p>O problema é que essas questões podem passar despercebidos , até mesmo pela pessoa acometida pela doença. Além disso, o estigma associado à doença pode levar o paciente a ignorar os sintomas.</p>
-
-															<p>Por isso, é importante que uma pessoa com diabetes entenda e não desdramatize a depressão, e busque ajuda médica. No entanto, é importante saber que a depressão em pessoas com diabetes é mais difícil de tratar com os métodos habituais e tem mais chances de voltar do que em pessoas sem diabetes. Por isso, é recomendável procurar um especialista o mais cedo possível.</p>
-														</div>
-													</div>
-
-													<div class="row justify-content-center">
-														<div class="col-12">
-															<!-- Box de Saiba Mais -->
-															<div class="box" data-box="Saiba Mais">
-																<div class="card card--in">
-																	<div class="card-header">
-																		<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																		<span class="label">Saiba Mais</span>
-																	</div>
-																	<div class="card-body">
-																		<div class="list">
-																			<ul class="list-group">
-																				<li class="list-group-item" list-style="page"><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/depressao" target="_blank">Conheça mais sobre a Depressão em Depressão — Ministério da Saúde (www.gov.br)</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- Fim do Box de Saiba Mais -->
-														</div>
-													</div>
-												</div>
-
-												<div class="accordion-footer">
-													<img src="../../media/templates/accordion-footer-img1.svg" />
-													<img src="../../media/templates/accordion-footer-img2.svg" />
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- Fim do Accordion -->
+									<p>Portanto, no topo dos esforços de prevenção das complicações do diabetes está a prevenção das doenças cardiovasculares.</p>
 								</div>
 							</div>
 						</div>

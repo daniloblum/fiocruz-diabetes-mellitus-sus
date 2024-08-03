@@ -118,7 +118,6 @@ small,
 .small {
 	display: block;
 	font-size: var(--fio-sys-typography-size--1) !important;
-	line-height: var(--fio-sys-typography-spacing-normal)!important;
 }
 
 .extra-small {
