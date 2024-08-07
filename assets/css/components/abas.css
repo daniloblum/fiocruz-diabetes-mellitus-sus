@@ -91,6 +91,13 @@
 .aba .nav.nav-fill .nav-item {
 	width: 50%;
 }
+
+#modal-bibliografiaMod3 .aba .nav.nav-fill .nav-item,
+#modal-bibliografiaMod3 .aba .nav.nav-fill .nav-item,
+#modal-bibliografiaMod3 .aba .nav.nav-fill .nav-item {
+	width: 30%;
+}
+
 .aba .nav.nav-fill .nav-item .nav-link {
 	display: block;
 	padding: 0.5rem 1rem;
