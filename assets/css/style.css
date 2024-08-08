@@ -65,7 +65,7 @@ u {
 }
 /* Images (<figure>) */
 figure {
-	margin: 0 auto var(--fio-sys-size-margin-xl);
+	margin: 0 auto var(--fio-sys-size-margin-xs);
 }
 figure img {
 	margin: 0 auto;
