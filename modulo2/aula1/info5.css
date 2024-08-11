@@ -1,0 +1,109 @@
+/* --- INFOGRÁFICO M2-A1-INFO5--- */
+.st0 {
+    opacity: 0.3;
+    fill: #F7F4CE;
+}
+
+.st1 {
+    fill: #243866;
+}
+
+.st2 {
+    fill: #FFFFFF;
+}
+
+.st3 {
+    opacity: 0.3;
+    fill: #FCB6A0;
+}
+
+.st4 {
+    fill: #243865;
+}
+
+.st5 {
+    opacity: 0.15;
+    fill: #E3D84F;
+}
+
+.st6 {
+    opacity: 0.4;
+}
+
+.st9 {
+    fill: #A0DCE5;
+}
+
+.st10,
+.bt-bt-circle {
+    fill: #E3D84F;
+}
+
+.st13 {
+    fill: #308191;
+}
+
+
+.st16 {
+    fill: #DAE1F2;
+}
+
+
+.st19 {
+    fill: #8299CF;
+}
+
+.st20 {
+    fill: none;
+}
+
+
+.st23 {
+    fill: #006699;
+}
+
+.st26 {
+    fill: #F7F3CB;
+}
+
+
+#Info5 .bts {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    animation: move .75s ease-out infinite alternate;
+}
+
+#Info5 .bts:hover .bt-bt-circle {
+    fill: var(--fio-sys-color-secondary-light);
+}
+
+#Info5 .popover {
+	cursor: pointer;
+	/* transition: 0.3s ease-out; */
+	animation: move .75s ease-out infinite alternate;
+}
+
+#Info5 .popover:hover {
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px rgba(0,0,0,.3));
+}
+
+#Info5 .popover .popover-bg {
+	fill: #c70596;
+}
+
+#Info5  .popover:focus {
+	animation:none;
+	transform: translateY(-5px);
+}
+
+@keyframes move {
+    from {
+      transform: translateY(0);
+	  filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+    }
+
+    to {
+      transform: translateY(-10px);
+	  filter: drop-shadow(0 10px 4px rgba(0,0,0,.3));
+    }
+  }
