@@ -1,674 +1,959 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Diabetes." />
-		<meta name="keywords" content="Fiocruz" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Diabetes." />
+	<meta name="keywords" content="Fiocruz" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/boas-praticas-clinicas" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
-		<meta property="og:description" content="Curso " />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/boas-praticas-clinicas" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
+	<meta property="og:description" content="Curso " />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../../media/icons/manifest.json" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../../media/icons/manifest.json" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<title>Mod 2 | Aula 4.3 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
+	<title>Mod 2 | Aula 4.3 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado
+	</title>
 
-		<!-- Bootstrap 5.1.3 CSS -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<!-- Bootstrap 5.1.3 CSS -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Diabetes Mellitus no SUS<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Diabetes Mellitus no SUS<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado
+							</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama
+										epidemiológico do diabetes</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula1/topico1.html"><strong>Módulo
+											2</strong><br />Tratamanto do diabetes</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/aula1/topico1.html"><strong>Módulo
+											3</strong><br />Organização da rede de atenção à saúde e prevenção das
+										complicações do diabetes mellitus</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama epidemiológico do diabetes</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Tratamanto do diabetes</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 2</span>
-										<span class="title">Tratamanto do diabetes</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Aula 1: </strong>Tratamento não farmacológico do diabetes: dieta, exercício físico e educação para autocuidado</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula2/topico1.html"><strong>Aula 2: </strong>Cirurgia Bariátrica</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula3/topico1.html"><strong>Aula 3: </strong>Tratamento farmacológico do diabetes: classes terapêuticas disponíveis e suas características</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula4/topico1.html"><strong>Aula 4: </strong>Tratamento farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos pacientes idosos</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="">Atividade de Fixação</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 4</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 4</span>
-										<span class="title">Tratamento farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos pacientes idosos</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução </a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"><span class="material-symbols-rounded"></span> Metas do controle glicêmico</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"> <span class="material-symbols-rounded"></span>Medicamentos utilizados no manejo dos pacientes idosos diabéticos</a>
-
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Como manusear os pacientes idosos diabéticos</a>
-
-											<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
-								<span class="label">Glossário</span>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 2</span>
+									<span class="title">Tratamanto do diabetes</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula1/topico1.html"><strong>Aula 1: </strong>Tratamento não
+										farmacológico do diabetes: dieta, exercício físico e educação para
+										autocuidado</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula2/topico1.html"><strong>Aula 2: </strong>Cirurgia
+										Bariátrica</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula3/topico1.html"><strong>Aula 3: </strong>Tratamento
+										farmacológico do diabetes: classes terapêuticas disponíveis e suas
+										características</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula4/topico1.html"><strong>Aula 4: </strong>Tratamento
+										farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos
+										pacientes idosos</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link" href="">Atividade de
+										Fixação</a>
+								</li>
+							</ul>
 						</div>
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 4</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 4</span>
+									<span class="title">Tratamento farmacológico do diabetes: estratégias de uso e
+										peculiaridades no manejo dos pacientes idosos</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução </a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"><span
+												class="material-symbols-rounded"></span> Metas do controle glicêmico</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Medicamentos utilizados no
+											manejo dos pacientes idosos diabéticos</a>
+
+										<a href="topico4.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Como manusear os pacientes
+											idosos diabéticos</a>
+
+										<a href="topico5.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Para concluir</a>
+									</nav>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
+							<span class="label">Glossário</span>
+						</button>
+					</div>
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-8">
+							<h2 class="title">
+								<span class="label small">Módulo 2 | Aula 4</span>
+
+								Tratamento farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos
+								pacientes idosos
+							</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-8">
-								<h2 class="title">
-										<span class="label small">Módulo 2 | Aula 4</span>
-									
-										Tratamento farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos pacientes idosos
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<div class="heading__block">
-                                        <span class="small">Tópico 3</span>
-										<h3 class="heading__title">Medicamentos utilizados no manejo dos pacientes idosos diabéticos</h3>
-									</div>
-
-									<p>É importante salientar a importância do controle glicêmico desde o início do diagnóstico do diabetes devido ao conceito da "memória glicêmica". </p>
-
-									<p>Este fenômeno foi evidenciado pelos resultados a longo prazo de estudos iniciados nos anos 1990 comparando diabéticos com controle glicêmico intensivo a diabéticos com tratamento convencional da época. Os primeiros não somente tinham menos complicações que os segundos durante o período do estudo, mas o efeito benéfico persistiu depois que todos passaram ao controle glicêmico intensivo. Ou seja, os anos de controle intensivo a mais do primeiro grupo deixaram uma "herança benéfica" nos anos subsequentes.</p>
-
-									<!-- Box de Saiba Mais -->
-														<div class="box" data-box="Saiba Mais">
-															<div class="card card--in">
-																<div class="card-header">
-																	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																	<span class="label">Saiba Mais</span>
-																</div>
-																<div class="card-body">
-																	<p>Saiba quais foram os estudos que demostraram o fenômeno de "memória glicêmica":</p>
-																	<span class="h6">DCCT (Diabetes Control and Complications Trial) /EDIC (Epidemiology of Diabetes Interventions and Complications)</span>
-																	<p>Conduzido em pacientes com diabetes tipo 1, o tratamento intensivo tinha o objetivo de alcançar uma HbA1c inferior a 7% nos primeiros 6 anos do diagnóstico, resultando em uma redução de 57% na incidência de infarto não fatal do miocárdio (IAM), acidente vascular cerebral e morte por doença cardiovascular durante o acompanhamento de longo prazo (9 anos).</p>
-																	<span class="h6">UKPD (United Kingdom Prospective Diabetes Study)</span>
-																	<p>Conduzido em indivíduos recém-diagnosticados com diabetes tipo 2, foi observada, 10 anos após a conclusão do estudo, uma redução de 15% no risco de IAM e de 13% na mortalidade por todas as causas no grupo que recebeu tratamento intensivo em comparação com o grupo que recebeu o tratamento convencional da época.</p>
-																</div>
-															</div>
-														</div>
-														<!-- Fim do Box de Saiba Mais -->
-
-
-									
-								</div>
-							</div>
-						<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-							<!-- Texto com Imagem à esquerda -->
-									<div class="row justify-content-center d-lg-block">
-										<!-- Imagem -->
-										<div class="col-md-8 col-lg-6 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
-											<figure>
-												<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula4-img4.jpg" alt="" title="Fonte: Freepik">
-												<figcaption class="figure-caption fonte">Fonte: Freepik</figcaption>
-											</figure>
-										</div>
-		
-										<!-- Texto -->
-										<div class="order-2 order-lg-1">
-											<p>Várias classes de medicamentos têm sido utilizadas para alcançar as metas de controle glicêmico adequado. No caso de pacientes idosos com diabetes tipo 2, a preferência deve ser dada às opções com baixo risco de hipoglicemia. Isso ocorre porque entre os principais fatores de risco para hipoglicemia em idosos com diabetes estão o uso de insulina e sulfonilureias (especialmente a glibenclamida), além da duração da doença, uso simultâneo de múltiplos medicamentos, padrões alimentares irregulares, disfunções orgânicas (renais, hepáticas e cardíacas), declínio cognitivo e histórico prévio de hipoglicemia. </p>
-
-											<p>A seguir, você confere as principais classes de medicamentos utilizadas no manejo de pacientes idosos diabéticos.</p>
-											
-										</div>
-									</div>
-									<!-- Fim de texto e imagem à esquerda-->
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h5>Classe de medicamentos</h5>
-
-
-									<!-- Accordion -->
-												<div class="accordion accordion-flush" id="accordionExample2">
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item1">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Metformina</button>
-														</h5>
-														<div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-															<div class="accordion-body">
-																
-																<p>É um agente de primeira linha no tratamento do diabetes tipo 2 e tem como principal mecanismo de ação a diminuição da produção de glicose pelo fígado. Assim, não causa hipoglicemias: é considerado um medicamento 'anti-hiperglicemiante' e não 'hipoglicemiante'.</p>
-																<p>A dose média de metformina para idosos é de aproximadamente 1000 mg por dia. No início do tratamento, o paciente pode ter incômodos gastrointestinais, como diarreia, flatulência, náuseas e redução do apetite, os quais geralmente melhoram em pouco tempo. No entanto, em idosos, é importante estar atento à redução persistente do apetite, pois, se não melhorar, pode levar à desnutrição.
-																Outro efeito adverso da metformina é a redução dos níveis de vitamina B12 no sangue. A dosagem dessa vitamina deve ser realizada anualmente para identificar precocemente uma possível deficiência que possa requerer tratamento substitutivo.</p>
-																<p>A metformina é contraindicada em pacientes com insuficiência renal avançada, insuficiência hepática e insuficiência cardíaca, devido ao risco de complicação aguda grave, a acidose láctica. Todavia, no caso da insuficiência renal, estudos recentes têm indicado que pode ser usada com segurança em indivíduos com taxa de <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-html='true' data-bs-content="<p>Indicador da função renal, normalmente maior que 90 mL/min/1,73m2.</p>" data-bs-original-title="Filtração glomerular">filtração glomerular</a>superior a 30 mL/min/1,73 m², porém com o cuidado de diminuir as doses pela metade – máximo de 1 grama por dia na forma de liberação lenta – se a taxa de filtração for igual ou inferior a 45 mL/min/1,73 m².</p>
-																<p>A metformina deve ser descontinuada antes de certos procedimentos cirúrgicos e de administração de contraste iodado, uma vez que podem desencadear insuficiência renal aguda. </p>
-																</p>
-															</div>
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item2">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">Tiazolidinadionas</button>
-														</h5>
-														<div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-															<div class="accordion-body">
-																<p>Seu principal mecanismo de ação é a redução da resistência à insulina, especialmente nos músculos.</p>
-																<p>A pioglitazona é a única tiazolidinadiona comercializada no Brasil atualmente, com uma dose recomendada de 15 a 30 mg por dia.</p> 
-																<p>O estudo IRIS (Insulin Resistance Intervention after Stroke) demonstrou que a pioglitazona, em pacientes com pré-diabetes, resistência insulínica e histórico de acidente vascular cerebral ou ataque isquêmico transitório, reduziu o risco de recorrência em 24%. </p>
-																<p>Entre os efeitos colaterais, está o aumento do peso corporal; no entanto, ela também promove a redução da gordura visceral, melhorando a resistência insulínica. Devido à retenção de líquidos, pode causar edema, especialmente em pacientes em uso de insulina, além de anemia e insuficiência cardíaca. Também pode levar à osteoporose e aumentar o risco de fraturas devido ao acúmulo de tecido adiposo na medula óssea. Doses mais baixas podem reduzir o risco de eventos adversos. No entanto, seu uso é contraindicado em pacientes com insuficiência cardíaca e hepática.</p>
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item3">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item3" aria-expanded="false" aria-controls="collapse1-item2">Sulfanilureias</button>
-														</h5>
-														<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
-															<div class="accordion-body">
-															<p>Agem aumentando a secreção de insulina independentemente dos níveis de glicemia. São utilizadas no tratamento do diabetes tipo 2 há mais de 50 anos e têm baixo custo. </p>
-															<p>Juntamente com a metformina, são a classe de medicamentos mais amplamente empregados para o tratamento do diabetes  tipo 2. Promovem ganho de peso e devem ser evitadas em pacientes idosos devido ao risco de hipoglicemia, especialmente com glibenclamida e clorpropamida; se prescritas, devem ser utilizadas com extrema cautela, dando preferência às sulfonilureias de ação mais curta, como a glimepirida em doses de 1 a 2 mg ao dia ou glicazida em doses de até 30 mg ao dia. São contraindicadas em pacientes com insuficiência renal e hepática. </p>
-
-															<p>O uso prolongado das sulfonilureias pode aumentar a probabilidade de falha das células beta do pâncreas.</p>
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item4">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item2">Inibidores DA DPP-4</button>
-														</h5>
-														<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
-															<div class="accordion-body">
-															<p>São inibidores da enzima dipeptidil peptidase 4 (DPP-4). </p>
-															<p>O bloqueio dessa enzima reduz a degradação do GLP1, principal responsável pelo efeito incretínico. Assim, aumentando a vida média do GLP1, promovem suas principais ações, como a liberação de insulina (mediada pela glicose), a redução da velocidade de esvaziamento gástrico e a inibição da secreção de glucagon (hormônio que aumenta a glicose no sangue). Causam modesta redução nos níveis de HbA1c (0,4-0,9%), e todos os medicamentos dessa classe têm eficácia similar. </p>
-
-															<p>Nessa classe de medicamentos, a diminuição da glicemia pós-prandial é mais proeminente do que na glicemia de jejum. Por essa razão, a combinação com metformina é uma boa opção, devido ao efeito desta última na redução da produção de glicose hepática noturna, ou seja, agindo mais sobre a glicemia de jejum.</p>
-
-															<p>Os inibidores da DPP-4 disponíveis no Brasil são: </p>
-
-
-															<!-- Lista Não-Ordenada -->
-																<div class="list">
-																	<ul class="list-group">
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >sitaglipitina 50 ou 100 mg uma ou duas vezes ao dia.</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >viladaglipitina 50 mg duas vezes ao dia.</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >saxagliptina 2,5 ou 5 mg uma vez ao dia.</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >linagliptina 5 mg uma vez ao dia.</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >alogliptina 12,5 ou 25 mg uma vez ao dia. </li>
-
-																	</ul>
-																</div>
-
-																<!-- Fim da Lista Não-Ordenada -->
-															
-															<p>Exceto para a linagliptina, as doses precisam ser diminuídas em caso de insuficiência renal. Têm efeito neutro no peso e no risco cardiovascular; no entanto, a saxagliptina está implicada no aumento de internação por insuficiência cardíaca. Não causam hipoglicemia quando usadas como monoterapia.</p>
-
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item5">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">Agonistas do Receptor do Polipeptídeo Semelhante ao Glucagon 1 (GLP1)</button>
-														</h5>
-														<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
-															<div class="accordion-body">
-															<p>Atuam estimulando a insulina mediada pela ingestão de glicose e bloqueiam o glucagon. Promovem também um retardo do esvaziamento gástrico, aumentando a sensação de saciedade e diminuindo o apetite, o que resulta numa perda de peso importante. Além disso, reduzem o risco de doenças cardiovasculares.</p>
-															<p>Três tipos de agonistas do GLP1 estão disponíveis no Brasil:</p>
-
-															<!-- Lista Não-Ordenada -->
-																<div class="list">
-																	<ul class="list-group">
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Liraglutida (apresentação injetável uma vez ao dia).</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Dulaglutida (apresentação injetável de uso semanal).</li>
-																			<li class="list-group-item aos-init aos-animate" list-style="none" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Semaglutida (apresentação injetável semanal ou oral diariamente).</li>
-
-																	</ul>
-																</div>
-
-																<!-- Fim da Lista Não-Ordenada -->
-															
-															
-															
-															<p>Não apresentam risco de hipoglicemia em monoterapia, mas esse risco passa a existir se forem usados em associação com sulfanilureias, logo, essa associação, no idoso, deve ser evitada.</p>
-															<p>Não é recomendado em pacientes com taxa de filtração glomerular inferior a 15 mL/min/1,73m².</p>
-
-															<!-- Box de Saiba Mais -->
-														<div class="box" data-box="Saiba Mais">
-															<div class="card card--in">
-																<div class="card-header">
-																	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																	<span class="label">Saiba Mais</span>
-																</div>
-																<div class="card-body">
-																	<p>Estudos recentes têm demonstrado um impacto dos agonistas dos receptores do GLP1 na redução de infarto do miocárdio e acidente vascular cerebral em pacientes diabéticos tipo 2.</p>
-																	<p>O estudo "Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER)" em pessoas com doença cardiovascular (DCV) estabelecida ou com alto risco para DCV demonstrou redução do risco de desfechos, como infarto do miocárdio, AVC e morte por DCV.</p>
-																	<p>O estudo SUSTAIN-6 mostrou que outro agonista de GLP1, a semaglutida, testada uma vez por semana em pacientes de alto risco cardiovascular, reduziu os principais eventos cardiovasculares em 26% quando comparado com placebo. Além disso, o estudo REWIND demonstrou que ainda outro agonista de GLP1, a dulaglutida, reduziu eventos cardiovasculares em pacientes de alto risco cardiovascular, sem doença cardiovascular prévia.</p>
-																</div>
-															</div>
-														</div>
-														<!-- Fim do Box de Saiba Mais -->
-
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item6">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item6" aria-expanded="false" aria-controls="collapse1-item2">Inibidores do Cotransportador de Glicose-Sódio Tipo 2 (SGLT2)</button>
-														</h5>
-														<div id="collapse1-item6" class="accordion-collapse collapse" aria-labelledby="heading1-item6" data-bs-parent="">
-															<div class="accordion-body">
-															<p>É uma nova classe de medicamentos anti-hiperglicemiantes orais aprovada tanto pela ANVISA quanto pela Federal Drug Administration (FDA) dos Estados Unidos. No Brasil, existem três tipos dessa classe: dapaglifozina, canaglifozina e empaglifozina. Atualmente, a única disponível no Sistema Único de Saúde (SUS) é a dapaglifozina, destinada a pacientes com mais de 40 anos de idade e com doença cardiovascular estabelecida ou múltiplos fatores de risco.</p>
-															<p>Agem diminuindo a reabsorção da glicose no túbulo renal, aumentando a excreção de glicose e sódio na urina, o que resulta na redução da glicemia e da pressão arterial, trazendo benefícios cardiovasculares e renais. Além disso, promovem uma perda discreta de peso e diminuem o risco de hospitalização e morte por insuficiência cardíaca. Essa redução de risco é especialmente significativa, considerando que pessoas com diabetes têm um risco de insuficiência cardíaca de 2 a 4 vezes maior do que aquelas sem diabetes, sendo essa a principal causa de hospitalização em indivíduos acima de 65 anos no Brasil. Os inibidores SGLT2 também reduzem a progressão da nefropatia diabética.</p>
-
-															<p>Entre os efeitos colaterais, os inibidores SGLT2 aumentam o risco de infecção do trato urinário e podem elevar os níveis de glucagon, causando cetoacidose euglicêmica, por este motivo, são contraindicados para pacientes com diabetes tipo 1.
-															Essa classe de medicamentos não apresenta risco de hipoglicemia, a menos que sejam usados em combinação com sulfanilureias ou insulina, nesse caso, a dosagem dessas últimas medicações precisa ser ajustada.
-															Recomenda-se adaptar a dose em caso de insuficiência renal crônica, com uma taxa de filtração glomerular inferior a 60ml/min.</p>
-
-															<!-- Box de Saiba Mais -->
-														<div class="box" data-box="Saiba Mais">
-															<div class="card card--in">
-																<div class="card-header">
-																	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																	<span class="label">Saiba Mais</span>
-																</div>
-																<div class="card-body">
-																	<p>Vários estudos têm demonstrado uma robusta redução do risco de hospitalização por insuficiência cardíaca em pacientes com diabetes tipo 2 tratados com inibidores do SGLT2. Uma meta-análise dos seis principais estudos envolvendo aproximadamente 50.000 pacientes com diabetes tipo 2 revelou uma redução de 32% no risco de hospitalização por insuficiência cardíaca e uma redução de 15% na mortalidade por doença cardiovascular, em comparação com o grupo que recebeu placebo (um medicamento idêntico ao estudado, mas sem princípio ativo). </p>
-																	<p>Além disso, houve uma modesta, porém significativa, redução de 10% no risco de complicações cardiovasculares agudas, como infarto do miocárdio. Esses benefícios foram consistentes, independentemente da presença ou ausência de doença aterosclerótica cardiovascular.</p>
-																</div>
-															</div>
-														</div>
-														<!-- Fim do Box de Saiba Mais -->
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-
-													<div class="accordion-item">
-														<h5 class="accordion-header" id="heading1-item7">
-															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item7" aria-expanded="false" aria-controls="collapse1-item3">Terapia Insulínica</button>
-														</h5>
-														<div id="collapse1-item7" class="accordion-collapse collapse" aria-labelledby="heading1-item7" data-bs-parent="">
-															<div class="accordion-body">
-																<p>Em pacientes idosos com diabetes tipo 2, a terapia com insulina pode ser considerada quando as metas de controle glicêmico não são alcançadas com os medicamentos antidiabéticos mencionados anteriormente. Além disso, é indicada para pacientes com glicemia acima de 300 mg/dl, sintomáticos (apresentando fraqueza, perda de peso e poliúria) ou com hemoglobina glicada maior que 10%. No entanto, é importante considerar o risco de hipoglicemia nesses pacientes, evitando esquemas terapêuticos complexos, como múltiplas injeções diárias, privilegiando o uso de insulinas análogas de ação prolongada, como a insulina glargina (disponível no SUS) ou ultra-prolongada, como a insulina degludeca, especialmente em pacientes com complicações crônicas, comorbidades, funcionalidade reduzida ou menor expectativa de vida.</p>
-															
-															</div>
-
-															<div class="accordion-footer">
-																<img src="../../media/templates/accordion-footer-img1.svg" width="auto" aria-hidden="true" alt=""/>
-																<img src="../../media/templates/accordion-footer-img2.svg" width="auto" aria-hidden="true" alt=""/>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!-- Fim do Accordion -->
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-
-
-
-											<!-- Box de Glossário -->
-														<div class="box" data-box="Glossário">
-															<div class="card card--in">
-																<div class="card-header">
-																	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																	<span class="label">Glossário</span>
-																</div>
-																<div class="card-body">
-																	<span class="h6">Ataque isquêmico transitório</span>
-																	<p>Se diz de um acidente vascular cerebral (AVC) de curta duração e que regride totalmente sem deixar sequelas. Todavia, esse tipo de AVC indica que a pessoa tem alto risco de AVC ulterior e necessita acompanhamento médico.</p>
-																	<span class="h6">Resistência Insulínica</span>
-																	<p>Redução da resposta das células do fígado ou do músculo ao efeito da insulina, cujo papel é fazer entrar a glicose dentro das células, assim diminuindo a glicemia (quantidade de glicose na corrente sanguínea).</p>
-																</div>
-															</div>
-														</div>
-														<!-- Fim do Box de Glossário -->
-
-								</div>
-							</div>
-
-						</div>
-					</section>
-				</div>
-		
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span class="material-symbols-rounded">west</span>Tópico anterior</a>
-									<a class="fio-button fio-button-primary" href="topico4.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+								<div class="heading__block">
+									<span class="small">Tópico 3</span>
+									<h3 class="heading__title">Medicamentos utilizados no manejo dos pacientes idosos
+										diabéticos</h3>
 								</div>
+
+								<p>É importante salientar a importância do controle glicêmico desde o início do
+									diagnóstico do diabetes devido ao conceito da "memória glicêmica". </p>
+
+								<p>Este fenômeno foi evidenciado pelos resultados a longo prazo de estudos iniciados nos
+									anos 1990 comparando diabéticos com controle glicêmico intensivo a diabéticos com
+									tratamento convencional da época. Os primeiros não somente tinham menos complicações
+									que os segundos durante o período do estudo, mas o efeito benéfico persistiu depois
+									que todos passaram ao controle glicêmico intensivo. Ou seja, os anos de controle
+									intensivo a mais do primeiro grupo deixaram uma "herança benéfica" nos anos
+									subsequentes.</p>
+
+								<!-- Box de Saiba Mais -->
+								<div class="box" data-box="Saiba Mais">
+									<div class="card card--in">
+										<div class="card-header">
+											<span class="icone material-symbols-rounded" aria-hidden="true"></span>
+											<span class="label">Saiba Mais</span>
+										</div>
+										<div class="card-body">
+											<p>Saiba quais foram os estudos que demostraram o fenômeno de "memória
+												glicêmica":</p>
+											<span class="h6">DCCT (Diabetes Control and Complications Trial) /EDIC
+												(Epidemiology of Diabetes Interventions and Complications)</span>
+											<p>Conduzido em pacientes com diabetes tipo 1, o tratamento intensivo tinha
+												o objetivo de alcançar uma HbA1c inferior a 7% nos primeiros 6 anos do
+												diagnóstico, resultando em uma redução de 57% na incidência de infarto
+												não fatal do miocárdio (IAM), acidente vascular cerebral e morte por
+												doença cardiovascular durante o acompanhamento de longo prazo (9 anos).
+											</p>
+											<span class="h6">UKPD (United Kingdom Prospective Diabetes Study)</span>
+											<p>Conduzido em indivíduos recém-diagnosticados com diabetes tipo 2, foi
+												observada, 10 anos após a conclusão do estudo, uma redução de 15% no
+												risco de IAM e de 13% na mortalidade por todas as causas no grupo que
+												recebeu tratamento intensivo em comparação com o grupo que recebeu o
+												tratamento convencional da época.</p>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Box de Saiba Mais -->
 							</div>
 						</div>
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+								<!-- Texto com Imagem à esquerda -->
+								<div class="row justify-content-center d-lg-block">
+									<!-- Imagem -->
+									<div class="col-md-8 col-lg-6 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
+										<figure>
+											<img class="img-fluid mx-auto d-block mb-3"
+												src="../../media/modulo2/aula4-img4.jpg" alt="" title="Fonte: Freepik">
+											<figcaption class="figure-caption fonte">Fonte: <a href='http://www.freepik.com' target='_blank'>Freepik</a></figcaption>
+										</figure>
+									</div>
+
+									<!-- Texto -->
+									<div class="order-2 order-lg-1">
+										<p>Várias classes de medicamentos têm sido utilizadas para alcançar as metas de
+											controle glicêmico adequado. No caso de pacientes idosos com diabetes tipo
+											2, a preferência deve ser dada às opções com baixo risco de hipoglicemia.
+											Isso ocorre porque entre os principais fatores de risco para hipoglicemia em
+											idosos com diabetes estão o uso de insulina e sulfonilureias (especialmente
+											a glibenclamida), além da duração da doença, uso simultâneo de múltiplos
+											medicamentos, padrões alimentares irregulares, disfunções orgânicas (renais,
+											hepáticas e cardíacas), declínio cognitivo e histórico prévio de
+											hipoglicemia. </p>
+
+										<p>A seguir, você confere as principais classes de medicamentos utilizadas no
+											manejo de pacientes idosos diabéticos.</p>
+
+									</div>
+								</div>
+								<!-- Fim de texto e imagem à esquerda-->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+								<h5>Classe de medicamentos</h5>
+
+
+								<!-- Accordion -->
+								<div class="accordion accordion-flush" id="accordionExample2">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">Metformina</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<p>É um agente de primeira linha no tratamento do diabetes tipo 2 e tem
+													como principal mecanismo de ação a diminuição da produção de glicose
+													pelo fígado. Assim, não causa hipoglicemias: é considerado um
+													medicamento 'anti-hiperglicemiante' e não 'hipoglicemiante'.</p>
+												<p>A dose média de metformina para idosos é de aproximadamente 1000 mg
+													por dia. No início do tratamento, o paciente pode ter incômodos
+													gastrointestinais, como diarreia, flatulência, náuseas e redução do
+													apetite, os quais geralmente melhoram em pouco tempo. No entanto, em
+													idosos, é importante estar atento à redução persistente do apetite,
+													pois, se não melhorar, pode levar à desnutrição.
+													Outro efeito adverso da metformina é a redução dos níveis de
+													vitamina B12 no sangue. A dosagem dessa vitamina deve ser realizada
+													anualmente para identificar precocemente uma possível deficiência
+													que possa requerer tratamento substitutivo.</p>
+												<p>A metformina é contraindicada em pacientes com insuficiência renal
+													avançada, insuficiência hepática e insuficiência cardíaca, devido ao
+													risco de complicação aguda grave, a acidose láctica. Todavia, no
+													caso da insuficiência renal, estudos recentes têm indicado que pode
+													ser usada com segurança em indivíduos com taxa de <a class=""
+														tabindex="0" role="button" data-bs-toggle="popover"
+														data-bs-trigger="focus" title="" data-bs-html='true'
+														data-bs-content="<p>Indicador da função renal, normalmente maior que 90 mL/min/1,73m2.</p>"
+														data-bs-original-title="Filtração glomerular">filtração
+														glomerular</a>superior a 30 mL/min/1,73 m², porém com o cuidado
+													de diminuir as doses pela metade – máximo de 1 grama por dia na
+													forma de liberação lenta – se a taxa de filtração for igual ou
+													inferior a 45 mL/min/1,73 m².</p>
+												<p>A metformina deve ser descontinuada antes de certos procedimentos
+													cirúrgicos e de administração de contraste iodado, uma vez que podem
+													desencadear insuficiência renal aguda. </p>
+												</p>
+											</div>
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false"
+												aria-controls="collapse1-item2">Tiazolidinadionas</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Seu principal mecanismo de ação é a redução da resistência à
+													insulina, especialmente nos músculos.</p>
+												<p>A pioglitazona é a única tiazolidinadiona comercializada no Brasil
+													atualmente, com uma dose recomendada de 15 a 30 mg por dia.</p>
+												<p>O estudo IRIS (Insulin Resistance Intervention after Stroke)
+													demonstrou que a pioglitazona, em pacientes com pré-diabetes,
+													resistência insulínica e histórico de acidente vascular cerebral ou
+													ataque isquêmico transitório, reduziu o risco de recorrência em 24%.
+												</p>
+												<p>Entre os efeitos colaterais, está o aumento do peso corporal; no
+													entanto, ela também promove a redução da gordura visceral,
+													melhorando a resistência insulínica. Devido à retenção de líquidos,
+													pode causar edema, especialmente em pacientes em uso de insulina,
+													além de anemia e insuficiência cardíaca. Também pode levar à
+													osteoporose e aumentar o risco de fraturas devido ao acúmulo de
+													tecido adiposo na medula óssea. Doses mais baixas podem reduzir o
+													risco de eventos adversos. No entanto, seu uso é contraindicado em
+													pacientes com insuficiência cardíaca e hepática.</p>
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item3">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item3"
+												aria-expanded="false"
+												aria-controls="collapse1-item2">Sulfanilureias</button>
+										</h5>
+										<div id="collapse1-item3" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item3" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Agem aumentando a secreção de insulina independentemente dos níveis
+													de glicemia. São utilizadas no tratamento do diabetes tipo 2 há mais
+													de 50 anos e têm baixo custo. </p>
+												<p>Juntamente com a metformina, são a classe de medicamentos mais
+													amplamente empregados para o tratamento do diabetes tipo 2. Promovem
+													ganho de peso e devem ser evitadas em pacientes idosos devido ao
+													risco de hipoglicemia, especialmente com glibenclamida e
+													clorpropamida; se prescritas, devem ser utilizadas com extrema
+													cautela, dando preferência às sulfonilureias de ação mais curta,
+													como a glimepirida em doses de 1 a 2 mg ao dia ou glicazida em doses
+													de até 30 mg ao dia. São contraindicadas em pacientes com
+													insuficiência renal e hepática. </p>
+
+												<p>O uso prolongado das sulfonilureias pode aumentar a probabilidade de
+													falha das células beta do pâncreas.</p>
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item4">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item4"
+												aria-expanded="false" aria-controls="collapse1-item2">Inibidores DA
+												DPP-4</button>
+										</h5>
+										<div id="collapse1-item4" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item4" data-bs-parent="">
+											<div class="accordion-body">
+												<p>São inibidores da enzima dipeptidil peptidase 4 (DPP-4). </p>
+												<p>O bloqueio dessa enzima reduz a degradação do GLP1, principal
+													responsável pelo efeito incretínico. Assim, aumentando a vida média
+													do GLP1, promovem suas principais ações, como a liberação de
+													insulina (mediada pela glicose), a redução da velocidade de
+													esvaziamento gástrico e a inibição da secreção de glucagon (hormônio
+													que aumenta a glicose no sangue). Causam modesta redução nos níveis
+													de HbA1c (0,4-0,9%), e todos os medicamentos dessa classe têm
+													eficácia similar. </p>
+
+												<p>Nessa classe de medicamentos, a diminuição da glicemia pós-prandial é
+													mais proeminente do que na glicemia de jejum. Por essa razão, a
+													combinação com metformina é uma boa opção, devido ao efeito desta
+													última na redução da produção de glicose hepática noturna, ou seja,
+													agindo mais sobre a glicemia de jejum.</p>
+
+												<p>Os inibidores da DPP-4 disponíveis no Brasil são: </p>
+
+
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															sitaglipitina 50 ou 100 mg uma ou duas vezes ao dia.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															viladaglipitina 50 mg duas vezes ao dia.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															saxagliptina 2,5 ou 5 mg uma vez ao dia.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															linagliptina 5 mg uma vez ao dia.</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															alogliptina 12,5 ou 25 mg uma vez ao dia. </li>
+
+													</ul>
+												</div>
+
+												<!-- Fim da Lista Não-Ordenada -->
+
+												<p>Exceto para a linagliptina, as doses precisam ser diminuídas em caso
+													de insuficiência renal. Têm efeito neutro no peso e no risco
+													cardiovascular; no entanto, a saxagliptina está implicada no aumento
+													de internação por insuficiência cardíaca. Não causam hipoglicemia
+													quando usadas como monoterapia.</p>
+
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item5">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item5"
+												aria-expanded="false" aria-controls="collapse1-item5">Agonistas do
+												Receptor do Polipeptídeo Semelhante ao Glucagon 1 (GLP1)</button>
+										</h5>
+										<div id="collapse1-item5" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item5" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Atuam estimulando a insulina mediada pela ingestão de glicose e
+													bloqueiam o glucagon. Promovem também um retardo do esvaziamento
+													gástrico, aumentando a sensação de saciedade e diminuindo o apetite,
+													o que resulta numa perda de peso importante. Além disso, reduzem o
+													risco de doenças cardiovasculares.</p>
+												<p>Três tipos de agonistas do GLP1 estão disponíveis no Brasil:</p>
+
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Liraglutida (apresentação injetável uma vez ao dia).</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Dulaglutida (apresentação injetável de uso semanal).</li>
+														<li class="list-group-item aos-init aos-animate"
+															list-style="default" data-aos="fade-right"
+															data-aos-easing="ease-out" data-aos-duration="1200">
+															Semaglutida (apresentação injetável semanal ou oral
+															diariamente).</li>
+
+													</ul>
+												</div>
+												<!-- Fim da Lista Não-Ordenada -->
+
+												<p>Não apresentam risco de hipoglicemia em monoterapia, mas esse risco
+													passa a existir se forem usados em associação com sulfanilureias,
+													logo, essa associação, no idoso, deve ser evitada.</p>
+												<p>Não é recomendado em pacientes com taxa de filtração glomerular
+													inferior a 15 mL/min/1,73m².</p>
+
+												<!-- Box de Saiba Mais -->
+												<div class="box" data-box="Saiba Mais">
+													<div class="card card--in">
+														<div class="card-header">
+															<span class="icone material-symbols-rounded"
+																aria-hidden="true"></span>
+															<span class="label">Saiba Mais</span>
+														</div>
+														<div class="card-body">
+															<p>Estudos recentes têm demonstrado um impacto dos agonistas
+																dos receptores do GLP1 na redução de infarto do
+																miocárdio e acidente vascular cerebral em pacientes
+																diabéticos tipo 2.</p>
+															<p>O estudo "Liraglutide Effect and Action in Diabetes:
+																Evaluation of Cardiovascular Outcome Results (LEADER)"
+																em pessoas com doença cardiovascular (DCV) estabelecida
+																ou com alto risco para DCV demonstrou redução do risco
+																de desfechos, como infarto do miocárdio, AVC e morte por
+																DCV.</p>
+															<p>O estudo SUSTAIN-6 mostrou que outro agonista de GLP1, a
+																semaglutida, testada uma vez por semana em pacientes de
+																alto risco cardiovascular, reduziu os principais eventos
+																cardiovasculares em 26% quando comparado com placebo.
+																Além disso, o estudo REWIND demonstrou que ainda outro
+																agonista de GLP1, a dulaglutida, reduziu eventos
+																cardiovasculares em pacientes de alto risco
+																cardiovascular, sem doença cardiovascular prévia.</p>
+														</div>
+													</div>
+												</div>
+												<!-- Fim do Box de Saiba Mais -->
+
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item6">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item6"
+												aria-expanded="false" aria-controls="collapse1-item2">Inibidores do
+												Cotransportador de Glicose-Sódio Tipo 2 (SGLT2)</button>
+										</h5>
+										<div id="collapse1-item6" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item6" data-bs-parent="">
+											<div class="accordion-body">
+												<p>É uma nova classe de medicamentos anti-hiperglicemiantes orais
+													aprovada tanto pela ANVISA quanto pela Federal Drug Administration
+													(FDA) dos Estados Unidos. No Brasil, existem três tipos dessa
+													classe: dapaglifozina, canaglifozina e empaglifozina. Atualmente, a
+													única disponível no Sistema Único de Saúde (SUS) é a dapaglifozina,
+													destinada a pacientes com mais de 40 anos de idade e com doença
+													cardiovascular estabelecida ou múltiplos fatores de risco.</p>
+												<p>Agem diminuindo a reabsorção da glicose no túbulo renal, aumentando a
+													excreção de glicose e sódio na urina, o que resulta na redução da
+													glicemia e da pressão arterial, trazendo benefícios cardiovasculares
+													e renais. Além disso, promovem uma perda discreta de peso e diminuem
+													o risco de hospitalização e morte por insuficiência cardíaca. Essa
+													redução de risco é especialmente significativa, considerando que
+													pessoas com diabetes têm um risco de insuficiência cardíaca de 2 a 4
+													vezes maior do que aquelas sem diabetes, sendo essa a principal
+													causa de hospitalização em indivíduos acima de 65 anos no Brasil. Os
+													inibidores SGLT2 também reduzem a progressão da nefropatia
+													diabética.</p>
+
+												<p>Entre os efeitos colaterais, os inibidores SGLT2 aumentam o risco de
+													infecção do trato urinário e podem elevar os níveis de glucagon,
+													causando cetoacidose euglicêmica, por este motivo, são
+													contraindicados para pacientes com diabetes tipo 1.
+													Essa classe de medicamentos não apresenta risco de hipoglicemia, a
+													menos que sejam usados em combinação com sulfanilureias ou insulina,
+													nesse caso, a dosagem dessas últimas medicações precisa ser
+													ajustada.
+													Recomenda-se adaptar a dose em caso de insuficiência renal crônica,
+													com uma taxa de filtração glomerular inferior a 60ml/min.</p>
+
+												<!-- Box de Saiba Mais -->
+												<div class="box" data-box="Saiba Mais">
+													<div class="card card--in">
+														<div class="card-header">
+															<span class="icone material-symbols-rounded"
+																aria-hidden="true"></span>
+															<span class="label">Saiba Mais</span>
+														</div>
+														<div class="card-body">
+															<p>Vários estudos têm demonstrado uma robusta redução do
+																risco de hospitalização por insuficiência cardíaca em
+																pacientes com diabetes tipo 2 tratados com inibidores do
+																SGLT2. Uma meta-análise dos seis principais estudos
+																envolvendo aproximadamente 50.000 pacientes com diabetes
+																tipo 2 revelou uma redução de 32% no risco de
+																hospitalização por insuficiência cardíaca e uma redução
+																de 15% na mortalidade por doença cardiovascular, em
+																comparação com o grupo que recebeu placebo (um
+																medicamento idêntico ao estudado, mas sem princípio
+																ativo). </p>
+															<p>Além disso, houve uma modesta, porém significativa,
+																redução de 10% no risco de complicações cardiovasculares
+																agudas, como infarto do miocárdio. Esses benefícios
+																foram consistentes, independentemente da presença ou
+																ausência de doença aterosclerótica cardiovascular.</p>
+														</div>
+													</div>
+												</div>
+												<!-- Fim do Box de Saiba Mais -->
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item7">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item7"
+												aria-expanded="false" aria-controls="collapse1-item3">Terapia
+												Insulínica</button>
+										</h5>
+										<div id="collapse1-item7" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item7" data-bs-parent="">
+											<div class="accordion-body">
+												<p>Em pacientes idosos com diabetes tipo 2, a terapia com insulina pode
+													ser considerada quando as metas de controle glicêmico não são
+													alcançadas com os medicamentos antidiabéticos mencionados
+													anteriormente. Além disso, é indicada para pacientes com glicemia
+													acima de 300 mg/dl, sintomáticos (apresentando fraqueza, perda de
+													peso e poliúria) ou com hemoglobina glicada maior que 10%. No
+													entanto, é importante considerar o risco de hipoglicemia nesses
+													pacientes, evitando esquemas terapêuticos complexos, como múltiplas
+													injeções diárias, privilegiando o uso de insulinas análogas de ação
+													prolongada, como a insulina glargina (disponível no SUS) ou
+													ultra-prolongada, como a insulina degludeca, especialmente em
+													pacientes com complicações crônicas, comorbidades, funcionalidade
+													reduzida ou menor expectativa de vida.</p>
+
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" width="auto"
+													aria-hidden="true" alt="" />
+												<img src="../../media/templates/accordion-footer-img2.svg" width="auto"
+													aria-hidden="true" alt="" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<!-- Box de Glossário -->
+								<div class="box" data-box="Glossário">
+									<div class="card card--in">
+										<div class="card-header">
+											<span class="icone material-symbols-rounded" aria-hidden="true"></span>
+											<span class="label">Glossário</span>
+										</div>
+										<div class="card-body">
+											<span class="h6">Ataque isquêmico transitório</span>
+											<p>Se diz de um acidente vascular cerebral (AVC) de curta duração e que
+												regride totalmente sem deixar sequelas. Todavia, esse tipo de AVC indica
+												que a pessoa tem alto risco de AVC ulterior e necessita acompanhamento
+												médico.</p>
+											<span class="h6">Resistência Insulínica</span>
+											<p>Redução da resposta das células do fígado ou do músculo ao efeito da
+												insulina, cujo papel é fazer entrar a glicose dentro das células, assim
+												diminuindo a glicemia (quantidade de glicose na corrente sanguínea).</p>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Box de Glossário -->
+							</div>
+						</div>
+
 					</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-campus-horizontal.png" height="Logo do Campus Virtual Fiocruz" />
-								</li>
-							</ul>
-						</div>
-						<div class="col-auto">
-							<span class="divider"></span>
-						</div>
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
-								</li>
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-sus.png" alt="Logo do SUS" height="" />
-								</li>
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-governo-federal.png" alt="Logo do Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico2.html" rel="prev"><span
+										class="material-symbols-rounded">west</span>Tópico anterior</a>
+								<a class="fio-button fio-button-primary" href="topico4.html" rel="next">Próximo tópico
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-campus-horizontal.png"
+									height="Logo do Campus Virtual Fiocruz" />
+							</li>
+						</ul>
+					</div>
+					<div class="col-auto">
+						<span class="divider"></span>
+					</div>
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-sus.png" alt="Logo do SUS"
+									height="" />
+							</li>
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-governo-federal.png"
+									alt="Logo do Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>		
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
 
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
 
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script>
+		$(function () {
+			// init zeynepjs side menu
+			var zeynep = $('.zeynep').zeynep({
+				opened: function () {
 					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
+					console.log('the side menu opened');
+				},
+				closed: function () {
+					// log
+					console.log('the side menu closed');
+				},
 			});
-		</script>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+			// dynamically bind 'closing' event
+			zeynep.on('closing', function () {
+				// log
+				console.log('this event is dynamically binded');
+			});
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+			// handle zeynepjs overlay click
+			// $('.zeynep-overlay').on('click', function () {
+			// 	zeynep.close();
+			// });
 
-		<script>
-			AOS.init();
-		</script>
+			// open zeynepjs side menu
+			$('.btn-open').on('click', function () {
+				zeynep.open();
+			});
+		});
+	</script>
 
-	</body>
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+
+</body>
 
 </html>
