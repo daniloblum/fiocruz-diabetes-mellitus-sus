@@ -1,992 +1,1233 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Diabetes." />
-		<meta name="keywords" content="Fiocruz" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Diabetes." />
+	<meta name="keywords" content="Fiocruz" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/boas-praticas-clinicas" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
-		<meta property="og:description" content="Curso " />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/boas-praticas-clinicas" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
+	<meta property="og:description" content="Curso " />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../../media/icons/manifest.json" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../../media/icons/manifest.json" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<title>Mod 2 | Aula 2.2 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado</title>
+	<title>Mod 2 | Aula 2.2 - Curso Diabetes Mellitus no SUS: Promoção, prevenção e o fortalecimento do autocuidado
+	</title>
 
-		<!-- Bootstrap 5.1.3 CSS -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<!-- Bootstrap 5.1.3 CSS -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Diabetes Mellitus no SUS<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Diabetes Mellitus no SUS<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Diabetes Mellitus no SUS:<br />Promoção, prevenção e o fortalecimento do autocuidado
+							</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama
+										epidemiológico do diabetes</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula1/topico1.html"><strong>Módulo
+											2</strong><br />Tratamanto do diabetes</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/aula1/topico1.html"><strong>Módulo
+											3</strong><br />Organização da rede de atenção à saúde e prevenção das
+										complicações do diabetes mellitus</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/topico1.html"><strong>Módulo 1</strong><br />Panorama epidemiológico do diabetes</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Módulo 2</strong><br />Tratamanto do diabetes</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/topico1.html"><strong>Módulo 3</strong><br />Organização da rede de atenção à saúde e prevenção das complicações do diabetes mellitus</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>2</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 2</span>
-										<span class="title">Tratamanto do diabetes</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/topico1.html"><strong>Aula 1: </strong>Tratamento não farmacológico do diabetes: dieta, exercício físico e educação para autocuidado</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula2/topico1.html"><strong>Aula 2: </strong>Cirurgia Bariátrica</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula3/topico1.html"><strong>Aula 3: </strong>Tratamento farmacológico: classes terapêuticas disponíveis e suas características</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula4/topico1.html"><strong>Aula 4: </strong>Tratamento farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos pacientes idosos</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="">Atividade de Fixação</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 2</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 2</span>
-										<span class="title">Cirurgia Bariátrica</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução </a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído" status="visited"><span class="material-symbols-rounded"></span> Tipos de cirurgia bariátrica e metabólica</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"> <span class="material-symbols-rounded"></span> Cirurgia bariátrica e metabólica para pacientes com Diabetes Mellitus</a>
-
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Para concluir</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
-								<span class="label">Glossário</span>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 2</span>
+									<span class="title">Tratamanto do diabetes</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula1/topico1.html"><strong>Aula 1: </strong>Tratamento não
+										farmacológico do diabetes: dieta, exercício físico e educação para
+										autocuidado</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula2/topico1.html"><strong>Aula 2: </strong>Cirurgia
+										Bariátrica</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula3/topico1.html"><strong>Aula 3: </strong>Tratamento
+										farmacológico: classes terapêuticas disponíveis e suas características</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula4/topico1.html"><strong>Aula 4: </strong>Tratamento
+										farmacológico do diabetes: estratégias de uso e peculiaridades no manejo dos
+										pacientes idosos</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link" href="">Atividade de
+										Fixação</a>
+								</li>
+							</ul>
 						</div>
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 2</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
 							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 2</span>
+									<span class="title">Cirurgia Bariátrica</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução </a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído" status="visited"><span
+												class="material-symbols-rounded"></span> Tipos de cirurgia bariátrica e
+											metabólica</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"> <span
+												class="material-symbols-rounded"></span> Cirurgia bariátrica e
+											metabólica para pacientes com Diabetes Mellitus</a>
+
+										<a href="topico4.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Para concluir</a>
+									</nav>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
+							<span class="label">Glossário</span>
+						</button>
+					</div>
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod2">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-8">
+							<h2 class="title">
+								<span class="label small">Módulo 2 | Aula 2</span>
+
+								Cirurgia Bariátrica
+							</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
-					<div class="container">
-						<div class="row align-items-center justify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-8">
-								<h2 class="title">
-									<span class="label small">Módulo 2 | Aula 2</span>
-									
-										Cirurgia Bariátrica
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<div class="heading__block">
-                                        <span class="small">Tópico 2</span>
-										<h3 class="heading__title">Tipos de cirurgia bariátrica e metabólica</h3>
-									</div>
-
-
-						<p>As cirurgias diferenciam-se pelo mecanismo de funcionamento, existindo três procedimentos básicos em cirurgia bariátrica e metabólica, que são didaticamente divididos e classificados em: </p>
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-                                    <figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-                                        <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img2.jpg" alt="Figura ilustrativa do sistema digestivo, o sistema digestivo é formado pela boca, faringe, esôfago, estômago, intestino delgado, intestino grosso e ânus. Fazem também parte desse sistema as seguintes glândulas acessórias: glândulas salivares, pâncreas e fígado." title="Fonte: ">
-                                       
-                                        <figcaption class="figure-caption fonte">Fonte: </figcaption>
-                                    </figure>
-								</div>
-							</div>
-
-										
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-                                    <!-- Accordion -->
-                                    <div class="accordion accordion-flush" id="accordionExample2">
-                                        <div class="accordion-item">
-                                            <h5 class="accordion-header" id="heading1-item1">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">+ Restritivos</button>
-                                            </h5>
-                                            <div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-                                                <div class="accordion-body">
-
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-12">
-                                                            <p>São procedimentos que limitam a capacidade do estômago de receber alimentos, fazendo com que o paciente faça a ingestão de um volume de comida menor. Isso também induz a uma sensação de saciedade precoce, já que o paciente come menos e já se sente saciado.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    
-                                                </div>
-                                                <div class="accordion-footer">
-                                                    <img src="../../media/templates/accordion-footer-img1.svg" />
-                                                    <img src="../../media/templates/accordion-footer-img2.svg" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="accordion-item">
-                                            <h5 class="accordion-header" id="heading1-item2">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item2" aria-expanded="false" aria-controls="collapse1-item2">+ Disabsortivos</button>
-                                            </h5>
-                                            <div id="collapse1-item2" class="accordion-collapse collapse" aria-labelledby="heading1-item2" data-bs-parent="">
-                                                <div class="accordion-body">
-                                                   
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-12">
-                                                            <p>São procedimentos que alteram pouco o tamanho e a capacidade do estômago em receber alimentos, contudo há uma alteração drástica na absorção dos alimentos no intestino delgado. Há um desvio no intestino que faz com que seja menor o tempo do alimento no trânsito pelo intestino delgado, diminuindo a capacidade de absorção dele, e assim induzindo ao emagrecimento. São cirurgias em que o paciente deve estar ciente da necessidade e da importância do controle dos micronutrientes (vitaminas). </p>
-                                                        </div>
-                                                    </div>
-
-                                                  
-                                                </div>
-
-                                                <div class="accordion-footer">
-                                                    <img src="../../media/templates/accordion-footer-img1.svg" />
-                                                    <img src="../../media/templates/accordion-footer-img2.svg" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                       
-
-                                        <div class="accordion-item">
-                                            <h5 class="accordion-header" id="heading1-item5">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">+Técnicas mistas</button>
-                                            </h5>
-                                            <div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
-                                                <div class="accordion-body">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-12">
-                                                            
-
-                                                            <p>São procedimentos que são restritivos e disabsortivos, no qual ocorre uma restrição na capacidade de receber o alimento pelo estômago, que se encontra pequeno, e possui um desvio curto do intestino com discreta má absorção de alimentos. São as cirurgias mais realizadas no Brasil e no mundo, sendo consideradas cirurgias de ouro, pois apresentam elevados índices de satisfação, excelente controle das doenças associadas e manutenção do peso perdido a longo prazo. </p>
-                                                        </div>
-                                                    </div>
-
-                                                   
-                                                </div>
-
-                                                <div class="accordion-footer">
-                                                    <img src="../../media/templates/accordion-footer-img1.svg" />
-                                                    <img src="../../media/templates/accordion-footer-img2.svg" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Fim do Accordion -->
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-                                   
-                                    <!-- Box de Saiba Mais -->
-                                    <div class="box" data-box="Saiba Mais">
-                                        <div class="card card--in">
-                                            
-                                            <div class="card-header">
-                                            	<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-                                                <span class="label">Saiba Mais</span>
-                                            </div>
-
-                                            <div class="card-body">
-                                                <p class="h6">Técnicas de cirurgias bariátricas</p>
-
-                                                   								 <div class="row justify-content-center">
-
-   								 	<!-- Texto com Imagem à esquerda -->
-                                   		 <div class="row justify-content-center d-lg-block">
-		                                        <!-- Imagem -->
-		                                        <div class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-2 order-lg-1">
-		                                            <figure>
-		                                                <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img3.png" alt="Bypass gástrico, o cirurgião reduz o espaço para o alimento no estômago. Ao mesmo tempo, faz um desvio no intestino que aumenta a sua produção de hormônios da saciedade. Ao ingerir menos comida e se sentir mais saciada, a pessoa emagrece. " title="Fonte:">
-		                                                <figcaption class="figure-caption">Legenda</figcaption>
-		                                                <figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
-		                                            </figure>
-		                                        </div>
-
-                                        		<!-- Texto -->
-		                                        <div class="order-1 order-lg-2 mb-3">
-		                                            <p><strong>Bypass gástrico: </strong>O cirurgião reduz o espaço para o alimento no estômago. Aos mesmo tempo, faz um desvio no intestino que aumenta a sua produção de hormônios da saciedade. Ao ingerir menos comida e se sentir mais saciada, a pessoa emagrece.</p>
-		                                        </div>
-		                                    </div>
-		                               <!-- Fim de texto e imagem à esquerda-->
-
-		                               
-		                            </div>
-
-		                         <div class="row justify-content-center">
-								
-		                            <!-- Texto com Imagem à direita -->
-                                    <div class="row justify-content-center d-lg-block mt-3">
-                                        <!-- Imagem -->
-                                        <div class="col-md-8 col-lg-4 float-lg-start me-lg-4 px-0 order-2 order-lg-1">
-                                            <figure>
-                                                <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img4.png" alt="Gastrectomia vertical, também chamada de cirurgia de Sleeve, nela o médico cirurgião transforma o estômago em uma espécie de tubo, com uma capacidade muito pequena." title="Fonte:">
-                                                <figcaption class="figure-caption">Legenda</figcaption>
-                                                <figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
-                                            </figure>
-                                        </div>
-
-                                        <!-- Texto -->
-                                        <div class="order-1 order-lg-2 mb-3">
-                                            <p><strong>Gastrectomia vertical:</strong> Também chamada de cirurgia de Sleeve, nela o médico cirurgião transformao estômago em uma espécie de tubo, cpom uma capacidade muito pequena</p>
-                                            
-                                            
-                                        </div>
-                                    </div>
-                                    <!-- Fim de texto e imagem à direita-->
-
-                            </div>
-
-                             <div class="row justify-content-center">
-								
-								         <!-- Texto com Imagem à esquerda -->
-                                   		 <div class="row justify-content-center d-lg-block mt-3">
-		                                        <!-- Imagem -->
-		                                        <div class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-2 order-lg-1">
-		                                            <figure>
-		                                                <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img5.png" alt="Duodenal switch, além de transformar o estômago em um tubo, o cirurgião faz aquele desvio do intestino para aumentar a produção de hormônios da saciedade." title="Fonte:">
-		                                                <figcaption class="figure-caption">Legenda</figcaption>
-		                                                <figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
-		                                            </figure>
-		                                        </div>
-
-                                        		<!-- Texto -->
-		                                        <div class="order-1 order-lg-2 mb-3">
-		                                            <p><strong>Duodenal switch: </strong>Além de transformar o estômago em um tubo, o cirurgião faz aquele desvio do intestino para aumentar a produção dos hormônios da saciedade</p>
-		                                        </div>
-		                                    </div>
-		                                    <!-- Fim de texto e imagem à esquerda-->
-		                               
-		                            </div>
-
-
-                                 			 
-
-                                 			</div>
-							
-                                        </div>
-                                    </div>
-                                    <!-- Fim do Box de Saiba Mais -->
-
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>Vale ressaltar que a cirurgia bariátrica e metabólica pode ser feita por cirurgia aberta, por videolaparoscopia, robótica e mais atualmente por procedimento endoscópico, teoricamente menos invasivo, porém, mais confortável ao paciente.</p>
-                                   
-                                </div>
-                            </div>
-
-                             <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<!-- Box de Leitura Complementar -->
-                                    <div class="box" data-box="Leitura Complementar">
-                                        <div class="card card--in">
-                                            <div class="card-header">
-                                                <span class="icone material-symbols-rounded" aria-hidden="true"></span>
-                                                <span class="label">Leitura<br/>Complementar</span>
-                                            </div>
-                                            <div class="card-body">
-                                                <p class="h6">Guia para entender o tratamento com cirurgia bariátrica e metabólica</p>
-
-                                                <!-- Texto com Imagem à esquerda -->
-									<div class="row justify-content-center d-lg-block">
-										<!-- Imagem -->
-										<div class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
-											<figure>
-												<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img6.jpg" alt="" title="Fonte: UFPE">
-												<figcaption class="figure-caption fonte">Fonte: Abeso.org.br</figcaption>
-											</figure>
-										</div>
-		
-										<!-- Texto -->
-										<div class="order-2 order-lg-1">
-											<p> Sugerimos a leitura do E-book “Guia para entender o tratamento com cirurgia bariátrica e metabólica”, da Associação Brasileira para o estudo da Obesidade e Síndrome Metabólica (Abeso). </p>
-
-
-                                            <div class="list">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item" list-style="page"> <a href='https://x.gd/02axV' target='_blank'>Disponível no link: https://x.gd/02axV</a> </li>
-                                                    </ul>
-                                            </div>
-										</div>
-									</div>
-									<!-- Fim de texto e imagem à esquerda-->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Fim do Box de Leitura Complementar -->
-                                   
-                                </div>
-                            </div>
-						</div>
-
-                          <div class="container-fluid px-0">
-							<div class="destaque-parallax mb-5">
-								<div class="container">
-									<div class="row justify-content-center">
-										<div class="col-12 col-md-10 col-lg-8">
-											
-											<h4>Critérios para realização da cirurgia bariátrica e metabólica</h4>
-
-											<p>O Ministério da Saúde, por meio da Portaria nº 424, de 19 de março de 2013, traz as diretrizes gerais para o tratamento cirúrgico da obesidade, tendo como indicações para cirurgia bariátrica e metabólica:</p>
-
-
-											<div class="list">
-		                                        <ul class="list-group">
-		                                            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" >Indivíduos que apresentem <a href="#" data-bs-toggle="modal" data-bs-target="#modal-IMC">IMC</a> >50 Kg/m2;</li>
-
-		                                            <li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="100">Indivíduos que apresentem IMC > 40 Kg/m², com ou sem comorbidades, sem sucesso no tratamento clínico longitudinal realizado, na Atenção Básica e/ou na Atenção Ambulatorial Especializada, por no mínimo dois anos e que tenham seguido protocolos clínicos;</li>
-		                                            <li class="list-group-item aos-init aos-animate" list-style='default' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200" data-aos-delay="200">Indivíduos com IMC > 35 kg/m2 e com comorbidades, tais como pessoas com alto risco cardiovascular, Diabetes Mellitus e/ou Hipertensão Arterial Sistêmica de difícil controle, apneia do sono, doenças articulares degenerativas, sem sucesso no tratamento clínico longitudinal realizado por no mínimo dois anos e que tenham seguido protocolos clínicos.</li>
-
-		                                           
-		                                        </ul>
-		                                    </div>
-
-
-											<p class="h6">Os seguintes critérios devem ser observados:</p>
-
-
-													<!-- Lista Ordenada -->
-													<div class="list">
-															<ol class="list-group list-group-numbered"> 
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Indivíduos que não responderam ao tratamento clínico longitudinal, que inclui orientação e apoio para mudança de hábitos, realização de dieta, atenção psicológica, prescrição de atividade física e, se necessário, farmacoterapia, realizado na Atenção Básica e/ ou Atenção Ambulatorial Especializada por no mínimo dois anos e que tenham seguido protocolos clínicos;</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Respeitar os limites clínicos de acordo com a idade. Nos jovens entre 16 e 18 anos, poderá ser indicado o tratamento cirúrgico naqueles que apresentarem o escore-Z maior que +4 na análise do IMC por idade, porém o tratamento cirúrgico não deve ser realizado antes da consolidação das epífises de crescimento. Portanto, a avaliação clínica do jovem necessita constar em prontuário e deve incluir: Análise da idade óssea e avaliação criteriosa do risco-benefício, realizada por equipe multiprofissional com participação de dois profissionais médicos especialistas na área. Nos adultos com idade acima de 65 anos, deve ser realizada avaliação individual por equipe multiprofissional, considerando a avaliação criteriosa do risco-benefício, risco cirúrgico, presença de comorbidades, expectativa de vida e benefícios do emagrecimento;</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">O indivíduo e seus responsáveis devem compreender todos os aspectos do tratamento e assumirem o compromisso com o segmento pós-operatório, que deve ser mantido por tempo a ser determinado pela equipe;</li>
-																<li class="list-group-item aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Compromisso consciente do paciente em participar de todas as etapas da programação, com avaliação pré-operatória rigorosa (psicológica, nutricional, clínica, cardiológica, endocrinológica, pulmonar, gastroenterológica e anestésica).</li>
-															</ol>
-													</div>
-													<!-- Fim da Lista Ordenada -->
-
-										</div>
-									</div>
-										<div class="row justify-content-center">
-										<div class="col-12">
-											<div class="parallax-footer">
-												<img src="../../media/templates/accordion-footer-img1.svg" />
-												
-												<img src="../../media/templates/accordion-footer-img2.svg" />
-												<img src="../../media/templates/parallax-footer-3.png" />
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						 <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									
-								
-										<!--Slider-->
-														<div class="slider">
-															<div class="card card--in">
-
-															<div class="card-header">
-																<span class="">E quais são as contraindicações para cirurgia bariátrica e metabólica?</span>
-															</div>
-																<div class="card-body">
-																	<div id="carousel-texto-titulo" class="carousel slide" data-bs-interval="false">
-																		<div class="carousel-indicators">
-																			<button type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-																			<button type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-																			<button type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide-to="2"  aria-label="Slide 3"></button>
-																			<button type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide-to="3" aria-label="Slide 4"></button>
-																			<button type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide-to="4" aria-label="Slide 5"></button>
-																		</div>
-																		<div class="carousel-inner">
-																			<div class="carousel-item active">
-
-
-																				<!-- Texto à direita com Imagem  -->
-																				<div class="row justify-content-center d-lg-block">
-																					<!-- Imagem -->
-																					<div class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																						<figure>
-																							<img class="img-fluid mx-auto d-none d-lg-block" src="../../media/modulo2/aula2-img6.svg" alt="Símbolo que representa não indicado.">
-																						</figure>
-																					</div>
-													
-																					<!-- Texto -->
-																					<div class="order-2 order-lg-1">
-																						<p><strong>Pacientes que apresentem quadros de limitação intelectual significativa</strong> e que não possuem um suporte familiar adequado para as necessidades e cuidados após a cirurgia.</p>
-																					</div>
-																				</div>
-																				<!-- Fim de texto e imagem à direita-->
-																				
-																				
-																			</div>
-					
-																			<div class="carousel-item">
-
-																				<!-- Texto à direita com Imagem  -->
-																				<div class="row justify-content-center d-lg-block">
-																					<!-- Imagem -->
-																					<div class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																						<figure>
-																							<img class="img-fluid mx-auto d-none d-lg-block" src="../../media/modulo2/aula2-img6.svg" alt="Símbolo que representa não indicado.">
-																						</figure>
-																					</div>
-													
-																					<!-- Texto -->
-																					<div class="order-2 order-lg-1">
-																						<p><strong>Pacientes que apresentarem quadro de transtorno psiquiátrico não controlado</strong>, incluindo uso de álcool ou drogas ilícitas. Nos casos em que o quadro psiquiátrico estiver sob controle, não há contraindicação para a cirurgia.</p>
-																					</div>
-																				</div>
-																				<!-- Fim de texto e imagem à direita-->
-																				
-																				
-																			</div>
-
-																			<div class="carousel-item">
-																				
-																				<!-- Texto à direita com Imagem  -->
-																				<div class="row justify-content-center d-lg-block">
-																					<!-- Imagem -->
-																					<div class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																						<figure>
-																							<img class="img-fluid mx-auto d-none d-lg-block" src="../../media/modulo2/aula2-img6.svg" alt="Símbolo que representa não indicado.">
-																						</figure>
-																					</div>
-													
-																					<!-- Texto -->
-																					<div class="order-2 order-lg-1">
-																						<p><strong>Pacientes que apresentarem doença cardiopulmonar grave e descompensada</strong>, no qual o médico avalia a relação risco-benefício e verifica que a cirurgia poderia trazer pioras clínicas para o paciente.</p>
-																					</div>
-																				</div>
-																				<!-- Fim de texto e imagem à direita-->
-																			</div>
-
-																			<div class="carousel-item">
-																				
-																				<!-- Texto à direita com Imagem  -->
-																				<div class="row justify-content-center d-lg-block">
-																					<!-- Imagem -->
-																					<div class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																						<figure>
-																							<img class="img-fluid mx-auto d-none d-lg-block mb-3" src="../../media/modulo2/aula2-img6.svg" alt="Símbolo que representa não indicado.">
-																						</figure>
-																					</div>
-													
-																					<!-- Texto -->
-																					<div class="order-2 order-lg-1">
-																						<p><strong>Pacientes que apresentarem Hipertensão portal (pressão aumentada na veia porta), com varizes esofagogástricas, doenças imunológicas ou inflamatórias do trato digestivo superior</strong> que possam causar sangramentos digestivos no paciente ou outras condições de risco.</p>
-																					</div>
-																				</div>
-																				<!-- Fim de texto e imagem à direita-->
-																			</div>
-																			<div class="carousel-item">
-																				
-																				<!-- Texto à direita com Imagem  -->
-																				<div class="row justify-content-center d-lg-block">
-																					<!-- Imagem -->
-																					<div class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-																						<figure>
-																							<img class="img-fluid mx-auto d-none d-lg-block" src="../../media/modulo2/aula2-img6.svg" alt="Símbolo que representa não indicado.">
-																						</figure>
-																					</div>
-													
-																					<!-- Texto -->
-																					<div class="order-2 order-lg-1">
-																						<p><strong>Pacientes que apresentarem Síndrome de Cushing</strong> decorrente de hiperplasia na suprarrenal (distúrbio que afeta as glândulas suprarrenais, localizadas próximas aos rins) não tratada e tumores endócrinos.</p>
-																					</div>
-																				</div>
-																				<!-- Fim de texto e imagem à direita-->
-																			</div>
-																		</div>
-					
-																		<button class="carousel-control-prev" type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide="prev">
-																			<span class="carousel-control-prev-icon white-arrow" aria-hidden="true"></span>
-																			<span class="visually-hidden">Previous</span>
-																		</button>
-					
-																		<button class="carousel-control-next" type="button" data-bs-target="#carousel-texto-titulo" data-bs-slide="next">
-																			<span class="carousel-control-next-icon white-arrow" aria-hidden="true"></span>
-																			<span class="visually-hidden">Next</span>
-																		</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<h4> Cuidados pré e pós-operatórios da cirurgia bariátrica e metabólica</p>
-
-
-
-										<!-- Texto à direita com Imagem  -->
-											<div class="row justify-content-center d-lg-block">
-												<!-- Imagem -->
-													<div class="col-md-8 col-lg-5 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-														<figure>
-															 <img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img7.svg" alt="">
-														</figure>
-													</div>
-													
-											<!-- Texto -->
-												<div class="order-2 order-lg-1">
-													<p>O preparo <strong>pré-operatório</strong> visa diminuir os riscos da cirurgia, otimizar a segurança e melhorar os resultados metabólicos e outras comorbidades. Problemas de saúde preexistentes devem ser compensados da melhor forma possível, com a otimização das medidas necessárias, como ajuste de doses de medicamentos, dieta específica, fisioterapia e preparo psicológico. Nessa fase, também é obrigatório o preenchimento do documento de Consentimento Informado, no qual o paciente reconhece estar devidamente ciente sobre os benefícios e riscos da cirurgia.</p>
-
-													<p>No <strong>pós-operatório</strong>, além do acompanhamento nutricional, o acompanhamento psicológico é muito importante e deve ser sempre preventivo e educativo. É necessário considerar o aparecimento de novos fatores de estresse e ansiedade após a cirurgia. Além disso, o paciente pode criar expectativas que não serão atingidas, especialmente em relação à velocidade de melhora.</p>
-												</div>
-											</div>
-										<!-- Fim de texto e imagem à direita-->
-
-										<p>Em relação à alimentação, há uma série de etapas progressivas quanto à consistência, orientadas pelo nutricionista para favorecer a adaptação alimentar e a cicatrização do estômago e do intestino. Em todas elas, há necessidade de suplementação proteica.</p>
-
-
-										<h4>Etapas progressivas em relação à alimentação do paciente no pós-operatório</h4>
-		
-									<!-- Texto com Imagem completa -->
-									<div class="row justify-content-center d-lg-block px-3 my-5">
-										<!-- Imagem -->
-										<div class="col-md-12 col-lg-12 px-0 order-1 order-lg-2 mb-5">
-											<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-												<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img8.svg" alt="Etapas progressivas em relação à alimentação do paciente no pós-operatório, a primeira etapa é a dieta líquida, caldos de sopa bem coados e sucos de frutas naturais bem coados também; leite e iogurte líquido com elevado teor de proteínas. A segunda etapa é a dieta pastosa, além dos líquidos, já entram purês, sopas cremosas de legumes e leguminosas, frutas que não sejam cítricas cozidas, assadas ou in natura; vitaminas de frutas; carnes moídas ou desfiadas. A terceira etapa é a dieta branda, ela inclui alimentos em pedaços - legumes, frutas que não sejam cítricas, leguminosas, carnes - cozidos, assados ou grelhados para abrandar as fibras. Eles devem ser muito bem mastigados. A quarta e última etapa é a dieta normal, ela já pode incluir alimentos crus, como folhas, frutas cítricas e fibras integrais, mas evita receitas ricas em açúcar e gorduras, bebidas gaseificadas e álcool." title="Fonte: Fonte: E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica. Abeso.">
-												<figcaption class="figure-caption">Adaptação de imagem do E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica. </figcaption>
-												<figcaption class="figure-caption fonte">Fonte: E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica. Abeso.</figcaption>
-											</figure>
-										</div>
-		
-										<!-- Texto -->
-										<div class="order-2 order-lg-1">
-											<p>Na maioria das vezes, é necessária a reposição com suplementos e vitaminas devido às deficiências nutricionais que ocorrem tanto pela menor quantidade de alimentos ingeridos quanto pela diminuição da absorção dos nutrientes, quando é realizado o desvio intestinal.</p>
-
-											<p>Todas as técnicas cirúrgicas exigem que a pessoa faça suplementação e acompanhamento nutricional periódico para eventuais ajustes, sempre individualizados conforme a necessidade de cada um. </p>
-
-											<p>É fundamental que a alimentação seja a mais equilibrada possível e que, juntamente com ela, a suplementação seja usada de maneira correta.</p>
-										</div>
-									</div>
-									<!-- Fim de texto com Imagem completa-->
-
-							  </div>
-                            </div>
-
-
-                            <div class="row justify-content-center">
-                                <div class="col-12 col-md-10 col-lg-8">
-                                    <div class="table-responsive">
-
-                                    	<h4>Suplementação para pacientes pós-cirurgia bariátrica e metabólica.</h4>
-
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th class="text-center" colspan="4">Tabela 1 - Os sumplementos mais utilizados</th>
-                                                </tr>
-                                               
-
-                                                <tr>
-                                                    <th class="table-border" colspan="3"></th>
-                                                </tr>
-                                            </thead>
-
-                                            <tbody>
-                                                <tr class="text-center">
-                                                    <td><strong>Polivitamínícos</strong> na forma de comprimidos, contendo zinco, cobre, folato, citamina A, E, K e C</td>
-                                                    <td><strong>Cálcio,</strong> geralmente na forma de citrato de cálcio</td>
-                                                    <td><strong>Suplementos de proteínas,</strong> como <i>whay protein</i>, leite em pó, albumina em pó e outros</td>
-                                                   
-                                                </tr>
-                                              
-
-                                                <tr class="text-center background-secondary-medium">
-                                                    <td><strong>Vitaminas B12, B1 e b6</strong></td>
-                                                    <td><strong>Vitamina D</strong></td>
-                                                    <td><strong>Ferro</strong></td>
-                                                   
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <span class="figure-caption text-center d-block">Tabela 1 - Os sumplementos mais utilizados</span>
-                                        <span class="figure-caption text-center d-block">Fonte: E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica. Abeso</span>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-											
-											<p>O paciente com aderência ao acompanhamento pós-operatório poderá ser submetido à cirurgia plástica reparadora do abdômen, das mamas e de membros, conforme orientações para indicação de cirurgia plástica reparadora pós-cirurgia bariátrica e metabólica.</p>
-											
-											<h4>Benefícios da cirurgia bariátrica e metabólica</h4>
-
-											<p>Os benefícios da cirurgia bariátrica e metabólica vão muito além da perda de peso. Há um melhor controle da glicemia, possibilidade de remissão de doenças associadas à obesidade e melhoria da qualidade de vida do paciente de forma geral.</p>
-
-											<p>Destacam-se aqui algumas doenças que melhoram após a cirurgia bariátrica e metabólica: diabetes tipo 2, hipertensão arterial, dislipidemia (níveis elevados de gordura no sangue), doenças cardiovasculares (infarto do miocárdio, angina, insuficiência cardíaca congestiva, acidente vascular cerebral, hipertensão), hérnia de disco, depressão, entre outras.
-											</p>
-									
-
-							  </div>
-                            </div>
-
-
-
-						
-					</section>
-				</div>
-		
-				<!-- Navegação da aula -->
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
 				<section>
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico1.html" rel="prev"><span class="material-symbols-rounded">west</span>Tópico anterior</a>
-									<a class="fio-button fio-button-primary" href="topico3.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+								<div class="heading__block">
+									<span class="small">Tópico 2</span>
+									<h3 class="heading__title">Tipos de cirurgia bariátrica e metabólica</h3>
 								</div>
+
+								<p>As cirurgias diferenciam-se pelo mecanismo de funcionamento, existindo três
+									procedimentos básicos em cirurgia bariátrica e metabólica, que são didaticamente
+									divididos e classificados em: </p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<figure class="lightbox aos-init aos-animate" data-aos="fade-up"
+									data-aos-easing="ease-out" data-aos-duration="600">
+									<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo2/aula2-img2.jpg"
+										alt="Figura ilustrativa do sistema digestivo, o sistema digestivo é formado pela boca, faringe, esôfago, estômago, intestino delgado, intestino grosso e ânus. Fazem também parte desse sistema as seguintes glândulas acessórias: glândulas salivares, pâncreas e fígado."
+										title="Fonte: Freepik">
+								</figure>
+								<span class="figure-caption d-block text-center fonte">Fonte: <a href='https://www.freepik.com/' target='_blank'>Freepik</a></span>
+							</div>
+						</div>
+
+
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<!-- Accordion -->
+								<div class="accordion accordion-flush" id="accordionExample2">
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item1">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item1"
+												aria-expanded="true" aria-controls="collapse1-item1">+
+												Restritivos</button>
+										</h5>
+										<div id="collapse1-item1" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item1" data-bs-parent="">
+											<div class="accordion-body">
+
+												<div class="row justify-content-center">
+													<div class="col-12">
+														<p>São procedimentos que limitam a capacidade do estômago de
+															receber alimentos, fazendo com que o paciente faça a
+															ingestão de um volume de comida menor. Isso também induz a
+															uma sensação de saciedade precoce, já que o paciente come
+															menos e já se sente saciado.</p>
+													</div>
+												</div>
+
+
+											</div>
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" />
+												<img src="../../media/templates/accordion-footer-img2.svg" />
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item2">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item2"
+												aria-expanded="false" aria-controls="collapse1-item2">+
+												Disabsortivos</button>
+										</h5>
+										<div id="collapse1-item2" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item2" data-bs-parent="">
+											<div class="accordion-body">
+
+												<div class="row justify-content-center">
+													<div class="col-12">
+														<p>São procedimentos que alteram pouco o tamanho e a capacidade
+															do estômago em receber alimentos, contudo há uma alteração
+															drástica na absorção dos alimentos no intestino delgado. Há
+															um desvio no intestino que faz com que seja menor o tempo do
+															alimento no trânsito pelo intestino delgado, diminuindo a
+															capacidade de absorção dele, e assim induzindo ao
+															emagrecimento. São cirurgias em que o paciente deve estar
+															ciente da necessidade e da importância do controle dos
+															micronutrientes (vitaminas). </p>
+													</div>
+												</div>
+
+
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" />
+												<img src="../../media/templates/accordion-footer-img2.svg" />
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="accordion-item">
+										<h5 class="accordion-header" id="heading1-item5">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#collapse1-item5"
+												aria-expanded="false" aria-controls="collapse1-item5">+Técnicas
+												mistas</button>
+										</h5>
+										<div id="collapse1-item5" class="accordion-collapse collapse"
+											aria-labelledby="heading1-item5" data-bs-parent="">
+											<div class="accordion-body">
+												<div class="row justify-content-center">
+													<div class="col-12">
+
+
+														<p>São procedimentos que são restritivos e disabsortivos, no
+															qual ocorre uma restrição na capacidade de receber o
+															alimento pelo estômago, que se encontra pequeno, e possui um
+															desvio curto do intestino com discreta má absorção de
+															alimentos. São as cirurgias mais realizadas no Brasil e no
+															mundo, sendo consideradas cirurgias de ouro, pois apresentam
+															elevados índices de satisfação, excelente controle das
+															doenças associadas e manutenção do peso perdido a longo
+															prazo. </p>
+													</div>
+												</div>
+
+
+											</div>
+
+											<div class="accordion-footer">
+												<img src="../../media/templates/accordion-footer-img1.svg" />
+												<img src="../../media/templates/accordion-footer-img2.svg" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Accordion -->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+								<!-- Box de Saiba Mais -->
+								<div class="box" data-box="Saiba Mais">
+									<div class="card card--in">
+
+										<div class="card-header">
+											<span class="icone material-symbols-rounded" aria-hidden="true"></span>
+											<span class="label">Saiba Mais</span>
+										</div>
+
+										<div class="card-body">
+											<p class="h6">Técnicas de cirurgias bariátricas</p>
+
+											<div class="row justify-content-center">
+												<!-- Texto com Imagem à esquerda -->
+												<div class="row justify-content-center d-lg-block">
+													<!-- Imagem -->
+													<div
+														class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-2 order-lg-1">
+														<figure>
+															<img class="img-fluid mx-auto d-block mb-3"
+																src="../../media/modulo2/aula2-img3.png"
+																alt="Bypass gástrico, o cirurgião reduz o espaço para o alimento no estômago. Ao mesmo tempo, faz um desvio no intestino que aumenta a sua produção de hormônios da saciedade. Ao ingerir menos comida e se sentir mais saciada, a pessoa emagrece. "
+																title="Fonte:">
+														</figure>
+													</div>
+
+													<!-- Texto -->
+													<div class="order-1 order-lg-2 mb-3">
+														<p><strong>Bypass gástrico: </strong>o cirurgião reduz o espaço
+															para o alimento no estômago. Aos mesmo tempo, faz um desvio
+															no intestino que aumenta a sua produção de hormônios da
+															saciedade. Ao ingerir menos comida e se sentir mais saciada,
+															a pessoa emagrece.</p>
+													</div>
+												</div>
+												<!-- Fim de texto e imagem à esquerda-->
+											</div>
+
+											<div class="row justify-content-center">
+												<!-- Texto com Imagem à direita -->
+												<div class="row justify-content-center d-lg-block mt-3">
+													<!-- Imagem -->
+													<div
+														class="col-md-8 col-lg-4 float-lg-start me-lg-4 px-0 order-2 order-lg-1">
+														<figure>
+															<img class="img-fluid mx-auto d-block mb-3"
+																src="../../media/modulo2/aula2-img4.png"
+																alt="Gastrectomia vertical, também chamada de cirurgia de Sleeve, nela o médico cirurgião transforma o estômago em uma espécie de tubo, com uma capacidade muito pequena."
+																title="Fonte:">
+														</figure>
+													</div>
+
+													<!-- Texto -->
+													<div class="order-1 order-lg-2 mb-3">
+														<p><strong>Gastrectomia vertical:</strong> também chamada de
+															cirurgia de Sleeve, nela o médico cirurgião transformao
+															estômago em uma espécie de tubo, cpom uma capacidade muito
+															pequena</p>
+
+
+													</div>
+												</div>
+												<!-- Fim de texto e imagem à direita-->
+											</div>
+
+											<div class="row justify-content-center">
+												<!-- Texto com Imagem à esquerda -->
+												<div class="row justify-content-center d-lg-block mt-3">
+													<!-- Imagem -->
+													<div
+														class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-2 order-lg-1">
+														<figure>
+															<img class="img-fluid mx-auto d-block mb-3"
+																src="../../media/modulo2/aula2-img5.png"
+																alt="Duodenal switch, além de transformar o estômago em um tubo, o cirurgião faz aquele desvio do intestino para aumentar a produção de hormônios da saciedade."
+																title="Fonte:">
+														</figure>
+													</div>
+
+													<!-- Texto -->
+													<div class="order-1 order-lg-2 mb-3">
+														<p><strong>Duodenal switch: </strong>além de transformar o
+															estômago em um tubo, o cirurgião faz aquele desvio do
+															intestino para aumentar a produção dos hormônios da
+															saciedade</p>
+													</div>
+												</div>
+												<!-- Fim de texto e imagem à esquerda-->
+											</div>
+
+											<span class="figure-caption fonte d-block text-center">Fonte: <a href='https://abeso.org.br/wp-content/uploads/2022/04/Ebook-Cirurgia-Bariatrica_Abeso-1.pdf' target='_blank'>Guia para entender o tratamento com cirurgia bariátrica e metabólica (ABESO)</a></span>
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Box de Saiba Mais -->
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+								<p>Vale ressaltar que a cirurgia bariátrica e metabólica pode ser feita por cirurgia
+									aberta, por videolaparoscopia, robótica e mais atualmente por procedimento
+									endoscópico, teoricamente menos invasivo, porém, mais confortável ao paciente.</p>
+
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+								<!-- Box de Leitura Complementar -->
+								<div class="box" data-box="Leitura Complementar">
+									<div class="card card--in">
+										<div class="card-header">
+											<span class="icone material-symbols-rounded" aria-hidden="true"></span>
+											<span class="label">Leitura<br />Complementar</span>
+										</div>
+										<div class="card-body">
+											<p class="h6">Guia para entender o tratamento com cirurgia bariátrica e
+												metabólica</p>
+
+											<!-- Texto com Imagem à esquerda -->
+											<div class="row justify-content-center d-lg-block">
+												<!-- Imagem -->
+												<div
+													class="col-md-8 col-lg-4 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
+													<figure>
+														<img class="img-fluid mx-auto d-block mb-3"
+															src="../../media/modulo2/aula2-img6.jpg" alt=""
+															title="Fonte: Abeso">
+														<figcaption class="figure-caption fonte">Fonte: <a href='https://abeso.org.br/' target='_blank'>ABESO</a></figcaption>
+													</figure>
+												</div>
+
+												<!-- Texto -->
+												<div class="order-2 order-lg-1">
+													<p> Sugerimos a leitura do E-book “Guia para entender o tratamento
+														com cirurgia bariátrica e metabólica”, da Associação Brasileira
+														para o estudo da Obesidade e Síndrome Metabólica (Abeso). </p>
+
+
+													<div class="list">
+														<ul class="list-group">
+															<li class="list-group-item" list-style="page"> <a
+																	href='https://x.gd/02axV' target='_blank'>“Guia para entender o tratamento com cirurgia bariátrica e metabólica”</a> </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- Fim de texto e imagem à esquerda-->
+
+										</div>
+									</div>
+								</div>
+								<!-- Fim do Box de Leitura Complementar -->
+
+							</div>
+						</div>
+					</div>
+
+					<div class="container-fluid px-0">
+						<div class="destaque-parallax mb-5">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-12 col-md-10 col-lg-8">
+
+										<h4>Critérios para realização da cirurgia bariátrica e metabólica</h4>
+
+										<p>O Ministério da Saúde, por meio da Portaria nº 424, de 19 de março de 2013,
+											traz as diretrizes gerais para o tratamento cirúrgico da obesidade, tendo
+											como indicações para cirurgia bariátrica e metabólica:</p>
+
+
+										<div class="list">
+											<ul class="list-group">
+												<li class="list-group-item aos-init aos-animate" list-style="default"
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200">Indivíduos que apresentem <a href="#"
+														data-bs-toggle="modal" data-bs-target="#modal-IMC">IMC</a> >50
+													Kg/m2;</li>
+
+												<li class="list-group-item aos-init aos-animate" list-style='default'
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200" data-aos-delay="100">Indivíduos que
+													apresentem IMC > 40 Kg/m², com ou sem comorbidades, sem sucesso no
+													tratamento clínico longitudinal realizado, na Atenção Básica e/ou na
+													Atenção Ambulatorial Especializada, por no mínimo dois anos e que
+													tenham seguido protocolos clínicos;</li>
+												<li class="list-group-item aos-init aos-animate" list-style='default'
+													data-aos="fade-right" data-aos-easing="ease-out"
+													data-aos-duration="1200" data-aos-delay="200">Indivíduos com IMC >
+													35 kg/m2 e com comorbidades, tais como pessoas com alto risco
+													cardiovascular, Diabetes Mellitus e/ou Hipertensão Arterial
+													Sistêmica de difícil controle, apneia do sono, doenças articulares
+													degenerativas, sem sucesso no tratamento clínico longitudinal
+													realizado por no mínimo dois anos e que tenham seguido protocolos
+													clínicos.</li>
+
+
+											</ul>
+										</div>
+
+
+										<p class="h6">Os seguintes critérios devem ser observados:</p>
+
+
+										<!-- Lista Ordenada -->
+										<div class="list">
+											<ol class="list-group list-group-numbered">
+												<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+													data-aos-easing="ease-out" data-aos-duration="1200">Indivíduos que
+													não responderam ao tratamento clínico longitudinal, que inclui
+													orientação e apoio para mudança de hábitos, realização de dieta,
+													atenção psicológica, prescrição de atividade física e, se
+													necessário, farmacoterapia, realizado na Atenção Básica e/ ou
+													Atenção Ambulatorial Especializada por no mínimo dois anos e que
+													tenham seguido protocolos clínicos;</li>
+												<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+													data-aos-easing="ease-out" data-aos-duration="1200">Respeitar os
+													limites clínicos de acordo com a idade. Nos jovens entre 16 e 18
+													anos, poderá ser indicado o tratamento cirúrgico naqueles que
+													apresentarem o escore-Z maior que +4 na análise do IMC por idade,
+													porém o tratamento cirúrgico não deve ser realizado antes da
+													consolidação das epífises de crescimento. Portanto, a avaliação
+													clínica do jovem necessita constar em prontuário e deve incluir:
+													Análise da idade óssea e avaliação criteriosa do risco-benefício,
+													realizada por equipe multiprofissional com participação de dois
+													profissionais médicos especialistas na área. Nos adultos com idade
+													acima de 65 anos, deve ser realizada avaliação individual por equipe
+													multiprofissional, considerando a avaliação criteriosa do
+													risco-benefício, risco cirúrgico, presença de comorbidades,
+													expectativa de vida e benefícios do emagrecimento;</li>
+												<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+													data-aos-easing="ease-out" data-aos-duration="1200">O indivíduo e
+													seus responsáveis devem compreender todos os aspectos do tratamento
+													e assumirem o compromisso com o segmento pós-operatório, que deve
+													ser mantido por tempo a ser determinado pela equipe;</li>
+												<li class="list-group-item aos-init aos-animate" data-aos="fade-right"
+													data-aos-easing="ease-out" data-aos-duration="1200">Compromisso
+													consciente do paciente em participar de todas as etapas da
+													programação, com avaliação pré-operatória rigorosa (psicológica,
+													nutricional, clínica, cardiológica, endocrinológica, pulmonar,
+													gastroenterológica e anestésica).</li>
+											</ol>
+										</div>
+										<!-- Fim da Lista Ordenada -->
+
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-12">
+										<div class="parallax-footer">
+											<img src="../../media/templates/accordion-footer-img1.svg" />
+
+											<img src="../../media/templates/accordion-footer-img2.svg" />
+											<img src="../../media/templates/parallax-footer-3.png" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<!--Slider-->
+								<div class="slider">
+									<div class="card card--in">
+
+										<div class="card-header">
+											<span class="">E quais são as contraindicações para cirurgia bariátrica e
+												metabólica?</span>
+										</div>
+										<div class="card-body">
+											<div id="carousel-texto-titulo" class="carousel slide" data-bs-interval="false">
+												<div class="carousel-indicators">
+													<button type="button" data-bs-target="#carousel-texto-titulo"
+														data-bs-slide-to="0" class="active" aria-label="Slide 1"
+														aria-current="true"></button>
+													<button type="button" data-bs-target="#carousel-texto-titulo"
+														data-bs-slide-to="1" aria-label="Slide 2"></button>
+													<button type="button" data-bs-target="#carousel-texto-titulo"
+														data-bs-slide-to="2" aria-label="Slide 3"></button>
+													<button type="button" data-bs-target="#carousel-texto-titulo"
+														data-bs-slide-to="3" aria-label="Slide 4"></button>
+													<button type="button" data-bs-target="#carousel-texto-titulo"
+														data-bs-slide-to="4" aria-label="Slide 5"></button>
+												</div>
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+
+
+														<!-- Texto à direita com Imagem  -->
+														<div class="row justify-content-center d-lg-block">
+															<!-- Imagem -->
+															<div
+																class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																<figure>
+																	<img class="img-fluid mx-auto d-none d-lg-block"
+																		src="../../media/modulo2/aula2-img6.svg"
+																		alt="Símbolo que representa não indicado.">
+																</figure>
+															</div>
+
+															<!-- Texto -->
+															<div class="order-2 order-lg-1">
+																<p><strong>Pacientes que apresentem quadros de limitação
+																		intelectual significativa</strong> e que não possuem
+																	um suporte familiar adequado para as necessidades e
+																	cuidados após a cirurgia.</p>
+															</div>
+														</div>
+														<!-- Fim de texto e imagem à direita-->
+
+
+													</div>
+
+													<div class="carousel-item">
+
+														<!-- Texto à direita com Imagem  -->
+														<div class="row justify-content-center d-lg-block">
+															<!-- Imagem -->
+															<div
+																class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																<figure>
+																	<img class="img-fluid mx-auto d-none d-lg-block"
+																		src="../../media/modulo2/aula2-img6.svg"
+																		alt="Símbolo que representa não indicado.">
+																</figure>
+															</div>
+
+															<!-- Texto -->
+															<div class="order-2 order-lg-1">
+																<p><strong>Pacientes que apresentarem quadro de transtorno
+																		psiquiátrico não controlado</strong>, incluindo uso
+																	de álcool ou drogas ilícitas. Nos casos em que o quadro
+																	psiquiátrico estiver sob controle, não há
+																	contraindicação para a cirurgia.</p>
+															</div>
+														</div>
+														<!-- Fim de texto e imagem à direita-->
+
+
+													</div>
+
+													<div class="carousel-item">
+
+														<!-- Texto à direita com Imagem  -->
+														<div class="row justify-content-center d-lg-block">
+															<!-- Imagem -->
+															<div
+																class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																<figure>
+																	<img class="img-fluid mx-auto d-none d-lg-block"
+																		src="../../media/modulo2/aula2-img6.svg"
+																		alt="Símbolo que representa não indicado.">
+																</figure>
+															</div>
+
+															<!-- Texto -->
+															<div class="order-2 order-lg-1">
+																<p><strong>Pacientes que apresentarem doença cardiopulmonar
+																		grave e descompensada</strong>, no qual o médico
+																	avalia a relação risco-benefício e verifica que a
+																	cirurgia poderia trazer pioras clínicas para o paciente.
+																</p>
+															</div>
+														</div>
+														<!-- Fim de texto e imagem à direita-->
+													</div>
+
+													<div class="carousel-item">
+
+														<!-- Texto à direita com Imagem  -->
+														<div class="row justify-content-center d-lg-block">
+															<!-- Imagem -->
+															<div
+																class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																<figure>
+																	<img class="img-fluid mx-auto d-none d-lg-block mb-3"
+																		src="../../media/modulo2/aula2-img6.svg"
+																		alt="Símbolo que representa não indicado.">
+																</figure>
+															</div>
+
+															<!-- Texto -->
+															<div class="order-2 order-lg-1">
+																<p><strong>Pacientes que apresentarem Hipertensão portal
+																		(pressão aumentada na veia porta), com varizes
+																		esofagogástricas, doenças imunológicas ou
+																		inflamatórias do trato digestivo superior</strong>
+																	que possam causar sangramentos digestivos no paciente ou
+																	outras condições de risco.</p>
+															</div>
+														</div>
+														<!-- Fim de texto e imagem à direita-->
+													</div>
+													<div class="carousel-item">
+
+														<!-- Texto à direita com Imagem  -->
+														<div class="row justify-content-center d-lg-block">
+															<!-- Imagem -->
+															<div
+																class="col-md-8 col-lg-3 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+																<figure>
+																	<img class="img-fluid mx-auto d-none d-lg-block"
+																		src="../../media/modulo2/aula2-img6.svg"
+																		alt="Símbolo que representa não indicado.">
+																</figure>
+															</div>
+
+															<!-- Texto -->
+															<div class="order-2 order-lg-1">
+																<p><strong>Pacientes que apresentarem Síndrome de
+																		Cushing</strong> decorrente de hiperplasia na
+																	suprarrenal (distúrbio que afeta as glândulas
+																	suprarrenais, localizadas próximas aos rins) não tratada
+																	e tumores endócrinos.</p>
+															</div>
+														</div>
+														<!-- Fim de texto e imagem à direita-->
+													</div>
+												</div>
+
+												<button class="carousel-control-prev" type="button"
+													data-bs-target="#carousel-texto-titulo" data-bs-slide="prev">
+													<span class="carousel-control-prev-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Previous</span>
+												</button>
+
+												<button class="carousel-control-next" type="button"
+													data-bs-target="#carousel-texto-titulo" data-bs-slide="next">
+													<span class="carousel-control-next-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Next</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<h4> Cuidados pré e pós-operatórios da cirurgia bariátrica e metabólica</h4>
+
+								<!-- Texto à direita com Imagem  -->
+								<div class="row justify-content-center d-lg-block">
+									<!-- Imagem -->
+									<div class="col-md-8 col-lg-5 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
+										<figure>
+											<img class="img-fluid mx-auto d-block mb-3"
+												src="../../media/modulo2/aula2-img7.svg" alt="">
+												<figcaption class="figure-caption fonte">Fonte: <a href='http://www.freepik.com' target='_blank'>Freepik</a></figcaption>
+										</figure>
+									</div>
+
+									<!-- Texto -->
+									<div class="order-2 order-lg-1">
+										<p>O preparo <strong>pré-operatório</strong> visa diminuir os riscos da
+											cirurgia, otimizar a segurança e melhorar os resultados metabólicos e outras
+											comorbidades. Problemas de saúde preexistentes devem ser compensados da
+											melhor forma possível, com a otimização das medidas necessárias, como ajuste
+											de doses de medicamentos, dieta específica, fisioterapia e preparo
+											psicológico. Nessa fase, também é obrigatório o preenchimento do documento
+											de Consentimento Informado, no qual o paciente reconhece estar devidamente
+											ciente sobre os benefícios e riscos da cirurgia.</p>
+
+										<p>No <strong>pós-operatório</strong>, além do acompanhamento nutricional, o
+											acompanhamento psicológico é muito importante e deve ser sempre preventivo e
+											educativo. É necessário considerar o aparecimento de novos fatores de
+											estresse e ansiedade após a cirurgia. Além disso, o paciente pode criar
+											expectativas que não serão atingidas, especialmente em relação à velocidade
+											de melhora.</p>
+									</div>
+								</div>
+								<!-- Fim de texto e imagem à direita-->
+
+								<p>Em relação à alimentação, há uma série de etapas progressivas quanto à consistência,
+									orientadas pelo nutricionista para favorecer a adaptação alimentar e a cicatrização
+									do estômago e do intestino. Em todas elas, há necessidade de suplementação proteica.</p>
+							</div>
+						</div>
+						
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<h4>Etapas progressivas em relação à alimentação do paciente no pós-operatório</h4>
+
+								<!-- Texto com Imagem completa -->
+								<div class="row justify-content-center d-lg-block px-3 my-5">
+									<!-- Imagem -->
+									<div class="col-md-12 col-lg-12 px-0 order-1 order-lg-2 mb-5">
+										<figure class="lightbox aos-init aos-animate" data-aos="fade-up"
+											data-aos-easing="ease-out" data-aos-duration="600">
+											<img class="lightbox  mx-auto d-block mb-3"
+												src="../../media/modulo2/aula2-img8.svg"
+												alt="Etapas progressivas em relação à alimentação do paciente no pós-operatório, a primeira etapa é a dieta líquida, caldos de sopa bem coados e sucos de frutas naturais bem coados também; leite e iogurte líquido com elevado teor de proteínas. A segunda etapa é a dieta pastosa, além dos líquidos, já entram purês, sopas cremosas de legumes e leguminosas, frutas que não sejam cítricas cozidas, assadas ou in natura; vitaminas de frutas; carnes moídas ou desfiadas. A terceira etapa é a dieta branda, ela inclui alimentos em pedaços - legumes, frutas que não sejam cítricas, leguminosas, carnes - cozidos, assados ou grelhados para abrandar as fibras. Eles devem ser muito bem mastigados. A quarta e última etapa é a dieta normal, ela já pode incluir alimentos crus, como folhas, frutas cítricas e fibras integrais, mas evita receitas ricas em açúcar e gorduras, bebidas gaseificadas e álcool."
+												title="Fonte: Fonte: E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica. Abeso.">
+											<figcaption class="figure-caption">Adaptação de imagem do E-book Guia para entender o tratamento com cirurgia bariátrica e metabólica.</figcaption>
+										</figure>
+										<span class="figure-caption fonte d-block text-center">Fonte: <a href='https://abeso.org.br/wp-content/uploads/2022/04/Ebook-Cirurgia-Bariatrica_Abeso-1.pdf' target='_blank'>Guia para entender o tratamento com cirurgia bariátrica e metabólica (ABESO)</a></span>
+									</div>
+
+									<!-- Texto -->
+									<div class="order-2 order-lg-1">
+										<p>Na maioria das vezes, é necessária a reposição com suplementos e vitaminas
+											devido às deficiências nutricionais que ocorrem tanto pela menor quantidade
+											de alimentos ingeridos quanto pela diminuição da absorção dos nutrientes,
+											quando é realizado o desvio intestinal.</p>
+
+										<p>Todas as técnicas cirúrgicas exigem que a pessoa faça suplementação e
+											acompanhamento nutricional periódico para eventuais ajustes, sempre
+											individualizados conforme a necessidade de cada um. </p>
+
+										<p>É fundamental que a alimentação seja a mais equilibrada possível e que,
+											juntamente com ela, a suplementação seja usada de maneira correta.</p>
+									</div>
+								</div>
+								<!-- Fim de texto com Imagem completa-->
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<div class="table-responsive">
+									<h4>Suplementação para pacientes pós-cirurgia bariátrica e metabólica.</h4>
+
+									<table class="table table-bordered">
+										<thead>
+											<tr>
+												<th class="text-center" colspan="4">Tabela 1 - Os sumplementos mais
+													utilizados</th>
+											</tr>
+
+
+											<tr>
+												<th class="table-border" colspan="3"></th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr class="text-center">
+												<td><strong>Polivitamínícos</strong> na forma de comprimidos, contendo
+													zinco, cobre, folato, citamina A, E, K e C</td>
+												<td><strong>Cálcio,</strong> geralmente na forma de citrato de cálcio</td>
+												<td><strong>Suplementos de proteínas,</strong> como <i>whay protein</i>,
+													leite em pó, albumina em pó e outros</td>
+
+											</tr>
+
+
+											<tr class="text-center background-secondary-extra-light">
+												<td><strong>Vitaminas B12, B1 e b6</strong></td>
+												<td><strong>Vitamina D</strong></td>
+												<td><strong>Ferro</strong></td>
+
+											</tr>
+										</tbody>
+									</table>
+									<span class="figure-caption text-center d-block">Tabela 1 - Os sumplementos mais
+										utilizados</span>
+									<span class="figure-caption text-center d-block">Fonte: <a href='https://abeso.org.br/wp-content/uploads/2022/04/Ebook-Cirurgia-Bariatrica_Abeso-1.pdf' target='_blank'>Guia para entender o tratamento com cirurgia bariátrica e metabólica (ABESO)</a></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+
+
+								<p>O paciente com aderência ao acompanhamento pós-operatório poderá ser submetido à cirurgia
+									plástica reparadora do abdômen, das mamas e de membros, conforme orientações para
+									indicação de cirurgia plástica reparadora pós-cirurgia bariátrica e metabólica.</p>
+
+								<h4>Benefícios da cirurgia bariátrica e metabólica</h4>
+
+								<p>Os benefícios da cirurgia bariátrica e metabólica vão muito além da perda de peso. Há um
+									melhor controle da glicemia, possibilidade de remissão de doenças associadas à obesidade
+									e melhoria da qualidade de vida do paciente de forma geral.</p>
+
+								<p>Destacam-se aqui algumas doenças que melhoram após a cirurgia bariátrica e metabólica:
+									diabetes tipo 2, hipertensão arterial, dislipidemia (níveis elevados de gordura no
+									sangue), doenças cardiovasculares (infarto do miocárdio, angina, insuficiência cardíaca
+									congestiva, acidente vascular cerebral, hipertensão), hérnia de disco, depressão, entre
+									outras.
+								</p>
+
+
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<ul class="logos">
-								<!-- <li class="realizacao"> -->
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-campus-horizontal.png" height="Logo do Campus Virtual Fiocruz" />
-								</li>
-							</ul>
-						</div>
-						<div class="col-auto">
-							<span class="divider"></span>
-						</div>
-						<div class="col-12 col-md-auto">
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height="" />
-								</li>
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-sus.png" alt="Logo do SUS" height="" />
-								</li>
-								<li>
-									<img class="img-fluid" src="../../media/logos/logo-governo-federal.png" alt="Logo do Governo Federal" height="" />
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico1.html" rel="prev"><span
+										class="material-symbols-rounded">west</span>Tópico anterior</a>
+								<a class="fio-button fio-button-primary" href="topico3.html" rel="next">Próximo tópico
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		
-
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>		
-
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
-
-		<script>
-			$(function () {
-				// init zeynepjs side menu
-				var zeynep = $('.zeynep').zeynep({
-					opened: function () {
-						// log
-						console.log('the side menu opened');
-					},
-					closed: function () {
-						// log
-						console.log('the side menu closed');
-					},
-				});
-
-				// dynamically bind 'closing' event
-				zeynep.on('closing', function () {
-					// log
-					console.log('this event is dynamically binded');
-				});
-
-				// handle zeynepjs overlay click
-				// $('.zeynep-overlay').on('click', function () {
-				// 	zeynep.close();
-				// });
-
-				// open zeynepjs side menu
-				$('.btn-open').on('click', function () {
-					zeynep.open();
-				});
-			});
-		</script>
-
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
-
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
-
-		<script>
-			AOS.init();
-		</script>
-
-		<!-- Modal IMC -->
-		<div class="modal fade" id="modal-IMC" tabindex="-1" aria-labelledby="info-modulo3" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">IMC</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						
-						<p>Para avaliação nutricional de crianças e adolescentes, a Organização Mundial da Saúde (OMS) orienta a utilização das curvas de crescimento, que são parâmetros para avaliar a situação nutricional.
-
-						<p>As curvas mais utilizadas são:</p>
-
-						<div class="list">
-							<ul class="list-group">
-								<li class="list-group-item" list-style="default">Peso para idade;</li>
-								<li class="list-group-item" list-style="default">Peso para estatura;</li>
-								<li class="list-group-item" list-style="default">Estatura para idade; e</li>
-								<li class="list-group-item" list-style="default">Índice de massa corporal (IMC) por idade.</li>
-							</ul>
-						</div>
-
-
-						<p>Para interpretar essas curvas de crescimento, pode ser utilizado o percentil ou Escore-Z:</p>
-
-						<p>Percentil: está relacionado a posição das crianças em relação às outras. Por exemplo, uma criança de percentil 25 de peso, indica que 25% das crianças da mesma idade e sexo possuem seu mesmo peso. </p>
-
-						<p>Escore-Z: quantifica a distância, em desvio-padrão, do valor encontrado em relação à média da população.</p>
-
-						<p>Do ponto de vista nutricional, as crianças e adolescentes devem ser analisadas dinamicamente, pois apenas um ponto da curva não é o suficiente para nos dar informações completas. Por isso, deve-se analisar o paciente por diversos critérios.</p>
-
-						<p>No caso de avaliar os jovens entre 16 e 18 anos, como citado na portaria, ao avaliar o IMC por idade, devem ser observados os seguintes valores:</p>
-
-						<p>CRIANÇAS DE 5 A JOVENS DE 20 ANOS INCOMPLETOS:</p>
-
-						<div class="list">
-							<ul class="list-group">
-								
-								<li class="list-group-item" list-style="default">Percentil < 0,1 – Escore-Z < -3: Magreza acentuada;</li>
-								<li class="list-group-item" list-style="default">Percentil entre 0,1 e 3 – Escore-Z entre -3 e -2: Magreza;</li>
-								<li class="list-group-item" list-style="default">Percentil entre 3 e 97 – Escore-Z entre -2 e +1: Eutrofia;</li>
-								<li class="list-group-item" list-style="default">Percentil entre 85 e 97 – Escore-Z entre +1 e +2: Sobrepeso;</li>
-								<li class="list-group-item" list-style="default">Percentil entre 97 e 99,9 – Escore-Z entre +2 e +3: Obesidade; e</li>
-								<li class="list-group-item" list-style="default">Percentil > 99 – Escore-Z > +3: Obesidade grave.</li>
-
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-campus-horizontal.png"
+									height="Logo do Campus Virtual Fiocruz" />
+							</li>
 						</ul>
-						</div>
-						
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="fio-button fio-button-primary" data-bs-dismiss="modal">Fechar</button>
+					<div class="col-auto">
+						<span class="divider"></span>
+					</div>
+					<div class="col-12 col-md-auto">
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-fiocruz-horizontal-black.png"
+									alt="Logo da Fiocruz" height="" />
+							</li>
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-sus.png" alt="Logo do SUS"
+									height="" />
+							</li>
+							<li>
+								<img class="img-fluid" src="../../media/logos/logo-governo-federal.png"
+									alt="Logo do Governo Federal" height="" />
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
+	</div>
 
-	</body>
+
+
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script>
+		$(function () {
+			// init zeynepjs side menu
+			var zeynep = $('.zeynep').zeynep({
+				opened: function () {
+					// log
+					console.log('the side menu opened');
+				},
+				closed: function () {
+					// log
+					console.log('the side menu closed');
+				},
+			});
+
+			// dynamically bind 'closing' event
+			zeynep.on('closing', function () {
+				// log
+				console.log('this event is dynamically binded');
+			});
+
+			// handle zeynepjs overlay click
+			// $('.zeynep-overlay').on('click', function () {
+			// 	zeynep.close();
+			// });
+
+			// open zeynepjs side menu
+			$('.btn-open').on('click', function () {
+				zeynep.open();
+			});
+		});
+	</script>
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+
+	<!-- Modal IMC -->
+	<div class="modal fade" id="modal-IMC" tabindex="-1" aria-labelledby="info-modulo3" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">IMC</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+
+					<p>Para avaliação nutricional de crianças e adolescentes, a Organização Mundial da Saúde (OMS)
+						orienta a utilização das curvas de crescimento, que são parâmetros para avaliar a situação
+						nutricional.
+
+					<p>As curvas mais utilizadas são:</p>
+
+					<div class="list">
+						<ul class="list-group">
+							<li class="list-group-item" list-style="default">Peso para idade;</li>
+							<li class="list-group-item" list-style="default">Peso para estatura;</li>
+							<li class="list-group-item" list-style="default">Estatura para idade; e</li>
+							<li class="list-group-item" list-style="default">Índice de massa corporal (IMC) por idade.
+							</li>
+						</ul>
+					</div>
+
+
+					<p>Para interpretar essas curvas de crescimento, pode ser utilizado o percentil ou Escore-Z:</p>
+
+					<p>Percentil: está relacionado a posição das crianças em relação às outras. Por exemplo, uma criança
+						de percentil 25 de peso, indica que 25% das crianças da mesma idade e sexo possuem seu mesmo
+						peso. </p>
+
+					<p>Escore-Z: quantifica a distância, em desvio-padrão, do valor encontrado em relação à média da
+						população.</p>
+
+					<p>Do ponto de vista nutricional, as crianças e adolescentes devem ser analisadas dinamicamente,
+						pois apenas um ponto da curva não é o suficiente para nos dar informações completas. Por isso,
+						deve-se analisar o paciente por diversos critérios.</p>
+
+					<p>No caso de avaliar os jovens entre 16 e 18 anos, como citado na portaria, ao avaliar o IMC por
+						idade, devem ser observados os seguintes valores:</p>
+
+					<p>CRIANÇAS DE 5 A JOVENS DE 20 ANOS INCOMPLETOS:</p>
+
+					<div class="list">
+						<ul class="list-group">
+
+							<li class="list-group-item" list-style="default">Percentil < 0,1 – Escore-Z < -3: Magreza
+									acentuada;</li>
+							<li class="list-group-item" list-style="default">Percentil entre 0,1 e 3 – Escore-Z entre -3
+								e -2: Magreza;</li>
+							<li class="list-group-item" list-style="default">Percentil entre 3 e 97 – Escore-Z entre -2
+								e +1: Eutrofia;</li>
+							<li class="list-group-item" list-style="default">Percentil entre 85 e 97 – Escore-Z entre +1
+								e +2: Sobrepeso;</li>
+							<li class="list-group-item" list-style="default">Percentil entre 97 e 99,9 – Escore-Z entre
+								+2 e +3: Obesidade; e</li>
+							<li class="list-group-item" list-style="default">Percentil > 99 – Escore-Z > +3: Obesidade
+								grave.</li>
+
+						</ul>
+					</div>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="fio-button fio-button-primary" data-bs-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
 
 </html>
