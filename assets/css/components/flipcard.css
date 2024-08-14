@@ -96,7 +96,7 @@
 
 /*Configuração da frente*/
 .flipcard .flip-card-front {
-	border-radius: var(--_flipcard-border-radius);
+	border-radius: 0;
 	/* -webkit-box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3); */
 	-webkit-backface-visibility: hidden;
@@ -179,17 +179,17 @@
 	border-color: var(--_flipcard-border-color);
 	background-repeat: no-repeat;
 	background-position: top center;
-	border-image-source: url('../../../media/templates/border-image.svg');
-	border-image-slice: 10;
-    border-image-width: 32px;
-    border-image-outset: 2 3;
+	border-image-source: var(--fio-sys-custom-border-image-source);
+	border-image-slice: var(--fio-sys-custom-border-image-slice);
+    border-image-width: 30px;
+    border-image-outset: 0;
 	border-image-repeat: round;
 }
 
 /*Configuração do verso*/
 .flipcard .flip-card-back {
 	background-color: var(--fio-sys-color-neutral-white);
-	border-radius: 10px;
+	border-radius: 0;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	-webkit-box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);

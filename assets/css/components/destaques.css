@@ -44,31 +44,30 @@
 .box-cor .box-cor__base {
 	background-color: var(--fio-sys-color-secondary-light);
 	background-image: url(../../../media/templates/bg-box.svg);
-    background-repeat: no-repeat;
-    background-position: 20% 0;
-    background-size: 250%;
+	background-repeat: no-repeat;
+	background-position: 20% 0;
+	background-size: 250%;
 	padding: var(--fio-sys-size-padding-xl);
-	border-radius: var(--fio-sys-size-radius-sm);
+	border-radius: 0;
 	border: none;
 }
 
 /* BORDAS PARA CONTAINER NO DESKTOP*/
 @media (min-width: 768px) {
-	.box-cor .box-cor__base  {
-		border-image-source: url('../../../media/templates/border-image.svg');
-		border-image-slice: 12;
-		border-image-width: 0 32px;
-		border-image-outset: 0 8px;
+	.box-cor .box-cor__base {
+		border-image-source: var(--fio-sys-custom-border-image-source);
+		border-image-slice: var(--fio-sys-custom-border-image-slice);
+		border-image-width: 30px 0;
+		border-image-outset: 0;
 		border-image-repeat: round;
 	}
 }
 
-
-@media(min-width:768px) {
+@media (min-width: 768px) {
 	.box-cor .box-cor__base {
 		background-position: 0 0;
 		background-size: 100%;
-		padding: calc(var(--fio-sys-size-padding-xxl)*1.5);
+		padding: calc(var(--fio-sys-size-padding-xxl) * 1.5);
 	}
 }
 
@@ -122,8 +121,8 @@
 /* BORDAS PARA CONTAINER NO DESKTOP*/
 @media (min-width: 768px) {
 	.destaque-parallax {
-		border-image-source: url('../../../media/templates/border-image.svg');
-		border-image-slice: 12;
+		border-image-source: var(--fio-sys-custom-border-image-source);
+		border-image-slice: var(--fio-sys-custom-border-image-slice);
 		border-image-width: 0 32px;
 		border-image-outset: 0 8px;
 		border-image-repeat: round;

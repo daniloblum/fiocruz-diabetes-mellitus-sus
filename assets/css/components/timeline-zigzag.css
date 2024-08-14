@@ -1,7 +1,9 @@
 /* --- TIMELINE ZIGZAG --- */
 
 .timeline-zigzag .timeline-z > div:last-child,
-.timeline-zigzag .timeline-z-estrutura > div:last-child {margin-bottom: 0;}
+.timeline-zigzag .timeline-z-estrutura > div:last-child {
+	margin-bottom: 0;
+}
 
 .timeline-zigzag p.figure-caption {
 	font-size: 75%;
@@ -42,30 +44,30 @@
 
 .timeline-z-estrutura.row .col-2::after {
 	content: '';
-    position: absolute;
-    border-image-source: url(../../../media/templates/border-image.svg);
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-image-outset: 0 0 0 3;
-    border-left: 3px solid var(--fio-sys-color-primary-dark);
-    z-index: 1;
-    opacity: 1;
+	position: absolute;
+	/* border-image-source: var(--fio-sys-custom-border-image-source);
+	border-image-slice: var(--fio-sys-custom-border-image-slice);
+	border-image-width: 8px;
+	border-image-outset: 0 0 0 3; */
+	border-left: 5px solid var(--fio-sys-color-primary-dark);
+	z-index: 1;
+	opacity: 1;
 }
 
 .timeline-z-estrutura.row .col-2.bottom::after {
 	height: 50%;
-	left: calc(50% - -2px);
+	left: calc(50% - 3px);
 	top: 50%;
 }
 
 .timeline-z-estrutura.row .col-2.full::after {
 	height: 100%;
-	left: calc(50% - -2px);
+	left: calc(50% - 3px);
 }
 
 .timeline-z-estrutura.row .col-2.top::after {
 	height: 50%;
-	left: calc(50% - -2px);
+	left: calc(50% - 3px);
 	bottom: 50%;
 }
 
@@ -76,14 +78,14 @@
 
 .timeline-z hr {
 	border-top: 5px solid var(--fio-sys-color-primary-dark);
-    border-image-source: url(../../../media/templates/border-image.svg);
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-image-outset: 0 0 0 3;
-    margin: 0;
-    top: 15px;
-    position: relative;
-    opacity: 1;
+	/* border-image-source: var(--fio-sys-custom-border-image-source);
+	border-image-slice: var(--fio-sys-custom-border-image-slice);
+	border-image-width: 8px;
+	border-image-outset: 0 0 0 3; */
+	margin: 0;
+	top: 15px;
+	position: relative;
+	opacity: 1;
 }
 
 .timeline-z .col-2 {
@@ -100,7 +102,7 @@
 }
 
 .timeline-z .top-right {
-	left: calc(50% - 4px);
+	left: calc(50% - 3px);
 	top: -50%;
 	opacity: 1;
 }
@@ -111,7 +113,7 @@
 }
 
 .timeline-z .top-left {
-	left: calc(-50% + 1px);
+	left: calc(-50% + 2px);
 	top: -50%;
 }
 

@@ -1,16 +1,15 @@
 /* --- TIMELINE VERTICAL--- */
 
-
 .timeline-vertical {
 	overflow: hidden;
 }
 
 .timeline-vertical .card {
-    border-color: var(--fio-sys-color-primary-dark);
-    background-color:var(--fio-sys-color-primary-background-dark);
+	border-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-primary-background-dark);
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 	.timeline-vertical .card {
 		width: 80%;
 		left: 15%;
@@ -18,16 +17,16 @@
 }
 
 .timeline-vertical .card .card-header {
-    background-color:var(--_card-header-background);
-    border-bottom: none;
-    padding: var(--fio-sys-spacing-padding-lg);
-	padding: var(--_card-header-padding-y) var(--_card-header-padding-y); 
+	background-color: var(--_card-header-background);
+	border-bottom: none;
+	padding: var(--fio-sys-spacing-padding-lg);
+	padding: var(--_card-header-padding-y) var(--_card-header-padding-y);
 }
 
 .timeline-vertical .card .card-footer {
-    background-color:transparent;
-    border-top:none;
-    text-align: left;
+	background-color: transparent;
+	border-top: none;
+	text-align: left;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -49,14 +48,17 @@
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 18px;
+	left: 16px;
 	height: 100%;
-	width: var(--fio-sys-size-stroke-xl);
+	width: 8px;
 	/* background: var(--fio-sys-color-accent-medium); */
-	background-image: url('../../../media/templates/border-image.svg');
 	opacity: 1;
+	border-image-source: var(--fio-sys-custom-border-image-source);
+	border-image-repeat: round;
+	border-image-slice: var(--fio-sys-custom-border-image-slice);
+	border-image-width: 0 8px 0 0;
+	border-image-outset: 0px;
 }
-
 
 @media only screen and (min-width: 1170px) {
 	.cd-timeline {
@@ -162,12 +164,12 @@
 
 .cd-timeline__img.cd-timeline__option1 {
 	background: var(--fio-sys-color-secondary-medium);
-	box-shadow:none;
-	border:var(--fio-sys-size-stroke-lg) solid var(--fio-sys-color-primary-dark);
+	box-shadow: none;
+	border: var(--fio-sys-size-stroke-lg) solid var(--fio-sys-color-primary-dark);
 }
 
 .cd-timeline__img.cd-timeline__option1 h4.ano {
-	color:var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-dark);
 }
 
 @media only screen and (min-width: 1170px) {
@@ -176,7 +178,7 @@
 		height: 50px;
 		/* left: calc(50% - 25px); */
 		left: 50%;
-        transform: translate(-50%, -45%);
+		transform: translate(-50%, -45%);
 	}
 
 	.cd-timeline__img.cd-timeline__img--bounce-in {
@@ -191,7 +193,7 @@
 		width: 64px;
 		height: 64px;
 		left: 50%;
-        transform: translate(-50%, -45%);
+		transform: translate(-50%, -45%);
 	}
 }
 
@@ -232,7 +234,6 @@
 		transform: scale(1);
 	}
 }
-
 
 .cd-timeline__content:after {
 	/* clearfix */
