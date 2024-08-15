@@ -109,6 +109,8 @@
 	transition: 0.4s;
   }
 
+  
+
 .quotation blockquote .quotation-mark {
 	padding:var(--fio-sys-size-vertical-sm);
 	height: 64px;
