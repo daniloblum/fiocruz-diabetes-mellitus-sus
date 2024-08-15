@@ -174,7 +174,7 @@ section {
 /* BORDAS PARA CONTAINER NO DESKTOP*/
 @media (min-width: 768px) {
 	.content {
-		border-image-source: var(--fio-sys-custom-border-image-source);
+		border-image-source: var(--fio-sys-custom-border-image-source-home);
 		border-image-slice: var(--fio-sys-custom-border-image-slice);
 		border-image-width: 0 24px 24px;
 		border-image-outset: 8px;

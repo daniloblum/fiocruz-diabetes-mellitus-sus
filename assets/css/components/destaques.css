@@ -121,11 +121,17 @@
 /* BORDAS PARA CONTAINER NO DESKTOP*/
 @media (min-width: 768px) {
 	.destaque-parallax {
-		border-image-source: var(--fio-sys-custom-border-image-source);
+		/* border-image-source: var(--fio-sys-custom-border-image-source);
 		border-image-slice: var(--fio-sys-custom-border-image-slice);
 		border-image-width: 0 32px;
 		border-image-outset: 0 8px;
-		border-image-repeat: round;
+		border-image-repeat: round; */
+
+		border-image-source: var(--fio-sys-custom-border-image-source);
+        border-image-slice: var(--fio-sys-custom-border-image-slice);
+        border-image-width: 0 24px 24px;
+        border-image-outset: 8px;
+        border-image-repeat: round;
 	}
 }
 
