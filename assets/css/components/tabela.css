@@ -39,7 +39,8 @@
     display: block;
 } */
 
-.table-responsive table thead tr td.table-border {
+.table-responsive table thead tr td.table-border, 
+.table-responsive table thead tr th.table-border {
 	background-image: url(../../../media/templates/border.png);
 	height: 35px;
 	background-repeat: repeat-x;
