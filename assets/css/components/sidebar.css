@@ -60,6 +60,9 @@
 	line-height: var(--fio-sys-typography-height-100);
 	color: var(--_color-font);
 }
+.sidebar .sidebar__inner .sidebar__group .sidebar__group-item .mobile-toggle-close {
+	background: none;
+}
 .sidebar .sidebar__inner .sidebar__group .sidebar__group-item .mobile-toggle-close .icon {
 	padding: 12px 20px;
 	color: var(--_color-font);
@@ -188,6 +191,7 @@
 	border: none;
 	flex-basis: content;
 	font-size: var(--fio-sys-typography-size--1);
+	background: none;
 }
 .sidebar .sidebar__group .sidebar__group-item button ~ .dropdown-menu .dropdown-menu__header .dropdown-menu__back-button {
 	align-items: center;

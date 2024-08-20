@@ -27,6 +27,7 @@
 }
 .header:not(.header--sticky) .mobile-toggle-open .mobile-toggle__button {
 	color: var(--fio-sys-color-accent-medium);
+	background: none;
 }
 .header .mobile-toggle-open .mobile-toggle__button .icon {
 	font-size: 32px;
