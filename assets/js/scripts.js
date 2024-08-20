@@ -741,463 +741,266 @@ const modalInfos = {
 		modalSize: 'modal-lg',
 		modalTitle: 'Glossário',
 		modalBody: `
-			<div class="aba">
-				<ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
-					<li class="nav-item" role="presentation">
-						<button class="nav-link active" id="pills-atores-tab" data-bs-toggle="pill" data-bs-target="#pills-atores" type="button" role="tab" aria-controls="pills-atores" aria-selected="true">Atores</button>
-					</li>
-					<li class="nav-item" role="presentation">
-						<button class="nav-link" id="pills-seguranca-tab" data-bs-toggle="pill" data-bs-target="#pills-seguranca" type="button" role="tab" aria-controls="pills-seguranca" aria-selected="false">Segurança</button>
-					</li>
-					<li class="nav-item" role="presentation">
-						<button class="nav-link" id="pills-processos-tab" data-bs-toggle="pill" data-bs-target="#pills-processos" type="button" role="tab" aria-controls="pills-processos" aria-selected="false">Processos</button>
-					</li>
-					<li class="nav-item" role="presentation">
-						<button class="nav-link" id="pills-documentos-tab" data-bs-toggle="pill" data-bs-target="#pills-documentos" type="button" role="tab" aria-controls="pills-documentos" aria-selected="false">Documentos</button>
-					</li>
-				</ul>
-				<div class="tab-content p-0" id="pills-tabContent">
-					<!-- Atores -->
-					<div class="tab-pane fade show active" id="pills-atores" role="tabpanel" aria-labelledby="pills-atores-tab">
-						<div class="accordion accordion-flush" id="accordionExample2">
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-a">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-a" aria-expanded="true" aria-controls="collapse1-a">A</button>
-								</h2>
-								<div id="collapse1-a" class="accordion-collapse collapse" aria-labelledby="heading1-a" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>ANVISA</strong></p>
-										<p>Agência Nacional de Vigilância Sanitária, autarquia que exerce atividades de regulação, normatização, controle e fiscalização na área de vigilância sanitária.</p>
-										<p><strong>Autoridade Nacional Reguladora do Medicamento (ANARME) ou Entidade Reguladora de Moçambique</strong></p>
-										<p>Instituição pública, dotada de personalidade jurídica, autonomia administrativa, financeira e patrimonial, que desempenha funções de regulamentação, supervisão, fiscalização e sancionamento, nos termos definidos pela Lei.</p>
-										<p><strong>Autoridades Regulatórias</strong></p>
-										<p>Instituições que têm poder regulatório, ou seja, autoridades que analisam os dados submetidos e conduzem inspeções. Podem também serem denominadas autoridades competentes.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-c">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-c" aria-expanded="false" aria-controls="collapse1-c">C</button>
-								</h2>
-								<div id="collapse1-c" class="accordion-collapse collapse" aria-labelledby="heading1-c" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Centro de Pesquisa</strong></p>
-										<p>Local onde, usualmente, as atividades ligadas ao estudo são conduzidas. Ensaios Clínicos podem ser conduzidos em um único centro ou em vários centros simultaneamente (Estudos Multicêntricos).</p>
-										<p><strong>Comitê de Coordenação</strong></p>
-										<p>Comitê organizado pelo patrocinador para coordenar a condução de um estudo multicêntrico.</p>
-										<p><strong>Comitê de Ética em Pesquisa (CEP)</strong></p>
-										<p>Organização independente, multidisciplinar, cuja responsabilidade é garantir a proteção dos direitos, segurança e bem-estar dos seres humanos envolvidos em um estudo, por meio da aprovação e revisão contínua do protocolo do estudo e dos materiais e métodos utilizados para a obtenção e documentação do consentimento dos participantes de pesquisa.</p>
-										<p><strong>Comitê de Ética Independente (IEC)</strong></p>
-										<p>Uma organização independente (um conselho de revisão ou um comitê institucional, regional, nacional ou supranacional) constituído por profissionais da área médica/científica e membros pertencentes a outras áreas, cuja responsabilidade é garantir a proteção dos direitos, segurança e bem-estar dos seres humanos envolvidos em um estudo e assegurar publicamente a sua proteção, através da revisão e aprovação/parecer favorável sobre o protocolo do estudo, adequação dos investigadores, recursos e dos materiais e métodos utilizados para a obtenção e documentação do consentimento dos participantes de pesquisa, entre outras atividades. A situação legal, composição, função, operação e exigências regulatórias pertinentes ao Comitê de Ética Independente podem ser diferentes em cada país, mas devem permitir que ele atue em consonância com o Guia das BPC (ICH).</p>
-										<p><strong>Comitê Independente de Monitoramento de Dados (IDMC)</strong></p>
-										<p>Também conhecido como Conselho de Monitoramento de Dados e Segurança, Comitê de Monitoramento ou Comitê de Monitoramento de Dados. É um comitê independente de monitoramento de dados que, pode ser implementado pelo investigador, para avaliar periodicamente o desenvolvimento de um estudo clínico, os dados de segurança e os limites críticos de eficácia, além de recomendar ao patrocinador a continuidade, a modificação, ou o encerramento do estudo.</p>
-										<p><strong>Comitê Institucional de Bioética Para Saúde (CIBS)</strong></p>
-										<p>Entidade criada pelo Comitê Nacional de Bioética para a Saúde (CNBS) de Moçambique, com competências delegadas para avaliação de aspectos éticos de propostas de investigação em saúde a nível de uma ou mais instituições, e que apenas efetua avaliação de protocolos de investigação provenientes ou realizados em colaboração com as respectivas instituições.</p>
-										<p><strong>Comitê Nacional de Bioética para a Saúde (CNBS) de Moçambique</strong></p>
-										<p>Órgão independente multidisciplinar, que faz avaliação dos protocolos de investigação na área da saúde para aferir a aplicação dos princípios éticos na realização da pesquisa tendo em conta a proteção dos participantes. Assegura a proteção dos direitos, segurança e bem-estar dos participantes nos estudos. Faz também a tutela e monitoria da atividade dos Comités Institucionais de Bioética para a Saúde (CIBS). O CNBS e os CIBS avaliam os aspectos metodológicos de protocolos de investigação quando os Comitês Científicos das instituições proponentes de protocolos não estiverem em funcionamento, e sempre que houver aspectos metodológicos que impactem a Bioética.</p>
-										<p><strong>CONEP</strong></p>
-										<p>Comissão Nacional de Ética em Pesquisa, é uma instância colegiada, de natureza consultiva, deliberativa, normativa, educativa e independente, vinculada ao Conselho Nacional de Saúde/MS.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-i">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-i" aria-expanded="false" aria-controls="collapse1-i">I</button>
-								</h2>
-								<div id="collapse1-i" class="accordion-collapse collapse" aria-labelledby="heading1-i" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Instituição</strong></p>
-										<p>Qualquer entidade, agência ou instalação médica ou odontológica onde sejam conduzidos estudos clínicos.</p>
-										<p><strong>Investigador de Coordenação</strong></p>
-										<p>Um investigador responsável pela coordenação de investigadores de diferentes centros participantes de um estudo multicêntrico.</p>
-										<p><strong>Investigador/Investigador Principal/Pesquisador</strong></p>
-										<p>Pessoa responsável por conduzir o estudo clínico em um centro de pesquisa. Pesquisador responsável ou Investigador Principal é o responsável legal pelo estudo, líder da equipe do estudo. Um médico qualificado (ou dentista, conforme o caso), que for um investigador ou um subinvestigador do ensaio, deve ser responsável por todas as decisões médicas (ou odontológicas) relacionadas ao ensaio.</p>
-										<p><strong>Investigador/ Instituição</strong></p>
-										<p>Expressão que significa “o investigador e/ou instituição”, quando e onde solicitada pelas exigências regulatórias aplicáveis.</p>
-										<p><strong>Investigador-Patrocinador</strong></p>
-										<p>Indivíduo que implementa e conduz, sozinho ou em grupo, um estudo clínico e sob cuja imediata direção o produto sob investigação é administrado, fornecido ou utilizado por um paciente. O termo não inclui qualquer pessoa que não um indivíduo (ex.: não inclui uma corporação ou uma agência). As responsabilidades de um investigador-patrocinador incluem tanto as do patrocinador como as do investigador.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-o">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-o" aria-expanded="false" aria-controls="collapse1-o">O</button>
-								</h2>
-								<div id="collapse1-o" class="accordion-collapse collapse" aria-labelledby="heading1-o" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Organização de Pesquisa Contratada (CRO)</strong></p>
-										<p>Uma pessoa ou organização (comercial, acadêmica ou outra) contratada pelo patrocinador para realizar um ou mais de seus deveres e funções relativos a estudos clínicos.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-p">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-p" aria-expanded="false" aria-controls="collapse1-p">P</button>
-								</h2>
-								<div id="collapse1-p" class="accordion-collapse collapse" aria-labelledby="heading1-p" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Participante de Pesquisa</strong></p>
-										<p>Pela regulamentação brasileira, indivíduo que, de forma esclarecida e voluntária, ou sob o esclarecimento e autorização de seu(s) responsável(eis) legal(ais), aceita ser pesquisado. Podem pertencer ao grupo dos que recebem o produto sob investigação ou ao grupo de controle. Além disso, podem ser portadores de alguma comorbidade/patologia ou indivíduos saudáveis.</p>
-										<p><strong>Populações Vulneráveis</strong></p>
-										<p>Indivíduos cuja vontade de participar do estudo possa ser indevidamente influenciada pela expectativa, justificada ou não, de benefícios associados à participação, ou de uma reação negativa, em caso de recusa, por parte de membros seniores de alguma hierarquia da qual façam parte ou à qual estejam submetidos. Exemplos são indivíduos pertencentes a grupos com uma estrutura hierárquica constituída, como estudantes de medicina, farmácia, odontologia e enfermagem, funcionários de hospitais e laboratórios, da indústria farmacêutica, membros das forças armadas e detentos. Outros participantes de pesquisa vulneráveis são aqueles portadores de doenças incuráveis ou que estejam em casas de repouso, pessoas desempregadas ou miseráveis, pacientes em situações de emergência, grupos étnicos minoritários, pessoas sem moradia, nômades, refugiados, menores e aqueles incapazes de atestar o próprio consentimento.</p>
-										<p><strong>Patrocinador</strong></p>
-										<p>Pessoa física ou jurídica, pública ou privada que apoia a pesquisa de variadas formas, seja com financiamento, infraestrutura, recursos humanos ou apoio institucional.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-r">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-r" aria-expanded="false" aria-controls="collapse1-r">R</button>
-								</h2>
-								<div id="collapse1-r" class="accordion-collapse collapse" aria-labelledby="heading1-r" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Representante legal</strong></p>
-										<p>Pessoa física ou jurídica autorizada pela legislação aplicável para consentir, em nome do participante de pesquisa, sua participação em um estudo clínico.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-s">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-s" aria-expanded="false" aria-controls="collapse1-s">S</button>
-								</h2>
-								<div id="collapse1-s" class="accordion-collapse collapse" aria-labelledby="heading1-s" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Sub Investigador</strong></p>
-										<p>Qualquer membro específico da equipe do estudo clínico, designado e supervisionado pelo investigador no centro de pesquisa para conduzir procedimentos essenciais e/ou tomar decisões importantes relacionadas ao estudo.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading1-t">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-t" aria-expanded="false" aria-controls="collapse1-t">T</button>
-								</h2>
-								<div id="collapse1-t" class="accordion-collapse collapse" aria-labelledby="heading1-t" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Testemunha Imparcial</strong></p>
-										<p>Pessoa, não relacionada ao estudo, não sendo injustamente influenciada pelas pessoas nele envolvidas, que participe do processo de consentimento, inclusive registrando participação assinando o Termo de Consentimento Livre e Esclarecido (TCLE), caso o participante de pesquisa, ou seu responsável legal, não saiba ler e/ou escrever, garantindo assim que as informações redigidas destinadas aos participantes sejam as mesmas informadas verbalmente.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Segurança -->
-					<div class="tab-pane fade" id="pills-seguranca" role="tabpanel" aria-labelledby="pills-seguranca-tab">
-						<div class="accordion accordion-flush" id="accordionExample2">
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-c">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-c" aria-expanded="true" aria-controls="collapse2-c">C</button>
-								</h2>
-								<div id="collapse2-c" class="accordion-collapse collapse" aria-labelledby="heading2-c" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Comparador (Produto)</strong></p>
-										<p>Um produto sob investigação ou comercializado ou placebo, usado como referência em um estudo clínico.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-d">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-d" aria-expanded="false" aria-controls="collapse2-d">D</button>
-								</h2>
-								<div id="collapse2-d" class="accordion-collapse collapse" aria-labelledby="heading2-d" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Desvio de Protocolo</strong></p>
-										<p>Qualquer não cumprimento dos procedimentos ou requisitos definidos na versão aprovada do protocolo, sem implicações maiores na integridade do ensaio, na qualidade dos dados ou nos direitos e segurança dos participantes.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-e">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-e" aria-expanded="false" aria-controls="collapse2-e">E</button>
-								</h2>
-								<div id="collapse2-e" class="accordion-collapse collapse" aria-labelledby="heading2-e" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Evento Adverso (EA)</strong></p>
-										<p>Qualquer ocorrência médica inconveniente ou sinal desfavorável ou não planejado (incluindo achados laboratoriais anormais), sintoma, ou doença temporariamente associada com o uso de um produto farmacêutico sob investigação, relacionadas ou não ao produto farmacêutico sob investigação, e que não, necessariamente, tenha uma relação causal com o tratamento.</p>
-										<p><strong>Evento Adverso Grave (EAG) / Evento Adverso Sério (EAS)</strong></p>
-										<p>Qualquer ocorrência médica adversa que, em qualquer dose: - resulte em morte, - represente risco à vida, - implique em hospitalização ou prolongamento de uma hospitalização existente, - resulte em persistente inabilidade/incapacidade significativa, ou - cause anomalia congênita.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-p">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-p" aria-expanded="false" aria-controls="collapse2-p">P</button>
-								</h2>
-								<div id="collapse2-p" class="accordion-collapse collapse" aria-labelledby="heading2-p" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Placebo</strong></p>
-										<p>Formulação sem efeito farmacológico, administrada ao participante do ensaio clínico com a finalidade de mascaramento ou de ser comparador.</p>
-										<p><strong>Produto Investigacional (ou produto experimental)</strong></p>
-										<p>Forma farmacêutica de um ingrediente ativo ou placebo que está sendo provada ou usada como referência em um estudo clínico (Ensaio Clínico). Incluindo produto com autorização prévia de comercialização, mas utilizado ou formulado ou empacotado de maneira diferente daquela aprovada.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-r">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-r" aria-expanded="false" aria-controls="collapse2-r">R</button>
-								</h2>
-								<div id="collapse2-r" class="accordion-collapse collapse" aria-labelledby="heading2-r" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Reação Adversa ao medicamento (RAM)</strong></p>
-										<p>Qualquer resposta prejudicial ou indesejável, não intencional, a um medicamento, que ocorre nas doses usualmente empregadas para profilaxia, diagnóstico ou terapia de doenças. No conceito de RAM pode-se observar a existência de uma relação causal entre o uso do medicamento e a ocorrência do evento.</p>
-										<p><strong>Reação Adversa Inesperada ao medicamento</strong></p>
-										<p>Uma reação adversa, cuja natureza ou severidade não seja condizente com as informações aplicáveis ao produto (ex.: Brochura do Investigador para produtos sob investigação não aprovados ou bula/resumo das características do produto para os aprovados).</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading2-v">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-v" aria-expanded="false" aria-controls="collapse2-v">V</button>
-								</h2>
-								<div id="collapse2-v" class="accordion-collapse collapse" aria-labelledby="heading2-v" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Violação de protocolo de ensaio clínico</strong></p>
-										<p>Desvio de protocolo de ensaio clínico que possa afetar a qualidade dos dados, que comprometa a integridade do estudo ou que possa afetar a segurança ou os direitos dos participantes do ensaio clínico.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Processos -->
-					<div class="tab-pane fade" id="pills-processos" role="tabpanel" aria-labelledby="pills-processos-tab">
-						<div class="accordion accordion-flush" id="accordionExample2">
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-a">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-a" aria-expanded="true" aria-controls="collapse3-a">A</button>
-								</h2>
-								<div id="collapse3-a" class="accordion-collapse collapse" aria-labelledby="heading3-a" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Adesão (em relação aos estudos)</strong></p>
-										<p>Seguir todas as exigências relativas ao estudo, às Boas Práticas Clínicas e às exigências regulatórias aplicáveis.</p>
-										<p><strong>Acesso Direto</strong></p>
-										<p>Permissão para examinar, analisar, verificar e reproduzir quaisquer registros e relatórios que sejam importantes para avaliar o estudo clínico. Qualquer parte (ex.: autoridades regulatórias nacionais e estrangeiras, auditores e monitores do patrocinador) com acesso direto deverá ter o devido cuidado, com as restrições estabelecidas pelas exigências regulatórias aplicáveis, para que se mantenha confidencialidade dos participantes de pesquisa e das informações de propriedade do patrocinador.</p>
-										<p><strong>Assentimento livre e esclarecido</strong></p>
-										<p>Anuência do participante da pesquisa – criança, adolescente ou indivíduos impedidos de forma temporária ou não de consentir, na medida de sua compreensão e respeitadas suas singularidades, após esclarecimento sobre a natureza da pesquisa, justificativa, objetivos, métodos, potenciais benefícios e riscos. A obtenção do assentimento não elimina a necessidade do consentimento do responsável.</p>
-										<p><strong>Auditoria</strong></p>
-										<p>Verificação independente e sistemática das atividades e documentos relativos ao estudo, a fim de determinar se o protocolo, os procedimentos operacionais padrões do patrocinador (POP), as Boas Práticas Clínicas (BPC) e as exigências regulatórias aplicáveis estão sendo cumpridas.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-b">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-b" aria-expanded="false" aria-controls="collapse3-b">B</button>
-								</h2>
-								<div id="collapse3-b" class="accordion-collapse collapse" aria-labelledby="heading3-b" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Bem-estar (dos participantes de pesquisa)</strong></p>
-										<p>Integridade física e mental dos indivíduos envolvidos em um estudo clínico.</p>
-										<p><strong>Boas Práticas Clínicas (BPC)</strong></p>
-										<p>Padrão de qualidade ética e científica para o planejamento, condução, registro e relato de estudos clínicos que envolvam a participação de seres humanos. O objetivo é assegurar a proteção dos direitos, integridade e confidencialidade dos participantes da pesquisa, assim como, a credibilidade dos dados e a precisão dos resultados.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-c">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-c" aria-expanded="false" aria-controls="collapse3-c">C</button>
-								</h2>
-								<div id="collapse3-c" class="accordion-collapse collapse" aria-labelledby="heading3-c" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Caráter Cego/Mascaramento</strong></p>
-										<p>Procedimento no qual uma ou mais partes envolvidas no estudo é mantida desinformada sobre as indicações do tratamento. O caráter cego geralmente refere-se aos participantes de pesquisa. Caso o estudo seja duplo-cego, significa que não somente o participante, mas os investigadores, monitores e, em alguns casos, os analistas de dados são mantidos desinformados quanto ao tratamento.</p>
-										<p><strong>Confidencialidade </strong></p>
-										<p>Prevenir a divulgação para outros, que não os indivíduos autorizados, sobre a identidade de um participante de pesquisa ou de uma informação de propriedade do patrocinador.</p>
-										<p><strong>Consentimento Livre e Esclarecido</strong></p>
-										<p>Processo através do qual um participante confirma voluntariamente sua intenção de participar em um ensaio em particular, após ter sido informado de todos os aspectos do ensaio que forem relevantes para a decisão do participante de entrar no estudo.</p>
-										<p><strong>Controle de Qualidade</strong></p>
-										<p>Técnicas e atividades operacionais adotadas dentro do sistema de garantia de qualidade para assegurar que todas as exigências de qualidade relacionadas às atividades do estudo sejam atendidas.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-e">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-e" aria-expanded="false" aria-controls="collapse3-e">E</button>
-								</h2>
-								<div id="collapse3-e" class="accordion-collapse collapse" aria-labelledby="heading3-e" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Estudo Clínico</strong></p>
-										<p>Qualquer investigação em seres humanos que pretenda descobrir ou verificar os efeitos clínicos, farmacêuticos e/ou outros efeitos farmacodinâmicos de um produto sob investigação; e/ou identificar quaisquer reações adversas a um produto sob investigação; e/ou estudar a absorção, distribuição, metabolismo e excreção de um produto sob investigação com o objetivo de apurar sua segurança e/ou eficácia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-f">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-f" aria-expanded="false" aria-controls="collapse3-f">F</button>
-								</h2>
-								<div id="collapse3-f" class="accordion-collapse collapse" aria-labelledby="heading3-f" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Farmacocinética</strong></p>
-										<p>Em geral, são todas as modificações que um sistema biológico produz em um princípio ativo. É o estudo da cinética (relação quantitativa entre a variável independente tempo e a variável dependente concentração) dos processos de absorção, distribuição, biotransformação e excreção dos medicamentos (princípios ativos e/ou seus metabolitos).</p>
-										<p><strong>Farmacodinâmica</strong></p>
-										<p>Modificações que um princípio ativo produz em um sistema biológico, ou seja, é o estudo dos efeitos bioquímicos e fisiológicos dos medicamentos e seus mecanismos de ação.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-g">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-g" aria-expanded="false" aria-controls="collapse3-g">G</button>
-								</h2>
-								<div id="collapse3-g" class="accordion-collapse collapse" aria-labelledby="heading3-g" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Garantia de Qualidade</strong></p>
-										<p>Todas as ações planejadas e sistemáticas realizadas para garantir que o estudo seja desenvolvido e os dados sejam gerados, documentados, relatados e arquivados conforme as Boas Práticas Clínicas (BPC) e as exigências regulatórias aplicáveis.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-i">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-i" aria-expanded="false" aria-controls="collapse3-i">I</button>
-								</h2>
-								<div id="collapse3-i" class="accordion-collapse collapse" aria-labelledby="heading3-i" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Inspeção</strong></p>
-										<p>Atividade de uma autoridade regulatória a fim de avaliar documentos, instalações, registros e quaisquer outros recursos que se considerem relacionados ao estudo clínico, os quais podem estar localizados na instituição onde está sendo conduzido o estudo, nas dependências do patrocinador e/ou nas organizações de pesquisa contratadas (CRO), ou em outros estabelecimentos tidos como apropriados pelas autoridades regulatórias.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-m">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-m" aria-expanded="false" aria-controls="collapse3-m">M</button>
-								</h2>
-								<div id="collapse3-m" class="accordion-collapse collapse" aria-labelledby="heading3-m" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Monitoria</strong></p>
-										<p>Atividade de acompanhamento do progresso de um estudo clínico, garantindo que sua condução, registros e relatos sejam realizados de acordo com o protocolo, os Procedimentos Operacionais Padrão (POP), as Boas Práticas Clínicas (BPC) e as exigências regulatórias aplicáveis.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading3-r">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3-r" aria-expanded="false" aria-controls="collapse3-r">R</button>
-								</h2>
-								<div id="collapse3-r" class="accordion-collapse collapse" aria-labelledby="heading3-r" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Randomização</strong></p>
-										<p>Processo de designação aleatória dos participantes de pesquisa ao tratamento ou ao grupo-controle, de forma a reduzir parcialidades.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Documentos  -->
-					<div class="tab-pane fade" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">
-						<div class="accordion accordion-flush" id="accordionExample2">
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-a">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-a" aria-expanded="true" aria-controls="collapse4-a">A</button>
-								</h2>
-								<div id="collapse4-a" class="accordion-collapse collapse" aria-labelledby="heading4-a" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Aprovação (em relação às Instâncias Regulatórias)</strong></p>
-										<p>É a decisão afirmativa de que o estudo clínico foi analisado e pode ser conduzido, seguindo as Boas Práticas Clínicas (BPC) e as exigências regulatórias aplicáveis, observando as recomendações específicas de cada uma destas instâncias.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-b">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-b" aria-expanded="false" aria-controls="collapse4-b">B</button>
-								</h2>
-								<div id="collapse4-b" class="accordion-collapse collapse" aria-labelledby="heading4-b" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Brochura do Investigador</strong></p>
-										<p>Documento que apresenta a compilação dos dados clínicos e não clínicos acerca dos produtos sob investigação, relevante para o estudo do(s) produto(s) sob investigação em seres humanos. No caso de medicamento já comercializado pode ser substituído pela Bula.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-c">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-c" aria-expanded="false" aria-controls="collapse4-c">C</button>
-								</h2>
-								<div id="collapse4-c" class="accordion-collapse collapse" aria-labelledby="heading4-c" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Certificado de Auditoria</strong></p>
-										<p>Declaração de confirmação do auditor de que a auditoria foi realizada.</p>
-										<p><strong>Código de Identificação do Participante</strong></p>
-										<p>Código identificador exclusivo, designado pelo investigador (ou pelo patrocinador) para cada participante de pesquisa, com intuito de manter sua identidade em sigilo.</p>
-										<p><strong>Contrato</strong></p>
-										<p>Formato de documento que apresenta o acordo por escrito, datado e assinado entre duas ou mais partes envolvidas que estabeleça quaisquer determinações de delegação e distribuição de tarefas e obrigações e, se apropriado, sobre assuntos financeiros. O protocolo pode servir de base para o contrato.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-d">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-d" aria-expanded="false" aria-controls="collapse4-d">D</button>
-								</h2>
-								<div id="collapse4-d" class="accordion-collapse collapse" aria-labelledby="heading4-d" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Dados Fonte</strong></p>
-										<p>Todas as informações dos registros originais, sendo cópias autenticadas de registros originais de achados clínicos, observações ou ainda outras atividades de uma pesquisa clínica necessárias para a reconstrução e avaliação do estudo. Os dados fonte estão contidos nos documentos fonte (registros originais ou cópias autenticadas).</p>
-										<p><strong>Documentação</strong></p>
-										<p>Todos os registros, sob qualquer forma (incluindo dados escritos, eletrônicos, magnéticos e ópticos, eletrocardiogramas, raios-X e demais exames de imagem, entre outros), que descrevem ou registram os métodos, condutas e/ou resultados de um estudo, os fatores que o afetaram e as ações realizadas.</p>
-										<p><strong>Documentos Essenciais</strong></p>
-										<p>Documentos que, individual ou coletivamente, permitem a avaliação da condução ética e da qualidade dos dados produzidos por um estudo clínico.</p>
-										<p><strong>Documentos Fonte</strong></p>
-										<p>Documentos, dados e registros originais (ex.: registros hospitalares, tabelas clínicas e administrativas, anotações laboratoriais, memorandos, diários de paciente ou checklists de avaliação, registros de prescrição farmacêutica, dados registrados por documentos automatizados, cópias ou transcrições autenticadas após verificação de sua precisão, microficha, negativos fotográficos, microfilmes ou registros magnéticos, raios-X, arquivos de pacientes e registros arquivados na farmácia, nos laboratórios e nos departamentos envolvidos no estudo clínico).</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-e">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-e" aria-expanded="false" aria-controls="collapse4-e">E</button>
-								</h2>
-								<div id="collapse4-e" class="accordion-collapse collapse" aria-labelledby="heading4-e" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Emenda ao Protocolo</strong></p>
-										<p>Documento que descreve as alterações ou esclarecimentos formais feitos ao protocolo.</p>
-										<p><strong>Exigências Regulatórias Aplicáveis</strong></p>
-										<p>Quaisquer leis ou regulamentos sobre a condução de estudos que envolvem seres humanos, com produtos sob investigação ou não.</p>
-										<p><strong>Ficha Clínica (Case Report Form - CRF)</strong></p>
-										<p>Documento impresso, óptico ou eletrônico elaborado para registrar todas as informações exigidas pelo protocolo a serem relatadas ao patrocinador sobre cada participante de pesquisa.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-p">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-p" aria-expanded="false" aria-controls="collapse4-p">P</button>
-								</h2>
-								<div id="collapse4-p" class="accordion-collapse collapse" aria-labelledby="heading4-p" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Parecer</strong></p>
-										<p>Documento que emite o resultado da análise em relação ao estudo submetido ao Comitê de Ética em Pesquisa (CEP).</p>
-										<p><strong>Procedimentos Operacionais Padrão (POP)</strong></p>
-										<p>Instruções escritas e detalhadas para a uniformidade de desempenho de uma determinada função.</p>
-										<p><strong>Produto sob investigação</strong></p>
-										<p>Forma de apresentação farmacêutica de um princípio ativo ou placebo sendo testado ou usado como referência em um estudo clínico, incluindo um produto com autorização comercial / de comercialização quando usado ou apresentado (formulado ou embalado) sob uma forma diferente da aprovada, ou usado para uma indicação não aprovada, ou quando usado para obter maiores informações sobre a forma aprovada.</p>
-										<p><strong>Protocolo</strong></p>
-										<p>Documento que descreve toda a base do estudo, contendo justificativa, objetivos, desenho, metodologia, considerações estatísticas e organização do estudo. No entanto, estas informações podem ser fornecidas, de forma mais detalhada, por outros documentos referenciados pelo protocolo. Considera-se o termo protocolo o documento em si e às emendas ao protocolo.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-r">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-r" aria-expanded="false" aria-controls="collapse4-r">R</button>
-								</h2>
-								<div id="collapse4-r" class="accordion-collapse collapse" aria-labelledby="heading4-r" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Relatório de Auditoria</strong></p>
-										<p>Avaliação por escrito realizada pelo auditor do patrocinador sobre os resultados e impressões da auditoria.</p>
-										<p><strong>Relatório de Estudo Clínico</strong></p>
-										<p>Descrição por escrito do ensaio/estudo de qualquer agente terapêutico, profilático ou de diagnóstico conduzido em seres humanos, no qual as descrições clínicas e estatísticas, apresentações e análises estão plenamente integradas em um único relatório.</p>
-										<p><strong>Relatório Interino do Estudo Clínico</strong></p>
-										<p>Relatório contendo os resultados intermediários e sua avaliação baseada em análises realizadas no decorrer de um estudo.</p>
-										<p><strong>Relatório de Monitoria</strong></p>
-										<p>Relatório que descreve os achados e as impressões do monitor para o patrocinador, após cada visita de monitoria do estudo e/ou outros comunicados relacionados, de acordo com os POP do patrocinador.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item">
-								<h2 class="accordion-header" id="heading4-t">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4-t" aria-expanded="false" aria-controls="collapse4-t">T</button>
-								</h2>
-								<div id="collapse4-t" class="accordion-collapse collapse" aria-labelledby="heading4-t" data-bs-parent="">
-									<div class="accordion-body">
-										<p><strong>Trilha de Auditoria</strong></p>
-										<p>Documentação que permite a reconstrução do curso dos eventos e /ou achados.</p>
-									</div>
-								</div>
-							</div>
+			<div class="accordion accordion-flush" id="accordionExample2">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-a">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-a" aria-expanded="true" aria-controls="collapse1-a">A</button>
+                    </h2>
+                    <div id="collapse1-a" class="accordion-collapse collapse" aria-labelledby="heading1-a" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Advergame</strong></p>
+                            <p>O termo vem da fusão das palavras inglesas advertisement (publicidade) e game (jogo) e designa a estratégia de marketing que usa jogos eletrônicos como ferramentas para divulgar e promover marcas, produtos, ou organizações. Advergames incluem desde jogos exclusivamente desenvolvidos com fins publicitários até jogos diversos que contêm mensagens comerciais em sua interface.</p>
+
+                            <p class="mb-3"><strong>Alimentos In Natura ou Minimamente Processados</strong></p>
+                            <p>São alimentos obtidos diretamente de plantas ou de animais e que não sofrem qualquer alteração após deixarem a natureza ou que passam por processos mínimos como limpeza, remoção de partes não comestíveis, fracionamento, moagem, secagem, fermentação, pasteurização, refrigeração, congelamento e similares que não envolvem adição de sal, açúcar, óleos, gorduras ou outras substâncias. Exemplos incluem frutas, legumes, verduras, arroz, feijão, leite, carnes frescas e ovos.</p>
+                            <p>Fonte: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view' target='_blank'>Guia Alimentar para a População Brasileira</a></p>
+
+							<p class="mb-3"><strong>Alimentos Processados</strong></p>
+                            <p>São produtos relativamente simples e antigos, fabricados com a adição de sal, açúcar ou outra substância culinária a um alimento in natura ou minimamente processado. Exemplos incluem conservas de legumes, frutas em calda, queijos e pães. Esses alimentos são frequentemente consumidos como parte de preparações culinárias e tendem a manter a identidade e a maioria dos nutrientes do alimento original, embora o processamento altere de modo desfavorável a composição nutricional.</p>
+                            <p>Fonte: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view' target='_blank'>Guia Alimentar para a População Brasileira</a></p>
+
+							<p class="mb-3"><strong>Alimentos Ultraprocessados</strong></p>
+                            <p>Incluem produtos cuja fabricação envolve diversas etapas e técnicas de processamento e muitos ingredientes, incluindo substâncias de uso exclusivamente industrial. Esses alimentos são nutricionalmente desbalanceados, tendem a ser consumidos em excesso e a substituir alimentos in natura ou minimamente processados. Exemplos são biscoitos recheados, salgadinhos de pacote, refrigerantes e macarrão instantâneo.</p>
+                            <p>Fonte: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view' target='_blank'>Guia Alimentar para a População Brasileira</a></p>
+
+							<p class="mb-3"><strong>Ataque Isquêmico Transitório</strong></p>
+                            <p>Acidente vascular cerebral (AVC) de curta duração e que regride totalmente sem deixar sequelas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-b">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-b" aria-expanded="false" aria-controls="collapse1-b">B</button>
+                    </h2>
+                    <div id="collapse1-b" class="accordion-collapse collapse" aria-labelledby="heading1-b" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Bomba de Infusão de Insulina</strong></p>
+                            <p>Segundo a CONITEC, as bombas de insulina são pequenos aparelhos eletrônicos que administram a insulina por meio de um cateter, um tubo plástico fino que tem uma cânula flexível e é inserido na pele. O paciente carrega esse aparelho que libera insulina de forma programada: mediante doses pequenas e contínuas, ou conforme programado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-c">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-c" aria-expanded="false" aria-controls="collapse1-c">C</button>
+                    </h2>
+                    <div id="collapse1-c" class="accordion-collapse collapse" aria-labelledby="heading1-c" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Cetoacidose Diabética (CAD)</strong></p>
+                            <p>É uma condição grave, caracterizada por aumento de corpos cetônicos, acidose metabólica, hiperglicemia e distúrbios hidroeletrolíticos que resultam da diminuição acentuada da insulinemia e do subsequente aumento de substâncias contrarreguladoras, como catecolaminas, glucagon, cortisol e hormônio do crescimento. O quadro clínico se caracteriza por mal-estar, vômitos, dor abdominal e hálito com cheiro de acetona. É uma emergência médica, pois pode levar a distúrbios de consciência e coma.</p>
+
+							<p class="mb-3"><strong>Compostos Organossulfurados</strong></p>
+                            <p>São compostos, normalmente orgânicos que contêm pelo menos uma ligação covalente carbono – enxofre.</p>
+							<p>Fonte: <a href='https://pt.wikipedia.org/wiki/Composto_organossulfurado' target='_blank'>Wikipedia</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-d">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-d" aria-expanded="false" aria-controls="collapse1-d">D</button>
+                    </h2>
+                    <div id="collapse1-d" class="accordion-collapse collapse" aria-labelledby="heading1-d" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Densidades Tecnológicas</strong></p>
+                            <p>Refere-se ao uso adequado da tecnologia e da ciência em interações entre profissionais e pacientes.</p>
+
+							<p class="mb-3"><strong>Destruição Autoimune</strong></p>
+                            <p>Ocorre quando o sistema imunológico começa a produzir anticorpos contra componentes internos, levando o corpo a atacar seus próprios tecidos.</p>
+
+							<p class="mb-3"><strong>Dietas Hipocalóricas</strong></p>
+                            <p>São dietas compostas por uma média de 20 a 25Kcal/Kg de peso por dia.</p>
+
+							<p class="mb-3"><strong>Dietas Normocalóricas</strong></p>
+                            <p>São dietas compostas por uma média de 28 a 30Kcal/Kg de peso por dia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-e">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-e" aria-expanded="false" aria-controls="collapse1-e">E</button>
+                    </h2>
+                    <div id="collapse1-e" class="accordion-collapse collapse" aria-labelledby="heading1-e" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Efeito Incretínico</strong></p>
+                            <p>O efeito incretínico é a estimulação da secreção de insulina quando da entrada de alimentos no intestino.</p>
+
+							<p class="mb-3"><strong>Evidência Científica</strong></p>
+                            <p>Conjunto de informações que apresentam algum nível de prova com base nos métodos estabelecidos e aprovados pela ciência. Entretanto, nem todas as evidências têm a mesma força e nem todas elas embasam recomendações em saúde. Assim, antes de embasar qualquer prática, incluindo a prescrição de medicamentos, é essencial avaliar a qualidade da evidência.</p>
+						
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-f">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-f" aria-expanded="false" aria-controls="collapse1-f">F</button>
+                    </h2>
+                    <div id="collapse1-f" class="accordion-collapse collapse" aria-labelledby="heading1-f" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Fatores de Risco Modificáveis</strong></p>
+                            <p>São aqueles elementos ou comportamentos presentes na vida de uma pessoa que podem ser alterados, controlados ou eliminados, e que estão associados a um aumento do risco de desenvolver determinadas doenças ou condições. Em outras palavras, são aspectos do estilo de vida ou do ambiente que podem ser modificados para reduzir a probabilidade de ocorrência de certas enfermidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-g">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-g" aria-expanded="false" aria-controls="collapse1-g">G</button>
+                    </h2>
+                    <div id="collapse1-g" class="accordion-collapse collapse" aria-labelledby="heading1-g" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>Glicemia Capilar</strong></p>
+                            <p>Exame de sangue, coletado da ponta do dedo, que oferece resultado imediato acerca da concentração de glicose, por meio de um aparelho de glicemia.</p>
+
+							 <p class="mb-3"><strong>Glicemia</strong></p>
+                            <p>É a quantidade de glicose (açúcar) no sangue.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-h">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-h" aria-expanded="false" aria-controls="collapse1-h">H</button>
+                    </h2>
+                    <div id="collapse1-h" class="accordion-collapse collapse" aria-labelledby="heading1-h" data-bs-parent="">
+                        <div class="accordion-body">
+                            <p class="mb-3"><strong>HDL-colesterol</strong></p>
+                            <p>Fração do colesterol ligada a proteínas de alta densidade (High Density Lipoproteins em inglês) que é conhecida popularmente como "o bom colesterol”. Ao contrário do LDL-colesterol (ligado a proteínas de baixa densidade, Low Density Lipoproteins em inglês), ela "protege" contra as doenças cardiovasculares.</p>
+
+							<p class="mb-3"><strong>Hemoglobina Glicada (HbA1c)</strong></p>
+                            <p>É uma forma de hemoglobina que se liga à glicose no sangue. A HbA1C é um exame que mede a média da concentração de glicose no sangue ao longo dos últimos dois a três meses. Esse teste é fundamental para o controle e monitoramento do diabetes, pois fornece uma visão geral do nível de controle glicêmico do paciente.</p>
+
+							<p class="mb-3"><strong>Hipertensão</strong></p>
+                            <p>Hipertensão arterial ou pressão alta é quando a medida da pressão se mantém frequentemente acima de 140 por 90 mmHg.</p>
+
+							<p class="mb-3"><strong>Síndrome Plurimetabólica ou Síndrome Metabólica</strong></p>
+                            <p>Caracterizada pela associação de fatores de risco para as doenças cardiovasculares (ataques cardíacos e derrames cerebrais), vasculares periféricas e diabetes.</p>
+
+							<p class="mb-3"><strong>Hipercolesterolemia</strong></p>
+                            <p>Elevação da taxa de colesterol no sangue.</p>
+
+							<p class="mb-3"><strong>Hipererucemia</strong></p>
+                            <p>Excesso de ácido úrico no sangue</p>
+
+							<p class="mb-3"><strong>Hiperglicemia</strong></p>
+                            <p>Níveis de açúcar elevados no sangue.</p>
+
+							<p class="mb-3"><strong>Hipoglicemia severa</strong></p>
+                            <p>Podemos classificar as hipoglicemias em três níveis: Nível 1: glicemia < 70 mg/dl, Nível 2: glicemia < 54 mg/dl e Nível 3: evento severo caracterizado por alteração do nível de consciência, torpor, convulsão, coma e requerendo assistência urgente para tratamento da hipoglicemia.</p>
+
+							<p class="mb-3"><strong>Homeostase Glicêmica</strong></p>
+                            <p>Tem como finalidade manter os níveis de açúcar (glicose) na corrente sanguínea dentro de taxas ideais. A homeostase glicêmica é crucial para prevenir condições como a hiperglicemia (níveis elevados de glicose no sangue) e a hipoglicemia (níveis baixos de glicose no sangue), ambas potencialmente perigosas.</p>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-i">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-i" aria-expanded="false" aria-controls="collapse1-i">I</button>
+                    </h2>
+                    <div id="collapse1-i" class="accordion-collapse collapse" aria-labelledby="heading1-i" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Índice Glicêmico</strong></p>
+                            <p>É o valor de glicemia após comermos determinado alimento.</p>
+
+							<p class="mb-3"><strong>Infiltração Glomerular</strong></p>
+                            <p>Indicador da função renal, normalmente maior que 90 mL/min/1,73m<sup>2</sup>.</p>
+
+							<p class="mb-3"><strong>Insulina</strong></p>
+                            <p>Hormônio que faz baixar a taxa de glicose no sangue, especialmente depois das refeições.</p>
+
 						</div>
 					</div>
 				</div>
-			</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-l">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-l" aria-expanded="false" aria-controls="collapse1-l">L</button>
+                    </h2>
+                    <div id="collapse1-l" class="accordion-collapse collapse" aria-labelledby="heading1-l" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Lipoatrofia Insulínica</strong></p>
+                            <p>Consiste em áreas localizadas de hiperestesia e depressão da pele devido à atrofia do tecido adiposo subcutâneo. Decorre da perda de gordura no local da injeção de insulina ou em sítios distantes, podendo ser concomitante a áreas de hipertrofia. Sua prevalência é maior em jovens do sexo feminino e geralmente se desenvolve entre três e seis meses após o início da insulinoterapia.</p>
+
+							<p class="mb-3"><strong>Lipodistrofia Hipertrófica</strong></p>
+                            <p>Consiste em áreas tumefeitas e localizadas nas regiões onde os pacientes aplicam repetidamente a insulina. São possivelmente decorrentes do efeito anabolizante da insulina, o que é visto particularmente em homens. Essas áreas correspondem a massas fibrosas hipovasculares, que ocasionam absorção errática e incompleta de insulina, levando a uma piora no controle metabólico. Muitas vezes, são hipoanestésicas, levando o paciente a usar o local repetidamente e, assim, perpetuando o processo. A hipertrofia pode regredir lentamente trocando-se a insulina por preparações mais purificadas e evitando a aplicação nesses locais por alguns meses.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-o">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-o" aria-expanded="false" aria-controls="collapse1-o">O</button>
+                    </h2>
+                    <div id="collapse1-o" class="accordion-collapse collapse" aria-labelledby="heading1-o" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Óleos, Gorduras, Sal e Açúcar</strong></p>
+                            <p>Esta categoria inclui produtos extraídos de alimentos in natura ou diretamente da natureza e usados para temperar e cozinhar alimentos e criar preparações culinárias. Eles são utilizados com moderação para diversificar e tornar mais saborosa a alimentação sem torná-la nutricionalmente desbalanceada.</p>
+							<p>Fonte: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf/view' target='_blank'>Guia Alimentar para a População Brasileira</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-p">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-p" aria-expanded="false" aria-controls="collapse1-p">P</button>
+                    </h2>
+                    <div id="collapse1-p" class="accordion-collapse collapse" aria-labelledby="heading1-p" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Polidipsia</strong></p>
+                            <p>Ingestão excessiva de água.</p>
+
+							<p class="mb-3"><strong>Poliúria</strong></p>
+                            <p>Eliminação excessiva de urina.</p>
+
+							<p class="mb-3"><strong>Pressão Arterial</strong></p>
+                            <p>É medida em milímetros de mercúrio (mmHg). O primeiro valor corresponde à pressão arterial sistólica (quando o coração pulsa o sangue na circulação) e o segundo valor à pressão arterial diastólica (quando o coração relaxa).</p>
+
+							<p class="mb-3"><strong>Prevenção Primária</strong></p>
+                            <p>Prevenção em pessoas que ainda não sofreram complicações cardiovasculares ateroscleróticas agudas, como infarto do miocárdio ou AVC.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-r">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-r" aria-expanded="false" aria-controls="collapse1-r">R</button>
+                    </h2>
+                    <div id="collapse1-r" class="accordion-collapse collapse" aria-labelledby="heading1-r" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Regime de Insulina Basal-Bolus</strong></p>
+                            <p>Rotina que envolve tomar uma forma de insulina de ação mais longa para manter os níveis de glicose no sangue estáveis durante períodos de jejum e injeções separadas de insulina de ação mais curta para evitar aumentos nos níveis de glicose no sangue resultantes das refeições. </p>
+							<p>Fonte: <a href='https://www.diabetes.co.uk/insulin/basal-bolus.html' target='_blank'>Diabetes.co.uk</a></p>
+
+							<p class="mb-3"><strong>Resistência Insulínica</strong></p>
+                            <p>Redução da resposta das células do fígado ou do músculo ao efeito da insulina, cujo papel é fazer entrar a glicose dentro das células, assim diminuindo a glicemia (quantidade de glicose na corrente sanguínea).</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-s">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-s" aria-expanded="false" aria-controls="collapse1-s">S</button>
+                    </h2>
+                    <div id="collapse1-s" class="accordion-collapse collapse" aria-labelledby="heading1-s" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Síndrome de Dumping</strong></p>
+                            <p>Conjunto de sintomas ocasionados pela passagem rápida de alimentos do estômago para o intestino, principalmente aqueles com grandes concentrações de gordura e/ou açúcares.</p>
+
+							<p class="mb-3"><strong>Sistemas Alimentares</strong></p>
+                            <p>Envolvem todos os processos relacionados à alimentação - desde a produção, o processamento e a distribuição de um alimento, até sua preparação e consumo.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1-t">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-t" aria-expanded="false" aria-controls="collapse1-t">T</button>
+                    </h2>
+                    <div id="collapse1-t" class="accordion-collapse collapse" aria-labelledby="heading1-t" data-bs-parent="">
+                        <div class="accordion-body">
+							<p class="mb-3"><strong>Transição Nutricional</strong></p>
+                            <p>Mudanças globais na dieta e na atividade física observadas a partir do fim da Segunda Guerra Mundial: alimentos mais abundantes, mais acessíveis e mais variados, forte redução da despesa energética "espontânea" ligada às necessidades cotidianas do trabalho, dos deslocamentos ou da vida doméstica.</p>
+						</div>
+					</div>
+				</div>
+            </div>
 		`,
 	},
 };
