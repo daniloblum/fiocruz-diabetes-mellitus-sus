@@ -138,10 +138,62 @@ const modalInfos = {
 						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
 					</div>
 
+					<span class="h5 mb-3 d-block">Coordenação Geral</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Eduarda Ângela Pessoa Cesse</p>
+						<p class="small text-muted"><em>Coordenadora Geral de Educação da Vice-Presidência de Educação, Informação e Comunicação (Vpeic)</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Coordenação Acadêmica</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Eduarda Ângela Pessoa Cesse</p>
+						<p class="small text-muted"><em>Doutora e mestre em Ciências da Saúde, com Área de Concentração em Saúde Pública pela Fundação Oswaldo Cruz, graduada em Odontologia pela Universidade de Pernambuco. Coordenadora Geral de Educação da Vice-Presidência de Educação, Informação e Comunicação (Vpeic).   </em></p>
+
+						<p class="mb-1">Mariana Conceição de Souza</p>
+						<p class="small text-muted"><em>Doutora em Biologia Celular e Molecular pela Fundação Oswaldo Cruz, mestre em Ciências Morfológicas pela Universidade Federal do Rio de Janeiro, graduada em Biomedicina pela Universidade Federal do Estado do Rio de Janeiro. Coordenadora Adjunta dos Cursos Lato Sensu, da Coordenação Geral de Educação (CGE) da Vice-Presidência de Educação, Informação e Comunicação (Vpeic).</em></p>
+
+						<p class="mb-1">Annick Fontbonne</p>
+						<p class="small text-muted"><em>Médica, epidemiologista. Pesquisadora titular do Inserm (Institut National de la Santé et de la Recherche Médicale, France)</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Conteudistas</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Denise Maria Martins Vancea</p>
+						<p class="small text-muted"><em>Educadora física pela Universidade Federal de Santa Catarina, Mestrado em Educação Física pela Universidade Federal de Santa Catarina e Doutorado em Ciências pela Universidade Federal de São Paulo</em></p>
+
+						<p class="mb-1">Luiz Henrique Maciel Griz</p>
+						<p class="small text-muted"><em>Médico pela Universidade de Pernambuco, metrado em Hebiatria pela Universidade de Pernambuco, doutor em Saúde Púbica pela Fundação Oswaldo Cruz</em></p>
+
+						<p class="mb-1">Maria da Conceição Chaves de Lemos</p>
+						<p class="small text-muted"><em>Nutricionista pela Universidade Federal de Pernambuco, mestrado em Nutrição pela Universidade Federal de Pernambuco e doutorado em nutrição pela Universidade Federal de Pernambuco</em></p>
+
+						<p class="mb-1">Maria Nelly Sobreira de Carvalho Barreto</p>
+						<p class="small text-muted"><em>Farmacêutica pela Universidade Federal do Ceará com mestrado e doutorado em Ciências da Saúde pela Fundação Oswaldo Cruz</em></p>
+
+						<p class="mb-1">Mariana Farias Gomes</p>
+						<p class="small text-muted"><em>Enfermeira pela Universidade de Pernambuco com mestrado e doutorado em Saúde Pública pela Fundação Oswaldo Cruz</em></p>
+
+						<p class="mb-1">Nathalia Paula de Souza</p>
+						<p class="small text-muted"><em>Nutricionista pela Universidade Federal de Pernambuco, mestre em Nutrição pela Universidade Federal de Pernambuco e Doutora em Saúde Pública pela Fundação Oswaldo Cruz</em></p>
+
+						<p class="mb-1">Patrícia Nunes Mesquita</p>
+						<p class="small text-muted"><em>Médica pela Universidade de Pernambuco com mestrado em Ciências da Saúde pela Universidade de Pernambuco</em></p>
+
+						<p class="mb-1">Rebecca Soares de Andrade Fonseca dos Santos</p>
+						<p class="small text-muted"><em>Fisioterapeuta pela Universidade Federal de Pernambuco com mestrado e doutorado em Saúde Pública pela Fundação Oswaldo Cruz</em></p>
+
+						<p class="mb-1">Rodrigo Fonseca Lima</p>
+						<p class="small text-muted"><em>Farmacêutico pela Universidade de Brasília com mestrado em Saúde Pública pela Fundação Oswaldo Cruz e doutorado em Ciências Farmacêuticas pela Universidade de Brasília</em></p>
+					</div>
+					
+					
+
 					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
 
 					<div class="mb-5">
-
 						<p class="mb-1">Ana Cristina da Matta Furniel</p>
 						<p class="small text-muted"><em>Coordenadora-geral</em></p>
 						<p class="mb-1">Rosane Mendes</p>
@@ -153,7 +205,7 @@ const modalInfos = {
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
 					
-						<p class="mb-1">Fernanda Sousa</p>
+						<p class="mb-1">Carla Simon</p>
 						<p class="small text-muted"><em>Designer Educacional</em></p>
 					
 						<span class="h6 mb-3 d-block">Design de Interface</span>
@@ -169,22 +221,13 @@ const modalInfos = {
 						
 						<p class="mb-1">Teo Venerando</p>
 						<p class="small text-muted"><em>Edição audiovisual</em></p>
-						
-						<span class="h6 mb-3 d-block">Animação</span>
-
-						<p class="mb-1">Bruno Athaydes</p>
-						<p class="small text-muted"><em>Motion designer</em></p>
-						<p class="mb-1">Rose Renovato</p>
-						<p class="small text-muted"><em>Locutora</em></p>
-											
+										
 						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
 						
 						<p class="mb-1">Carmélia Brito</p>
 						<p class="small text-muted"><em>Bibliotecária</em></p>
-						<p class="mb-1">Natália Rasina</p>
-						<p class="small text-muted"><em>Audiodescrição</em></p>
 						<p class="mb-1">Maria Angélica Marcondes Drska</p>
-						<p class="small text-muted"><em>Revisão de Português	</em></p>
+						<p class="small text-muted"><em>Revisão de Português</em></p>
 						
 						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
 					
@@ -198,92 +241,6 @@ const modalInfos = {
 						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
 						<p class="mb-1">Fábio Carneiro</p>
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
-					</div>
-
-					<span class="h5 mb-3 d-block">Instituto Nacional de Infectologia - INI/FIOCRUZ</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Valdiléa Gonçalves Veloso dos Santos</p>
-						<p class="small text-muted"><em>Diretora</em></p>
-
-						<span class="h6 mb-3 d-block">Coordenadora geral</span>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="small text-muted"><em>Plataforma de Pesquisa Clínica INI/ Fiocruz</em></p>
-						
-						<span class="h6 mb-3 d-block">Coordenadores acadêmicos</span>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto </p>
-						<p class="small text-muted"><em>Plataforma de Pesquisa Clínica INI/Fiocruz</em></p>
-					
-						<span class="h6 mb-3 d-block">Conteudistas</span>
-
-						<p class="small"><strong>Módulo 1 | Conceitos, histórico e diretrizes</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-						
-						<p class=" small"><strong>Módulo 2 | Regulamentação e Fluxos de Tramitação</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Marcella Feitosa da Silva Barboza</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-						
-						<p class="small"><strong>Moçambique</strong></p>
-						
-						<p class="mb-1">Alcina Zitha Tauancha</p>
-						<p class="small text-muted"><em>Farmacêutica-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="mb-1">Anchelda Santinho Mulimela</p>
-						<p class="small text-muted"><em>Revisão Linguistica-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>						
-						
-						<p class="mb-1">Igor Doby</p>
-						<p class="small text-muted"><em>Médico-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-
-						<p class="small"><strong>Módulo 3 | Atores em pesquisa clínica</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-
-						<p class="mb-1">Ferão Américo Mandlate</p>
-						<p class="small text-muted"><em>Psicólogo-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-
-						<p class="mb-1">Jaciara Nissai Sallé Mussa</p>
-						<p class="small text-muted"><em>Psicológa-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="mb-1">Yolanda Veronica Feliciano Manganhe</p>
-						<p class="small text-muted"><em>Antropóloga-Centro de Investigação em Saúde da Polana Caniço (CISPOC)</em><br><em>Instituto Nacional de Saúde-Moçambique</em></p>
-						
-						<p class="small"><strong>Módulo 4 | Eventos adversos</strong></p>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto</p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-					
-						<span class="h6 mb-3 d-block">Avaliação Final</span>
-						
-						<p class="mb-1">Jennifer Braathen Salgueiro</p>
-						<p class="mb-1">Michelle Morata de Andrade</p>
-						<p class="mb-1">Tiago Filgueiras Porto </p>
-						<p class="small text-muted"><em>Tecnologista em Saúde Pública - INI/ Fiocruz</em></p>
-					
-						<span class="h6 mb-3 d-block">Revisores Técnicos</span>
-						
-						<p class="mb-1">Valdiléa Gonçalves Veloso dos Santos</p>
-						<p class="small text-muted"><em>Diretora do Instituto Nacional de Infectologia Evandro Chagas - INI/FIOCRUZ</em></p>
-					</div>
-					
-					<div class="">
-						<p class="mb-1"><strong>A inclusão do conteúdo referente à regulamentação de Moçambique é resultado de uma parceria no âmbito do Programa Coopbras (Programa de Cooperação em Ensino e Pesquisa Internacional), apoiada pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior/Brasil/CAPES (código de financiamento 001)</strong></p>
 					</div>
 				</div>
 			</div>
