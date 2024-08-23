@@ -29,6 +29,9 @@
 	color: var(--fio-sys-color-accent-medium);
 	background: none;
 }
+.header .mobile-toggle-open .mobile-toggle__button {
+	background: none;
+}
 .header .mobile-toggle-open .mobile-toggle__button .icon {
 	font-size: 32px;
 }
