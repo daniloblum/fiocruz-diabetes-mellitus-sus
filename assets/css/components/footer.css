@@ -1,7 +1,7 @@
 /* --- FOOTER --- */
 
 :root {
-	--logo-space: 20px;
+	--logo-space: 40px;
 }
 
 footer {
@@ -13,7 +13,7 @@ footer {
 
 	border-image-source: var(--fio-sys-custom-border-image-source);
 	border-image-slice: var(--fio-sys-custom-border-image-slice);
-	border-image-width: 0 24px 24px;
+	border-image-width: 24px 24px;
 	border-image-outset: 0 8px;
 	border-image-repeat: round;
 }
@@ -49,7 +49,7 @@ footer .logos.principais {
 }
 
 footer .logos img {
-	height: 100px;
+	height: 60px;
 }
 @media (min-width: 768px) {
 	footer .logos img {
@@ -81,6 +81,7 @@ footer .logos img {
 @media (min-width: 1200px) {
 	footer {
 		margin-left: 120px;
+		border-image-width: 0 24px 24px;
 	}
 
 	footer .logos img {
