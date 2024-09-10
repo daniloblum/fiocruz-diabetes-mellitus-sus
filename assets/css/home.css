@@ -27,7 +27,7 @@ html {
 }
 .section-hero,
 .layer-parallax {
-	height: 100vh;
+	height: 100svh;
 }
 .hero-title {
 	background: transparent;
@@ -39,11 +39,11 @@ html {
 }
 .hero-title img.logo {
 	margin-bottom: 40px;
-	height: 80px;
+	height: 60px;
 }
 .hero-title h1 {
 	display: block;
-	font-size: var(--fio-sys-typography-size-5);
+	font-size: var(--fio-sys-typography-size-4);
 	line-height: var(--fio-sys-typography-height-110);
 	margin-bottom: 20px;
 	text-align: center;
@@ -63,7 +63,7 @@ html {
 	display: block;
 	font-family: var(--fio-sys-typography-family-primary-medium);
 	font-size: var(--fio-sys-typography-size-1);
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 0;
 	text-transform: uppercase;
 }
@@ -91,7 +91,6 @@ html {
 }
 #layer-2 {
 	background-image: url(../../media/home/layer-2-mobile.png);
-	background-size: 100%;
 }
 #layer-3 {
 	display: none;
