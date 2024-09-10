@@ -19,13 +19,14 @@ footer {
 }
 
 footer .logos {
-	padding: 20px 0;
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	gap: var(--logo-space);
+	justify-content: space-evenly;
 	list-style: none;
 	margin: 0;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	padding: 20px 0;
 }
 
 footer .logos li {
@@ -52,6 +53,9 @@ footer .logos img {
 	height: 60px;
 }
 @media (min-width: 768px) {
+	footer .logos {
+		flex-direction: row;
+	}
 	footer .logos img {
 		height: 80px;
 	}

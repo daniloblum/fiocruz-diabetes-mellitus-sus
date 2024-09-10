@@ -140,7 +140,7 @@ body {
 	.main .content .container {
 		/* padding-left: var(--fio-sys-spacing-padding-lg);
 		padding-right: var(--fio-sys-spacing-padding-lg); */
-		width: 90%;
+		width: 95%;
 	}
 }
 
@@ -261,6 +261,7 @@ section .page-nav {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	gap: 20px;
 }
 
 section .page-nav .fio-button {
