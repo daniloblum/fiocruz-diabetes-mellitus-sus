@@ -130,6 +130,9 @@ html {
 }
 
 @media (min-width: 992px) {
+	.hero-title img.logo {
+		height: 100px;
+	}
 	.hero-title h1 {
 		font-size: var(--fio-sys-typography-size-6);
 	}
