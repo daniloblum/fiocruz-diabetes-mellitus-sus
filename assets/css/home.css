@@ -130,15 +130,9 @@ html {
 }
 
 @media (min-width: 992px) {
-	/* .hero-title h1 .label {
-		font-size: var(--fio-sys-typography-size-5);
-	}
 	.hero-title h1 {
-		font-size: var(--fio-sys-typography-size-5);
+		font-size: var(--fio-sys-typography-size-6);
 	}
-	.hero-title h1 span {
-		font-size: var(--fio-sys-typography-size-5);
-	} */
 }
 
 .section-hero .frame {
