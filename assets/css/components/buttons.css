@@ -43,6 +43,10 @@ button,
 	text-decoration: none;
 	text-transform: none;
 }
+.fio-button:focus {
+	outline-offset: 2px;
+	outline: 3px solid #000;
+}
 
 .fio-button[rel='prev'] .material-symbols-rounded,
 .fio-button[rel='next'] .material-symbols-rounded {
@@ -76,17 +80,12 @@ button,
 	border-color: var(--_button-color-primary);
 }
 .fio-button-primary:hover,
-.fio-button-primary:focus,
 .fio-button-primary:visited:hover {
 	background-color: var(--_button-color-primary--hover);
 	color: var(--_button-text-color-primary);
 	border-color: var(--_button-color-primary);
 }
-/* .fio-button-primary:focus {
-	outline-color: var(--_button-color-border--focus);
-	outline-width: 2px;
-	outline-style: solid;
-} */
+
 .fio-button-primary:active {
 	background-color: var(--_button-color-primary--active);
 	border-color: var(--_button-color-primary--active);

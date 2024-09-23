@@ -37,11 +37,14 @@
 	border-color: var(--primary-color);
 }
 
-.aba .nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
+.aba .nav-tabs .nav-link:hover {
 	border-color: var(--primary-color-light);
 	background-color: var(--color-light-hover);
 	color: var(--primary-color);
+}
+.nav-tabs .nav-link:focus {
+	outline-offset: 2px;
+	outline: 3px solid #000;
 }
 .aba .dropdown-item {
 	text-decoration: none;
@@ -115,7 +118,8 @@
 }
 
 .aba .nav.nav-fill .nav-item .nav-link:focus {
-	color: var(--_abas-text-color);
+	outline-offset: 2px;
+	outline: 3px solid #000;
 }
 
 .aba .nav.nav-fill .nav-item .nav-link:hover {

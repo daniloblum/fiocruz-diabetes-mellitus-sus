@@ -21,7 +21,7 @@ a:visited {
 }
 
 a[role='button'] {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 a:hover {
@@ -29,12 +29,13 @@ a:hover {
 	text-decoration: underline; */
 
 	color: var(--fio-sys-color-tertiary-extra-light);
-    text-decoration: underline;
-    background: var(--fio-sys-color-tertiary-dark);
+	text-decoration: underline;
+	background: var(--fio-sys-color-tertiary-dark);
 }
 
 a:focus {
-	outline: var(--fio-sys-color-accent-dark);
+	outline-offset: 2px;
+	outline: 3px solid #000;
 }
 a:active {
 	color: var(--fio-sys-color-accent-light);
