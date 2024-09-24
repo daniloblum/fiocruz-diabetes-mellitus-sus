@@ -33,10 +33,10 @@ a:hover {
 	background: var(--fio-sys-color-tertiary-dark);
 }
 
-a:focus {
+/* a:focus {
 	outline-offset: 2px;
 	outline: 3px solid #000;
-}
+} */
 a:active {
 	color: var(--fio-sys-color-accent-light);
 }

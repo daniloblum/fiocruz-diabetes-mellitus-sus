@@ -973,10 +973,13 @@ document.addEventListener('DOMContentLoaded', function (event) {
 	modalButtons.forEach(btn => {
 		// Check if the modal exist
 		const modalId = btn.getAttribute('data-bs-target').slice(1);
-
 		const createdModalId = document.getElementById(modalId);
+		const modalOrigin = btn.getAttribute('data-bs-target').slice(7);
+		const hasPropriety = Object.hasOwn(modalInfos, modalOrigin);
 
-		if (!createdModalId) {
+		if (!createdModalId && hasPropriety) {
+			// console.log('modalOrigin: ' + modalOrigin + ' hasPropriety: ' + hasPropriety);
+
 			// If don't exist create one
 			createModal(modalId);
 		}
