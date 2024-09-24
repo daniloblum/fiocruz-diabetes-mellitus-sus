@@ -2,12 +2,14 @@
 
 window.addEventListener('scroll', function () {
 	const header = document.querySelector('.header');
-	const titleHeight = document.querySelector('.header').scrollHeight;
+	// const titleHeight = document.querySelector('.header').scrollHeight;
 
-	if (window.scrollY > 150) {
-		header.classList.add('header--sticky');
-	} else {
-		header.classList.remove('header--sticky');
+	if (header) {
+		if (window.scrollY > 150) {
+			header.classList.add('header--sticky');
+		} else {
+			header.classList.remove('header--sticky');
+		}
 	}
 });
 
@@ -78,7 +80,7 @@ imageToLightbox.forEach(image => {
 
 			document.body.appendChild(imageLightbox);
 			imageLightbox.innerHTML = `<img src="${getImageSrc}"/>`;
-			console.log(getImageSrc);
+			// console.log(getImageSrc);
 
 			image.classList.add('lightbox--show');
 
@@ -382,10 +384,10 @@ const modalInfos = {
 		`,
 	},
 	bibliografiaMod2: {
-			ariaLabel: 'bibliografiaMod2',
-			modalSize: 'modal-lg',
-			modalTitle: 'Bibliografia - Módulo 2',
-			modalBody: `
+		ariaLabel: 'bibliografiaMod2',
+		modalSize: 'modal-lg',
+		modalTitle: 'Bibliografia - Módulo 2',
+		modalBody: `
 				<div class="aba">
 					<ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
@@ -562,10 +564,10 @@ const modalInfos = {
 			`,
 	},
 	bibliografiaMod3: {
-			ariaLabel: 'bibliografiaMod3',
-			modalSize: 'modal-lg',
-			modalTitle: 'Bibliografia - Módulo 3',
-			modalBody: `
+		ariaLabel: 'bibliografiaMod3',
+		modalSize: 'modal-lg',
+		modalTitle: 'Bibliografia - Módulo 3',
+		modalBody: `
 				<div class="aba">
 					<ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
