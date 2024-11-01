@@ -140,21 +140,14 @@ const modalInfos = {
 						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
 					</div>
 
-					<span class="h5 mb-3 d-block">Coordenação Geral</span>
+					<span class="h5 mb-3 d-block">Coordenação Acadêmica do Curso</span>
 
 					<div class="mb-5">
 						<p class="mb-1">Eduarda Ângela Pessoa Cesse</p>
-						<p class="small text-muted"><em>Coordenadora Geral de Educação da Vice-Presidência de Educação, Informação e Comunicação (Vpeic)</em></p>
-					</div>
-
-					<span class="h5 mb-3 d-block">Coordenação Acadêmica</span>
-
-					<div class="mb-5">
-						<p class="mb-1">Eduarda Ângela Pessoa Cesse</p>
-						<p class="small text-muted"><em>Doutora e mestre em Ciências da Saúde, com Área de Concentração em Saúde Pública pela Fundação Oswaldo Cruz, graduada em Odontologia pela Universidade de Pernambuco. Coordenadora Geral de Educação da Vice-Presidência de Educação, Informação e Comunicação (Vpeic).   </em></p>
+						<p class="small text-muted"><em>Doutora e mestre em Ciências da Saúde, com Área de Concentração em Saúde Pública pela Fundação Oswaldo Cruz, graduada em Odontologia pela Universidade de Pernambuco. Coordenadação Geral de Educação da Vice-Presidência de Educação, informação e Comunicação - VPEIC.</em></p>
 
 						<p class="mb-1">Mariana Conceição de Souza</p>
-						<p class="small text-muted"><em>Doutora em Biologia Celular e Molecular pela Fundação Oswaldo Cruz, mestre em Ciências Morfológicas pela Universidade Federal do Rio de Janeiro, graduada em Biomedicina pela Universidade Federal do Estado do Rio de Janeiro. Coordenadora Adjunta dos Cursos Lato Sensu, da Coordenação Geral de Educação (CGE) da Vice-Presidência de Educação, Informação e Comunicação (Vpeic).</em></p>
+						<p class="small text-muted"><em>Doutora em Biologia Celular e Molecular pela Fundação Oswaldo Cruz, mestre em Ciências Morfológicas pela Universidade Federal do Rio de Janeiro, graduada em Biomedicina pela Universidade Federal do Estado do Rio de Janeiro. Coordenadação Geral de Educação-Adjunta da Vice- Presidência de Educação, informação e Comunicação - VPEIC.</em></p>
 
 						<p class="mb-1">Annick Fontbonne</p>
 						<p class="small text-muted"><em>Médica, epidemiologista. Pesquisadora titular do Inserm (Institut National de la Santé et de la Recherche Médicale, France)</em></p>
@@ -197,7 +190,7 @@ const modalInfos = {
 
 					<div class="mb-5">
 						<p class="mb-1">Ana Cristina da Matta Furniel</p>
-						<p class="small text-muted"><em>Coordenadora-geral</em></p>
+						<p class="small text-muted"><em>Coordenadora-geral do Campus Virtual Fiocruz</em></p>
 						<p class="mb-1">Rosane Mendes</p>
 						<p class="small text-muted"><em>Coordenadora-adjunta</em></p>
 						<p class="mb-1">Adélia Araújo</p>
