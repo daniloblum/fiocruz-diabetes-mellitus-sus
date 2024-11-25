@@ -236,6 +236,10 @@ const modalInfos = {
 						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
 						<p class="mb-1">Fábio Carneiro</p>
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+
+						<br/>
+						<img src="../../media/logos/astrazeneca.png"/>
+						<p>Este curso foi elaborado, desenvolvido e produzido pela Fiocruz, com a coordenação acadêmica de Eduarda Cesse e Mariana Souza e apoio da ASTRAZENECA.</p>
 					</div>
 				</div>
 			</div>
