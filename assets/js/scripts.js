@@ -190,7 +190,7 @@ const modalInfos = {
 
 					<div class="mb-5">
 						<p class="mb-1">Ana Cristina da Matta Furniel</p>
-						<p class="small text-muted"><em>Coordenadora-geral do Campus Virtual Fiocruz</em></p>
+						<p class="small text-muted"><em>Coordenadora-geral do CVF</em></p>
 						<p class="mb-1">Rosane Mendes</p>
 						<p class="small text-muted"><em>Coordenadora-adjunta</em></p>
 						<p class="mb-1">Adélia Araújo</p>
