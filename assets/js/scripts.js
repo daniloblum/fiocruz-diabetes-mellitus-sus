@@ -239,7 +239,7 @@ const modalInfos = {
 
 						<br/>
 						<img src="../../media/logos/astrazeneca.png"/>
-						<p>Este curso foi elaborado, desenvolvido e produzido pela Fiocruz, com a coordenação acadêmica de Eduarda Cesse e Mariana Souza e apoio da ASTRAZENECA.</p>
+						<p>Este curso foi elaborado, desenvolvido e produzido pela Fiocruz, com a coordenação acadêmica de Eduarda Cesse, Mariana Souza, Annick Fontbonne e apoio da ASTRAZENECA.</p>
 					</div>
 				</div>
 			</div>
