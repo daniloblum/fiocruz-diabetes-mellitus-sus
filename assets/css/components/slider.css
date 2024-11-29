@@ -93,6 +93,11 @@
 	padding-bottom: 0;
 }
 
+/* Display visibility hidden for the prev button when page loads */
+.slider .carousel .carousel-control-prev {
+	visibility: hidden;
+}
+
 /* CONTROL BUTTONS */
 .slider .carousel .carousel-control-next,
 .slider .carousel .carousel-control-prev {

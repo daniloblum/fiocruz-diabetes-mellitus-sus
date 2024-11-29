@@ -1012,3 +1012,37 @@ function createModal(id) {
 
 	document.body.appendChild(newModal);
 }
+
+// Carrossel - Remove previous and next button from 1st and last slides:
+
+let carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach(carousel => {
+	carousel.addEventListener('slid.bs.carousel', () => {
+		checkitem(carousel);
+	});
+});
+
+function checkitem(carouselElement) {
+	let carouselItem = carouselElement.querySelectorAll('.carousel-inner .carousel-item');
+	let itemFirstChild = carouselItem[0];
+	let itemLastChild = carouselItem[carouselItem.length - 1];
+
+	let buttonPrev = carouselElement.querySelector('.carousel-control-prev');
+	let buttonNext = carouselElement.querySelector('.carousel-control-next');
+
+	if (itemFirstChild.classList.contains('active')) {
+		// Hide left arrow
+		buttonPrev.style.visibility = 'hidden';
+		// Show right arrow
+		buttonNext.style.visibility = 'visible';
+	} else if (itemLastChild.classList.contains('active')) {
+		// Hide right arrow
+		buttonNext.style.visibility = 'hidden';
+		// But show left arrow
+		buttonPrev.style.visibility = 'visible';
+	} else {
+		buttonPrev.style.visibility = 'visible';
+		buttonNext.style.visibility = 'visible';
+	}
+}
